@@ -1,0 +1,23 @@
+{
+    "name": "jlcpcb/parts-lib-generator",
+    "description": "Generate Eaglecad parts library from JLCPCB's published parts spreadsheet",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "kint-php/kint": "^3.3",
+        "phpoffice/phpspreadsheet": "^1.11",
+        "guzzlehttp/guzzle": "^6.5",
+        "league/flysystem": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@baggett.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Party\\": "src"
+        }
+    }
+}
