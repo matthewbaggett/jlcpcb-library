@@ -62,6 +62,72 @@ class Party{
         printf("%d components found.\n", count($this->components));
     }
 
+    private function generateDeviceGates(\DOMDocument $libraryFile, Component $component) : \DOMElement{
+        $gates = $libraryFile->createElement('gates');
+        $gate = $libraryFile->createElement('gate');
+        $gate->setAttribute("name", $component->pickGateName());
+        $gate->setAttribute("x","0");
+        $gate->setAttribute("y","0");
+        $gate->setAttribute("symbol", $component->pickSymbol());
+        $gates->appendChild($gate);
+        return $gates;
+    }
+
+    private function generateDeviceDevice(\DOMDocument $libraryFile, Component $component) : \DOMElement{
+
+        $device = $libraryFile->createElement('device');
+        $device->setAttribute('name',sprintf("%s_%s", $component->pickDeviceName(), $component->getPackage()));
+        $device->setAttribute('package', $component->pickPackage());
+        $device->appendChild($this->generateDeviceConnects($libraryFile, $component));
+        $technologies = $libraryFile->createElement('technologies');
+        $technology = $libraryFile->createElement('technology');
+        $technology->setAttribute('name', '');
+        $technologies->appendChild($technology);
+        $device->appendChild($technologies);
+
+        return $device;
+    }
+
+    private function generateDeviceConnects(\DOMDocument $libraryFile, Component $component) : \DOMElement{
+        $xpath = new \DOMXPath($libraryFile);
+
+        $xpathPins = "//symbols/symbol[@name=\"{$component->pickSymbol()}\"]/pin";
+        $xpathPads = "//packages/package[@name=\"{$component->pickPackage()}\"]/smd";
+        $pins = $xpath->query($xpathPins);
+        $pads = $xpath->query($xpathPads);
+        if(!($pins->count() == $component->getPadCount() && $pads->count() == $component->getPadCount())){
+            printf(
+                "Pins (%d) and Pads (%d) count for %s don't add up!\n",
+                count($pins), count($pads),
+                $component->getLcscPartNumber()
+            );
+
+            \Kint::dump(
+                $xpathPins,
+                $xpathPads
+            );
+
+            exit(1);
+        }
+
+        $connects = $libraryFile->createElement('connects');
+
+        for($i = 0; $i < $component->getPadCount(); $i++) {
+            /** @var \DOMElement $pin */
+            $pin = $pins[$i];
+            /** @var \DOMElement $pad */
+            $pad = $pads[$i];
+            $connect = $libraryFile->createElement('connect');
+            $connect->setAttribute('gate',$component->pickGateName());
+            $connect->setAttribute('pin',$pin->getAttribute('name'));
+            $connect->setAttribute('pad',$pad->getAttribute('name'));
+            $connects->appendChild($connect);
+        }
+
+        return $connects;
+    }
+
+
     /**
      * @param string $componentGroupName
      * @param Component[] $components
@@ -86,74 +152,22 @@ class Party{
 
         // Iterate over components and insert them.
         foreach($components as $component){
-            $newDeviceSet = $libraryFile->createElement('deviceset');
-            $newDeviceSet->setAttribute('name', $component->pickDeviceName());
-            $gates = $libraryFile->createElement('gates');
-            $gate = $libraryFile->createElement('gate');
-            //<gate name="R$1" symbol="RESISTOR" x="0" y="0"/>
-            $gate->setAttribute("name", $component->pickGateName());
-            $gate->setAttribute("x","0");
-            $gate->setAttribute("y","0");
-            $gate->setAttribute("symbol", $component->pickSymbol());
-            $gates->appendChild($gate);
-            $devices = $libraryFile->createElement('devices');
-            $device = $libraryFile->createElement('device');
-            //<device name="" package="LED-1206">
-            //    <connects>
-            //        <connect gate="L$1" pin="A" pad="A"/>
-            //        <connect gate="L$1" pin="C" pad="C"/>
-            //    </connects>
-            //    <technologies>
-            //        <technology name=""/>
-            //    </technologies>
-            //</device>
-            $device->setAttribute('name','');
-            $device->setAttribute('package', $component->pickPackage());
             $referencedPackages[] = $component->pickPackage();
             $referencedSymbols[] = $component->pickSymbol();
-
-            $connects = $libraryFile->createElement('connects');
-
-            $xpathPins = "//symbols/symbol[@name=\"{$component->pickSymbol()}\"]/pin";
-            $xpathPads = "//packages/package[@name=\"{$component->pickPackage()}\"]/smd";
-            $pins = $xpath->query($xpathPins);
-            $pads = $xpath->query($xpathPads);
-            if(!($pins->count() == $component->getPadCount() && $pads->count() == $component->getPadCount())){
-                printf(
-                    "Pins (%d) and Pads (%d) count for %s don't add up!\n",
-                    count($pins), count($pads),
-                    $component->getLcscPartNumber()
-                );
-
-                \Kint::dump(
-                    $xpathPins,
-                    $xpathPads
-                );
-
-                exit(1);
+            $existingDeviceSet = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]");
+            if($existingDeviceSet->count() > 0) {
+                $newDeviceSet = $existingDeviceSet->item(0);
+                $devices = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]/devices");
+                $devices->item(0)->appendChild($this->generateDeviceDevice($libraryFile, $component));
+            }else{
+                $newDeviceSet = $libraryFile->createElement('deviceset');
+                $deviceSets->appendChild($newDeviceSet);
+                $newDeviceSet->appendChild($this->generateDeviceGates($libraryFile, $component));
+                $devices = $libraryFile->createElement('devices');
+                $newDeviceSet->appendChild($devices);
+                $devices->appendChild($this->generateDeviceDevice($libraryFile, $component));
             }
-
-            for($i = 0; $i < $component->getPadCount(); $i++) {
-                /** @var \DOMElement $pin */
-                $pin = $pins[$i];
-                /** @var \DOMElement $pad */
-                $pad = $pads[$i];
-                $connect = $libraryFile->createElement('connect');
-                $connect->setAttribute('gate',$component->pickGateName());
-                $connect->setAttribute('pin',$pin->getAttribute('name'));
-                $connect->setAttribute('pad',$pad->getAttribute('name'));
-                $connects->appendChild($connect);
-            }
-            $device->appendChild($connects);
-            $technologies = $libraryFile->createElement('technologies');
-            $technology = $libraryFile->createElement('technology');
-            $technology->setAttribute('name', '');
-            $technologies->appendChild($technology);
-            $device->appendChild($technologies);
-            $devices->appendChild($device);
-            $newDeviceSet->appendChild($gates);
-            $newDeviceSet->appendChild($devices);
-            $deviceSets->appendChild($newDeviceSet);
+            $newDeviceSet->setAttribute('name', $component->pickDeviceName());
         }
 
         // Filter referenced packages/symbols
@@ -218,7 +232,11 @@ class Party{
 
     public function build(){
         $this->downloadSheet();
-        $this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
+        if(file_exists(self::CACHE_PATH . "jlcpcb_trimmed.xlsx")) {
+            $this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
+        }else{
+            $this->readSheet(self::CACHE_PATH . "jlcpcb.xlsx");
+        }
         printf(
             "Found %d components in latest version of %s\n",
             count($this->components),

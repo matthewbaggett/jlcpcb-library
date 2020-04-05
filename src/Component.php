@@ -11,6 +11,10 @@ class Component {
     private string $manufacturer;
     private bool $isExpanded;
 
+    public function getDebugName(){
+        return sprintf("%s's %s", $this->getManufacturer(), $this->pickDeviceName());
+    }
+
     public function pickDeviceName(){
         $name = $this->getManufacturerPart();
         $name = str_replace(" ", "_", $name);
