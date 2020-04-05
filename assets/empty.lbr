@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -105,8 +108,10 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
@@ -631,6 +636,243 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="DIODE_SOD-123">
+<smd name="P$1" x="-1.45" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$2" x="1.45" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<text x="-2.13" y="-2.4" size="1" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.1" y1="0.9" x2="2.1" y2="0.9" width="0.127" layer="21"/>
+<wire x1="2.1" y1="0.9" x2="2.1" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-0.9" x2="-2.1" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-0.9" x2="-2.1" y2="0.9" width="0.127" layer="21"/>
+</package>
+<package name="DIODE_SMA">
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1" x2="3.175" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
+<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIODE_SMB">
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-2.261" y1="-1.905" x2="-2.261" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="2.261" y1="-1.905" x2="2.261" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="0.643" y1="1" x2="-0.73" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.73" y1="0" x2="0.643" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.643" y1="-1" x2="0.643" y2="1" width="0.2032" layer="21"/>
+<wire x1="-0.73" y1="1" x2="-0.73" y2="-1" width="0.2032" layer="21"/>
+<smd name="1" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
+<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
+</package>
+<package name="DIODE_SOT-23-3">
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-0.7" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.7" y1="0.8" x2="1.5" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-0.7" x2="-0.3" y2="-0.7" width="0.127" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="-1.905" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="DIODE_SOT-23-5">
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.2" y="1.7" radius="0.2236" width="0.1524" layer="21"/>
+<smd name="2" x="-1.35" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="1" x="-1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="4" x="1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<text x="-0.0254" y="-0.073" size="0.762" layer="25" font="vector" rot="R270" align="center">&gt;NAME</text>
+<smd name="5" x="1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+</package>
+<package name="DIODE_SOT-23-6">
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.2" y="1.7" radius="0.2236" width="0.1524" layer="21"/>
+<smd name="2" x="-1.35" y="0" dx="1" dy="0.55" layer="1"/>
+<smd name="1" x="-1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="4" x="1.35" y="-0.95" dx="1" dy="0.55" layer="1"/>
+<text x="0.0762" y="0.0794" size="0.762" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<smd name="6" x="1.35" y="0.95" dx="1" dy="0.55" layer="1"/>
+<smd name="5" x="1.35" y="0" dx="1" dy="0.55" layer="1"/>
+</package>
+<package name="DIODE_SOD-323">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
+<smd name="1" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
+<package name="DIODE_SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5052" y1="2.7432" x2="3.2512" y2="2.7432" width="0.1524" layer="21"/>
+<wire x1="3.2512" y1="-2.9972" x2="-3.5052" y2="-2.9972" width="0.1524" layer="21"/>
+<wire x1="-3.5429" y1="-0.9854" x2="-3.5307" y2="0.7367" width="0.1524" layer="51" curve="225.582798" cap="flat"/>
+<wire x1="-3.5052" y1="2.7432" x2="-3.5052" y2="1.8288" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="1.8288" x2="-3.5052" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-3.5052" y1="-2.9972" x2="-3.5052" y2="-2.0828" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-2.0828" x2="-3.5052" y2="-0.9906" width="0.1524" layer="51"/>
+<wire x1="3.2512" y1="-2.9972" x2="3.2512" y2="-2.0828" width="0.1524" layer="21"/>
+<wire x1="3.2512" y1="2.7432" x2="3.2512" y2="1.8288" width="0.1524" layer="21"/>
+<wire x1="3.2512" y1="1.8288" x2="3.2512" y2="-2.0828" width="0.1524" layer="51"/>
+<wire x1="-3.2766" y1="2.5146" x2="3.0226" y2="2.5146" width="0.0508" layer="21"/>
+<wire x1="3.0226" y1="1.8034" x2="3.0226" y2="2.5146" width="0.0508" layer="21"/>
+<wire x1="3.0226" y1="1.8034" x2="3.0226" y2="-2.0574" width="0.0508" layer="51"/>
+<wire x1="3.0226" y1="-2.0574" x2="3.0226" y2="-2.8194" width="0.0508" layer="21"/>
+<wire x1="-3.2766" y1="-2.8194" x2="3.0226" y2="-2.8194" width="0.0508" layer="21"/>
+<wire x1="-3.2766" y1="-2.8194" x2="-3.2766" y2="-2.0574" width="0.0508" layer="21"/>
+<wire x1="-3.2766" y1="-2.0574" x2="-3.2766" y2="-1.0668" width="0.0508" layer="51"/>
+<wire x1="-3.2766" y1="0.7874" x2="-3.2766" y2="1.8034" width="0.0508" layer="51"/>
+<wire x1="-3.2766" y1="1.8034" x2="-3.2766" y2="2.5146" width="0.0508" layer="21"/>
+<smd name="1" x="-3.81" y="-0.127" dx="2.794" dy="3.81" layer="1"/>
+<smd name="2" x="3.3274" y="-0.127" dx="2.794" dy="3.81" layer="1"/>
+<text x="-3.556" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.921" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="3.302" y1="-1.651" x2="3.8862" y2="1.397" layer="51"/>
+<rectangle x1="-4.1402" y1="-1.651" x2="-3.556" y2="1.397" layer="51"/>
+</package>
+<package name="DIODE_SOD-523">
+<description>&lt;li&gt;&lt;b&gt;SOD523&lt;/b&gt;&lt;hr&gt; &lt;ul&gt;&lt;li&gt;Plastic surface-mounted package; 2 leads&lt;li&gt;&lt;u&gt;JEDEC&lt;/u&gt;: -- &lt;li&gt;&lt;u&gt;IEC&lt;/u&gt;: -- &lt;li&gt;&lt;u&gt;JEITA&lt;/u&gt;: SC-79&lt;/ul&gt;</description>
+<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="-0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="0.2" x2="-0.2" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="-0.2" x2="0.2" y2="0" width="0.127" layer="51"/>
+<wire x1="0.2" y1="0" x2="-0.2" y2="0.2" width="0.127" layer="51"/>
+<wire x1="0.2" y1="0.2" x2="0.2" y2="0" width="0.127" layer="51"/>
+<wire x1="0.2" y1="0" x2="0.2" y2="-0.2" width="0.127" layer="51"/>
+<smd name="2" x="-0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
+<smd name="1" x="0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
+<text x="1.5" y="0.5" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="1.5" y="-1" size="1" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-0.15" x2="-0.6" y2="0.15" layer="51"/>
+<rectangle x1="0.6" y1="-0.15" x2="0.8" y2="0.15" layer="51"/>
+</package>
+<package name="CAPACITOR_CASE-A_3216">
+<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET S / EIA 3216-12</description>
+<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
+<smd name="+" x="1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<smd name="-" x="-1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
+<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
+</package>
+<package name="CAPACITOR_CASE-B_3528">
+<description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET T / EIA 3528-12</description>
+<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="51"/>
+<smd name="+" x="1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
+<smd name="-" x="-1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
+<text x="-1.95" y="1.6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="51"/>
+<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
+<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
+</package>
+<package name="CAPACITOR_CASE-C">
+<description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET U / EIA 6032-15</description>
+<wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-1.55" x2="-2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.8" y1="-1.55" x2="-2.8" y2="1.55" width="0.1016" layer="51"/>
+<smd name="+" x="2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
+<smd name="-" x="-2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
+<text x="-3" y="1.825" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-3.05" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
+<rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
+</package>
+<package name="CAPACITOR_CASE-D_7343">
+<description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Reflow solder</description>
+<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
+<smd name="+" x="3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<smd name="-" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<text x="-3.65" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.65" y="-3.575" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
+<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
+</package>
+<package name="CAPACITOR_CASE-E">
+<description>&lt;b&gt;Chip Capacitor Type KEMET E / EIA 7260-38 Reflow solder&lt;/b&gt;</description>
+<wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.95" x2="3.45" y2="-2.95" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.95" x2="-3.45" y2="-2.95" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.95" x2="-3.45" y2="2.95" width="0.1016" layer="51"/>
+<smd name="+" x="3.175" y="0" dx="2.55" dy="4.4" layer="1"/>
+<smd name="-" x="-3.175" y="0" dx="2.55" dy="4.4" layer="1"/>
+<text x="-4.45" y="3.15" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.45" y="-4.475" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-2.05" x2="-3.5" y2="2.05" layer="51"/>
+<rectangle x1="3.5" y1="-2.05" x2="3.65" y2="2.05" layer="51"/>
+<rectangle x1="2.675" y1="-2.975" x2="3.15" y2="2.975" layer="51"/>
+</package>
+<package name="FUSE_1812">
+<description>&lt;b&gt;FUSE&lt;/b&gt;</description>
+<wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-1.983" x2="-2.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="-1.4732" y1="1.6002" x2="1.4732" y2="1.6002" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-1.6002" x2="1.4732" y2="-1.6002" width="0.1016" layer="51"/>
+<wire x1="2.973" y1="1.983" x2="2.973" y2="-1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.95" y="0" dx="1.9" dy="3.4" layer="1"/>
+<smd name="2" x="1.95" y="0" dx="1.9" dy="3.4" layer="1"/>
+<text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.3876" y1="-1.651" x2="-1.4376" y2="1.649" layer="51"/>
+<rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
+<rectangle x1="-0.3" y1="-0.4001" x2="0.3" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <symbols>
