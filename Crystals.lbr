@@ -95,7 +95,10 @@
       <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
       <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
       <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+      <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+      <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
       <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
       <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -105,8 +108,10 @@
       <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
       <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
       <layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+      <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
       <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+      <layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
       <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
       <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
@@ -222,7 +227,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C115962" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="expanded" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -241,7 +246,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112574" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="expanded" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -260,7 +265,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122515" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -279,7 +284,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C23481" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -298,7 +303,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C27173" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -317,7 +322,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C33728" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -336,7 +341,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C36377" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -355,7 +360,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C46369" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -374,7 +379,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C48304" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -393,7 +398,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C49231" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -412,7 +417,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C58297" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -431,7 +436,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C73355" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -450,7 +455,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70681" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -469,7 +474,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90881" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -488,7 +493,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C94527" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -507,7 +512,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C98436" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -526,7 +531,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C111903" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -545,7 +550,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112561" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -564,7 +569,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112563" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -583,7 +588,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112564" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -602,7 +607,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112565" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -621,7 +626,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112566" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -640,7 +645,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112567" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -659,7 +664,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112568" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -678,7 +683,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112569" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -697,7 +702,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112570" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -716,7 +721,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112572" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -735,7 +740,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112573" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -754,7 +759,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C114436" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -773,7 +778,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C136084" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -792,7 +797,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C136085" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -811,7 +816,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C136086" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -830,7 +835,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C144380" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -849,7 +854,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C150558" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -868,7 +873,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C168837" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -887,7 +892,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C133623" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -906,7 +911,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C172361" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -925,7 +930,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C97724" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -944,7 +949,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C111120" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -963,7 +968,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112559" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -982,7 +987,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112560" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1001,7 +1006,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C112659" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1020,7 +1025,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122513" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1039,7 +1044,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122519" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1058,7 +1063,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122520" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1077,7 +1082,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122521" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1096,7 +1101,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122522" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1115,7 +1120,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C122967" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1134,7 +1139,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C128364" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1153,7 +1158,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C148312" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1172,7 +1177,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C148313" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1191,7 +1196,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C156253" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1210,7 +1215,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90882" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1229,7 +1234,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90883" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1248,7 +1253,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90884" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1267,7 +1272,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90885" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1286,7 +1291,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90886" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1305,7 +1310,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90887" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1324,7 +1329,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90888" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1343,7 +1348,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90889" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1362,7 +1367,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90890" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1381,7 +1386,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C90891" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1400,7 +1405,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C157342" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1419,7 +1424,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C157343" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1438,7 +1443,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C157344" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1457,7 +1462,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C295065" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1476,7 +1481,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C295066" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1495,7 +1500,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C295067" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1514,7 +1519,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C295068" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1533,7 +1538,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C295069" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1552,7 +1557,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C242222" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1571,7 +1576,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C331616" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1590,7 +1595,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C362355" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1609,7 +1614,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C362353" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>

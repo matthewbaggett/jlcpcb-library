@@ -46,29 +46,65 @@ class Component
                 return "CRYSTAL";
             case 'Fuses':
                 return "FUSE";
+            case 'Embedded Processors & Controllers':
+            case 'Power Management ICs':
+            case 'Driver ICs':
+            case 'Logic ICs':
+                return "IC";
             default:
                 return null;
         }
     }
 
+    private array $packageAliases = [
+        'SOT-23-3'  => ['SOT-23-3L'],
+        'SOT-23-6'  => ['SOT-23-6L'],
+        'SOT-323'   => ['SOT-323F'],
+        'SOD-123'   => ['SOD-123FL'],
+        'SMB'       => ['SMBF'],
+    ];
+
     public function pickPackage(): string
     {
+        $potentialPackages = explode(",", $this->getPackage());
+
+        foreach($potentialPackages as $potentialPackage){
+            $potentialPackage = trim($potentialPackage);
+            foreach($this->packageAliases as $alias => $matches){
+                foreach($matches as $match){
+                    if($match == $potentialPackage){
+                        $potentialPackage = $alias;
+                    }
+                }
+            }
+        }
+
         return strtoupper(sprintf(
             "%s_%s",
             $this->pickSymbol(),
-            $this->getPackage()
+            $potentialPackages[0]
         ));
+    }
+
+    private function debug(string $message) : void
+    {
+        echo $message . "\n";
+        file_put_contents(
+            "validation.log",
+            $test = preg_replace('#\\x1b[[][^A-Za-z]*[A-Za-z]#', '', $message) . "\n",
+            FILE_APPEND
+        );
     }
 
     public function isValid(\DOMXPath $xpath): bool
     {
         if(!$this->pickSymbol()){
-            printf(
-                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not pick a symbol suitable for category \e[0,34m%s\e[0m!\n",
+            $this->debug(sprintf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not pick a symbol suitable for category \e[0,34m%s\e[0m!",
                 $this->getDebugName(),
                 $this->getLcscPartNumber(),
                 $this->getCategoryFirst()
-            );
+            ));
             return false;
         }
         $xpathPackage = "//packages/package[@name=\"{$this->pickPackage()}\"]";
@@ -76,25 +112,25 @@ class Component
         $xpathPads = "{$xpathPackage}/smd";
         $package = $xpath->query($xpathPackage);
         if ($package->count() == 0) {
-            printf(
-                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Package %s doesn't exist!\n",
+            $this->debug(sprintf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Package %s doesn't exist!",
                 $this->getDebugName(),
                 $this->getLcscPartNumber(),
                 $this->pickPackage()
-            );
+            ));
             return false;
         }
         $pins = $xpath->query($xpathPins);
         $pads = $xpath->query($xpathPads);
         if (!($pins->count() == $this->getPadCount() && $pads->count() == $this->getPadCount())) {
-            printf(
-                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Pins (%d) and Pads (%d) count don't add up!\n",
+            $this->debug(sprintf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Pins (%d) and Pads (%d) count don't add up!",
                 $this->getDebugName(),
                 $this->getLcscPartNumber(),
                 count($pins), count($pads)
-            );
-            printf(" > xpath pins: %s\n", $xpathPins);
-            printf(" > xpath pads: %s\n", $xpathPads);
+            ));
+            //$this->debug(sprintf(" > xpath pins: %s", $xpathPins));
+            //$this->debug(sprintf(" > xpath pads: %s", $xpathPads));
             return false;
         }
 

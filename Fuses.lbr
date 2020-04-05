@@ -95,7 +95,10 @@
       <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
       <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
       <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+      <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+      <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
       <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
       <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -105,8 +108,10 @@
       <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
       <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
       <layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+      <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
       <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+      <layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
       <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
       <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
       <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
@@ -174,6 +179,22 @@
           <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
           <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
         </package>
+        <package name="FUSE_1812">
+          <description>&lt;b&gt;FUSE&lt;/b&gt;</description>
+          <wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
+          <wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
+          <wire x1="-2.973" y1="-1.983" x2="-2.973" y2="1.983" width="0.0508" layer="39"/>
+          <wire x1="-1.4732" y1="1.6002" x2="1.4732" y2="1.6002" width="0.1016" layer="51"/>
+          <wire x1="-1.4478" y1="-1.6002" x2="1.4732" y2="-1.6002" width="0.1016" layer="51"/>
+          <wire x1="2.973" y1="1.983" x2="2.973" y2="-1.983" width="0.0508" layer="39"/>
+          <smd name="1" x="-1.95" y="0" dx="1.9" dy="3.4" layer="1"/>
+          <smd name="2" x="1.95" y="0" dx="1.9" dy="3.4" layer="1"/>
+          <text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+          <text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+          <rectangle x1="-2.3876" y1="-1.651" x2="-1.4376" y2="1.649" layer="51"/>
+          <rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
+          <rectangle x1="-0.3" y1="-0.4001" x2="0.3" y2="0.4001" layer="35"/>
+        </package>
       </packages>
       <symbols>
         <symbol name="FUSE">
@@ -187,6 +208,25 @@
         </symbol>
       </symbols>
       <devicesets>
+        <deviceset name="1.1A_8V_自恢复型_C3102">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.1A_8V_自恢复型_C3102_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C3102" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
         <deviceset name="2A__63V__快断_C3105">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
@@ -200,7 +240,159 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C3105" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2A_8V_自恢复_C3106">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2A_8V_自恢复_C3106_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C3106" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.1A_60V_自恢复保险丝_C12068">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.1A_60V_自恢复保险丝_C12068_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C12068" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.1A__60V_C12430">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.1A__60V_C12430_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C12430" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A_24V_自恢复型_C12557">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A_24V_自恢复型_C12557_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C12557" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.5A_15V_自恢复型_C12558">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.5A_15V_自恢复型_C12558_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C12558" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.5A_30V_自恢复型_C12559">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.5A_30V_自恢复型_C12559_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C12559" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.3A_30V_C12604">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.3A_30V_C12604_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C12604" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.2A_30V_自恢复型_C13575">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.2A_30V_自恢复型_C13575_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C13575" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -219,7 +411,64 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C14165" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1A_16V_C14956">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1A_16V_C14956_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C14956" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.14A_60V_C18045">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.14A_60V_C18045_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C18045" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.3A__30V_自恢复保险丝_C18331">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.3A__30V_自恢复保险丝_C18331_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C18331" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -238,7 +487,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20797" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -257,7 +506,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20798" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -276,7 +525,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20799" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -295,7 +544,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20800" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -314,7 +563,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20801" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -333,7 +582,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20802" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -352,7 +601,83 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20803" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.50A_自恢复型_C20810">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.50A_自恢复型_C20810_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20810" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.00A_自恢复型_C20812">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2.00A_自恢复型_C20812_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20812" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.60A_自恢复型_C20814">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2.60A_自恢复型_C20814_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20814" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3.50A_自恢复型_C20815">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3.50A_自恢复型_C20815_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20815" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -371,7 +696,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20981" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -390,7 +715,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20982" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -409,7 +734,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20983" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -428,7 +753,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20984" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -447,7 +772,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20985" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -466,7 +791,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20987" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -485,7 +810,311 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C20988" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.10A_自恢复型_C20993">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.10A_自恢复型_C20993_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20993" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.14A_自恢复型_C20994">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.14A_自恢复型_C20994_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20994" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.30A_自恢复型_C20995">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.30A_自恢复型_C20995_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20995" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A_自恢复型_C20996">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A_自恢复型_C20996_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20996" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A_自恢复型_C20997">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A_自恢复型_C20997_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20997" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.10A_自恢复型_C20998">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.10A_自恢复型_C20998_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20998" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.10A_自恢复型_C20999">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.10A_自恢复型_C20999_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C20999" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.10A_自恢复型_C21000">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.10A_自恢复型_C21000_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C21000" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.25A_自恢复型_C21001">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.25A_自恢复型_C21001_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C21001" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.5A_8V_自恢复型_C21002">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.5A_8V_自恢复型_C21002_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C21002" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.60A_自恢复型_C21003">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2.60A_自恢复型_C21003_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C21003" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3.00A_自恢复型_C21004">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3.00A_自恢复型_C21004_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C21004" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.00A_自恢复型_C21010">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2.00A_自恢复型_C21010_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C21010" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.5A_24V_自恢复型_C32404">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.5A_24V_自恢复型_C32404_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C32404" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.14A_自恢复型_C35455">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.14A_自恢复型_C35455_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C35455" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.2A_自恢复型_C35456">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.2A_自恢复型_C35456_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C35456" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -504,7 +1133,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C43379" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -523,7 +1152,45 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C48332" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.5A__自恢复保险丝_C63614">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.5A__自恢复保险丝_C63614_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C63614" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.1A_8V__自恢复保险丝_C66450">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.1A_8V__自恢复保险丝_C66450_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C66450" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -542,7 +1209,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C66453" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -561,7 +1228,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C69680" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -580,7 +1247,45 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C69688" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3A_8V__自恢复保险丝_C69689">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3A_8V__自恢复保险丝_C69689_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C69689" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.1A_16V__自恢复保险丝_C69691">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.1A_16V__自恢复保险丝_C69691_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C69691" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -599,7 +1304,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70064" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -618,7 +1323,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70065" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -637,7 +1342,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70066" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -656,7 +1361,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70067" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -675,7 +1380,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70068" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -694,7 +1399,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70069" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -713,7 +1418,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70070" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -732,7 +1437,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70071" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -751,7 +1456,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70072" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -770,7 +1475,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70073" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -789,7 +1494,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70074" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -808,7 +1513,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70075" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -827,7 +1532,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70076" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -846,7 +1551,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70077" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -865,7 +1570,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70078" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -884,7 +1589,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70079" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -903,7 +1608,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70080" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -922,7 +1627,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70081" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -941,7 +1646,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70082" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -960,7 +1665,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70083" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -979,7 +1684,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70084" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -998,7 +1703,425 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C70085" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.10A__30V_自恢复保险丝_C70105">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.10A__30V_自恢复保险丝_C70105_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70105" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.14A__60V_自恢复保险丝_C70106">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.14A__60V_自恢复保险丝_C70106_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70106" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.20A__30V_自恢复保险丝_C70107">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.20A__30V_自恢复保险丝_C70107_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70107" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.30A_60V_自恢复_C70109">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.30A_60V_自恢复_C70109_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70109" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.50A_24V_自恢复_C70111">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.50A_24V_自恢复_C70111_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70111" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.50A__33V_自恢复保险丝_C70112">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.50A__33V_自恢复保险丝_C70112_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70112" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.50A__60V_自恢复保险丝_C70113">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.50A__60V_自恢复保险丝_C70113_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70113" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A__13.2V_自恢复保险丝_C70114">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A__13.2V_自恢复保险丝_C70114_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70114" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A__16V_自恢复保险丝_C70115">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A__16V_自恢复保险丝_C70115_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70115" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A__33V_自恢复保险丝_C70117">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A__33V_自恢复保险丝_C70117_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70117" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.10A__24V_自恢复保险丝_C70118">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.10A__24V_自恢复保险丝_C70118_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70118" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.10A__33V_自恢复保险丝_C70119">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.10A__33V_自恢复保险丝_C70119_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70119" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.25A__16V_自恢复保险丝_C70120">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.25A__16V_自恢复保险丝_C70120_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70120" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.50A__8V_自恢复保险丝_C70121">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.50A__8V_自恢复保险丝_C70121_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70121" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.50A__16V_自恢复保险丝_C70122">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.50A__16V_自恢复保险丝_C70122_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70122" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.50A__24V_自恢复保险丝_C70123">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.50A__24V_自恢复保险丝_C70123_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70123" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2A__8V_自恢复保险丝_C70124">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2A__8V_自恢复保险丝_C70124_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70124" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2A__16V_自恢复保险丝_C70126">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2A__16V_自恢复保险丝_C70126_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70126" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.60A_8V_自恢复_C70127">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2.60A_8V_自恢复_C70127_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70127" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3.50A_6V_自恢复_C70130">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3.50A_6V_自恢复_C70130_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70130" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3.75A_6V_自恢复_C70131">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3.75A_6V_自恢复_C70131_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70131" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="4.00A__6V_自恢复保险丝_C70132">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*4.00A__6V_自恢复保险丝_C70132_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70132" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1017,7 +2140,26 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C71465" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.60A_8V_自恢复_C71467">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.60A_8V_自恢复_C71467_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C71467" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1036,7 +2178,26 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C75464" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A_13.2V_自恢复保险丝_C84140">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A_13.2V_自恢复保险丝_C84140_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C84140" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1055,7 +2216,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C89654" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1074,7 +2235,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182441" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1093,7 +2254,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182442" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1112,7 +2273,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182443" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1131,7 +2292,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182444" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1150,7 +2311,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182445" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1169,7 +2330,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182446" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1188,7 +2349,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182447" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1207,7 +2368,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182449" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1226,7 +2387,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182974" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1245,7 +2406,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182975" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1264,7 +2425,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182976" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1283,7 +2444,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C183288" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1302,7 +2463,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C183290" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1321,7 +2482,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C183292" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1340,7 +2501,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C183293" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1359,7 +2520,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182305" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1378,7 +2539,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182307" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1397,7 +2558,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182308" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1416,7 +2577,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182309" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1435,7 +2596,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C182310" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1454,7 +2615,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C183286" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1473,7 +2634,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C187597" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1492,7 +2653,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C261946" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1511,7 +2672,64 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C261948" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="60V_100mA_自恢复_C262018">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*60V_100mA_自恢复_C262018_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C262018" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.1A_8Vdc_C163516">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.1A_8Vdc_C163516_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C163516" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="16V_1.6A_自恢复_C262031">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*16V_1.6A_自恢复_C262031_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C262031" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1530,7 +2748,45 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C135342" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.20A_60V_自恢复保险丝_C70108">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.20A_60V_自恢复保险丝_C70108_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70108" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="24V_1.5A_C269140">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*24V_1.5A_C269140_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C269140" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1549,7 +2805,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C207150" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1568,7 +2824,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C170165" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1587,7 +2843,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C106264" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1606,7 +2862,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C369153" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1625,7 +2881,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C310957" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1644,7 +2900,26 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C311035" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3A_自恢复_C135366">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3A_自恢复_C135366_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C135366" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1663,7 +2938,64 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C354899" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.5A_24V_自恢复保险丝_C179796">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.5A_24V_自恢复保险丝_C179796_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C179796" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="24V_500mA_C207201">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*24V_500mA_C207201_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C207201" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.1A_33V_自恢复保险丝_C369173">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.1A_33V_自恢复保险丝_C369173_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C369173" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1682,7 +3014,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C140479" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1701,7 +3033,26 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C369159" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="12V_2.6A_C207183">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*12V_2.6A_C207183_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C207183" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1720,7 +3071,45 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C220143" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD1812B260TF/12_C269147">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*SMD1812B260TF/12_C269147_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C269147" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.75A__33V_自恢复保险丝_C220153">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.75A__33V_自恢复保险丝_C220153_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C220153" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1739,7 +3128,140 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C135341" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3A_16V_C55996">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*3A_16V_C55996_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C55996" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.3A_30V_自恢复保险丝_C369166">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.3A_30V_自恢复保险丝_C369166_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C369166" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.3A__60V_C117855">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.3A__60V_C117855_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C117855" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.3A_自恢复_C135357">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.3A_自恢复_C135357_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C135357" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.3A_30V_C369555">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.3A_30V_C369555_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C369555" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="16V_1.25A_C369557">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*16V_1.25A_C369557_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C369557" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.25A_自恢复_C135361">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.25A_自恢复_C135361_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C135361" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1758,7 +3280,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C311006" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1777,7 +3299,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C207216" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1796,7 +3318,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C354895" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1815,7 +3337,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C261947" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1834,7 +3356,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C220144" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1853,7 +3375,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C181348" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1872,7 +3394,83 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C135338" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="16V_750mA_自恢复_C262024">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*16V_750mA_自恢复_C262024_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C262024" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="24V_750mA_C208467">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*24V_750mA_C208467_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C208467" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="500mA_30V_自恢复_C151168">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*500mA_30V_自恢复_C151168_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C151168" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.5A_24V_自恢复型_C78695">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*1.5A_24V_自恢复型_C78695_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C78695" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1891,7 +3489,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C369154" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1910,7 +3508,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C180196" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1929,7 +3527,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C194142" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1948,7 +3546,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C135334" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1967,7 +3565,26 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C208499" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="0.2A_自恢复_C135356">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*0.2A_自恢复_C135356_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C135356" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -1986,7 +3603,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C315895" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -2005,7 +3622,26 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C151162" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.0A_8V_自恢复保险丝_C89650">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*2.0A_8V_自恢复保险丝_C89650_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C89650" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -2024,7 +3660,64 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C126818" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="6V_3A_自恢复_C262035">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*6V_3A_自恢复_C262035_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C262035" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="16V_2.5A_自恢复_C262033">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*16V_2.5A_自恢复_C262033_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C262033" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="60V_0.2A_C269125">
+          <gates>
+            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
+          </gates>
+          <devices>
+            <device name="*60V_0.2A_C269125_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C269125" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -2043,7 +3736,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C209741" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -2062,7 +3755,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C220147" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -2081,7 +3774,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C364827" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>
@@ -2100,7 +3793,7 @@
               <technologies>
                 <technology name="">
                   <attribute name="LSCS_PART_NO" value="C369155" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
                 </technology>
               </technologies>
             </device>

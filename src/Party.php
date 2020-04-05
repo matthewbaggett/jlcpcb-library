@@ -21,14 +21,15 @@ class Party{
 
     public function __construct()
     {
-        $this->guzzle = new Guzzle();
-        $this->storage = new Filesystem(new Local(self::CACHE_PATH));
-        $this->pool = new ApcuCachePool();
-        $this->simpleCache = new SimpleCacheBridge($this->pool);
+        $this->guzzle       = new Guzzle();
+        $this->storage      = new Filesystem(new Local(self::CACHE_PATH));
+        $this->pool         = new ApcuCachePool();
+        $this->simpleCache  = new SimpleCacheBridge($this->pool);
         //SpreadsheetSettings::setCache($this->simpleCache);
     }
 
-    private function downloadSheet(){
+    private function downloadSheet()
+    {
         if(!$this->storage->has(self::JLCPCB_SHEET_CACHE_FILE) || $this->storage->getTimestamp("jlcpcb.xlsx") < time() - 86400) {
             $filePath = self::CACHE_PATH . self::JLCPCB_SHEET_CACHE_FILE;
 
@@ -42,8 +43,9 @@ class Party{
         }
     }
 
-    private function readSheet($filePath = self::CACHE_PATH . self::JLCPCB_SHEET_CACHE_FILE){
-        printf("Loading in components from {$filePath} ... ");
+    private function readSheet($filePath = self::CACHE_PATH . self::JLCPCB_SHEET_CACHE_FILE)
+    {
+        $this->debug(sprintf("Loading in components from {$filePath} ... "));
         $spreadsheet = IOFactory::load($filePath);
 
         foreach($spreadsheet->getWorksheetIterator() as $worksheet){
@@ -59,10 +61,11 @@ class Party{
                 }
             }
         }
-        printf("%d components found.\n", count($this->components));
+        $this->debug(sprintf("%d components found.\n", count($this->components)));
     }
 
-    private function generateDeviceGates(\DOMDocument $libraryFile, Component $component) : \DOMElement{
+    private function generateDeviceGates(\DOMDocument $libraryFile, Component $component) : \DOMElement
+    {
         $gates = $libraryFile->createElement('gates');
         $gate = $libraryFile->createElement('gate');
         $gate->setAttribute("name", $component->pickGateName());
@@ -73,8 +76,8 @@ class Party{
         return $gates;
     }
 
-    private function generateDeviceDevice(\DOMDocument $libraryFile, Component $component) : \DOMElement{
-
+    private function generateDeviceDevice(\DOMDocument $libraryFile, Component $component) : \DOMElement
+    {
         $device = $libraryFile->createElement('device');
         $device->setAttribute('name', sprintf(
             "%s%s_%s",
@@ -98,7 +101,7 @@ class Party{
         // Label it basic or not
         $isBasic = $libraryFile->createElement('attribute');
         $isBasic->setAttribute("name", "JLCPCB_IS_BASIC");
-        $isBasic->setAttribute("value", $component->isExpanded() ? "basic" : "expanded");
+        $isBasic->setAttribute("value", $component->isExpanded() ? "no" : "yes");
         $isBasic->setAttribute("constant", "no");
 
         $technology->appendChild($isBasic);
@@ -108,7 +111,8 @@ class Party{
         return $device;
     }
 
-    private function generateDeviceConnects(\DOMDocument $libraryFile, Component $component) : \DOMElement{
+    private function generateDeviceConnects(\DOMDocument $libraryFile, Component $component) : \DOMElement
+    {
         $xpath = new \DOMXPath($libraryFile);
 
         $xpathPins = "//symbols/symbol[@name=\"{$component->pickSymbol()}\"]/pin";
@@ -133,12 +137,12 @@ class Party{
         return $connects;
     }
 
-
     /**
      * @param string $componentGroupName
      * @param Component[] $components
      */
-    private function generateLibrary(string $componentGroupName, array $components){
+    private function generateLibrary(string $componentGroupName, array $components)
+    {
         $libraryFile = new \DOMDocument('1.0');
         $libraryFile->preserveWhiteSpace = false;
         $libraryFile->formatOutput = true;
@@ -230,21 +234,22 @@ class Party{
             // Pretty print our library
             $prettyXML = $libraryFile->saveXML();
             file_put_contents($prettyOutputFilename, $prettyXML);
-            printf(
+            $this->debug(sprintf(
                 "Wrote %d components in %sKB to %s\n",
                 $componentsAdded,
                 number_format(strlen($prettyXML) / 1024, 2),
                 $prettyOutputFilename
-            );
+            ));
         }else{
-            printf(
+            $this->debug(sprintf(
                 "Skipped writing to %s, no components generated\n",
                 $prettyOutputFilename
-            );
+            ));
         }
     }
 
-    private function sortComponents(){
+    private function sortComponents() : array
+    {
         $groups = [];
 
         foreach($this->components as $component){
@@ -255,22 +260,32 @@ class Party{
         return $groups;
     }
 
-    public function build(){
+    public function build() : void
+    {
         $this->downloadSheet();
-        //if(file_exists(self::CACHE_PATH . "jlcpcb_trimmed.xlsx")) {
-        //    $this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
-        //}else{
-            $this->readSheet(self::CACHE_PATH . "jlcpcb.xlsx");
-        //}
-        printf(
+
+        $this->readSheet();
+
+        $this->debug(sprintf(
             "Found %d components in latest version of %s\n",
             count($this->components),
             self::JLCPCB_SHEET_CACHE_FILE
-        );
+        ));
+
         $componentGroups = $this->sortComponents();
         foreach($componentGroups as $componentGroupName => $components) {
             $this->generateLibrary($componentGroupName, $components);
         }
         echo "\x07";
+    }
+
+    private function debug(string $message) : void
+    {
+        echo $message . "\n";
+        file_put_contents(
+            "validation.log",
+            $test = preg_replace('#\\x1b[[][^A-Za-z]*[A-Za-z]#', '', $message) . "\n",
+            FILE_APPEND
+        );
     }
 }
