@@ -80,8 +80,9 @@ class Party{
     {
         $device = $libraryFile->createElement('device');
         $device->setAttribute('name', sprintf(
-            "%s%s_%s",
+            "%s%s_%s_%s",
             $component->isExpanded() ? "*" : "",
+            $component->getLcscPartNumber(),
             $component->pickDeviceName(),
             $component->getPackage()
         ));
@@ -140,8 +141,9 @@ class Party{
     /**
      * @param string $componentGroupName
      * @param Component[] $components
+     * @return int parts count
      */
-    private function generateLibrary(string $componentGroupName, array $components)
+    private function generateLibrary(string $componentGroupName, array $components) : int
     {
         $libraryFile = new \DOMDocument('1.0');
         $libraryFile->preserveWhiteSpace = false;
@@ -222,14 +224,14 @@ class Party{
             }
         }
 
+        $description = $libraryFile->createElement("description", "hello");
+        $xpath->query("//library")[0]->appendChild($description);
+
         $prettyOutputFilename = sprintf(
-            "%s.lbr",
-            str_replace(
-                " ",
-                "_",
-                $componentGroupName
-            )
+            "lbr/%s.lbr",
+            $componentGroupName
         );
+
         if($componentsAdded > 0) {
             // Pretty print our library
             $prettyXML = $libraryFile->saveXML();
@@ -246,6 +248,8 @@ class Party{
                 $prettyOutputFilename
             ));
         }
+
+        return $componentsAdded;
     }
 
     private function sortComponents() : array
@@ -265,6 +269,7 @@ class Party{
         $this->downloadSheet();
 
         $this->readSheet();
+        #$this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
 
         $this->debug(sprintf(
             "Found %d components in latest version of %s\n",
@@ -273,9 +278,11 @@ class Party{
         ));
 
         $componentGroups = $this->sortComponents();
+        $partsCount = 0;
         foreach($componentGroups as $componentGroupName => $components) {
-            $this->generateLibrary($componentGroupName, $components);
+           $partsCount += $this->generateLibrary($componentGroupName, $components);
         }
+        echo "Generated {$partsCount} parts.\n\n";
         echo "\x07";
     }
 

@@ -20,10 +20,11 @@ class Component
 
     public function pickDeviceName(): string
     {
+        return str_replace(" ", "_", $this->getManufacturerPart());
         return sprintf(
             "%s_%s",
-            str_replace(" ", "_", $this->getManufacturerPart()),
-            $this->getLcscPartNumber()
+            $this->getLcscPartNumber(),
+            str_replace(" ", "_", $this->getManufacturerPart())
         );
     }
 
@@ -50,7 +51,15 @@ class Component
             case 'Power Management ICs':
             case 'Driver ICs':
             case 'Logic ICs':
+            case 'Analog ICs':
                 return "IC";
+            case 'Optocouplers & LEDs & Infrared':
+                switch ($this->getCategorySecond()){
+                    case 'Light Emitting Diodes (LED)':
+                        return 'LED';
+                    default:
+                        return null;
+                    }
             default:
                 return null;
         }
