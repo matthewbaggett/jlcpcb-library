@@ -1,16 +1,19 @@
 {
     "name": "jlcpcb/parts-lib-generator",
+    "license": "GPL-3.0",
     "description": "Generate Eaglecad parts library from JLCPCB's published parts spreadsheet",
     "type": "project",
     "require": {
         "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-gd": "*",
         "kint-php/kint": "^3.3",
         "phpoffice/phpspreadsheet": "^1.11",
-        "guzzlehttp/guzzle": "^6.5",
-        "league/flysystem": "^1.0",
-        "ext-dom": "*",
         "cache/simple-cache-bridge": "^1.0",
-        "cache/apcu-adapter": "^1.0"
+        "cache/apcu-adapter": "^1.0",
+        "guzzlehttp/guzzle": "^6.5",
+        "league/flysystem": "^1.0"
     },
     "authors": [
         {
