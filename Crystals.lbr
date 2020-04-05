@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.1">
+  <drawing>
+    <settings>
+      <setting alwaysvectorfont="no"/>
+      <setting verticaltext="up"/>
+    </settings>
+    <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+    <layers>
+      <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+      <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+      <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+      <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+      <layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+      <layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+      <layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+      <layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+      <layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+      <layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+      <layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+      <layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+      <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+      <layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+      <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+      <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+      <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+      <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+      <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+      <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+      <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+      <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+      <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+      <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+      <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+      <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+      <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+      <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+      <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+      <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+      <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+      <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+      <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+      <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+      <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+      <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+      <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+      <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+      <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+      <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+      <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+      <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+      <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+      <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+      <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+      <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+      <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+      <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+      <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+      <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+      <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+      <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+      <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+      <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+      <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+      <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
+      <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
+      <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
+      <layer number="104" name="Name" color="16" fill="1" visible="no" active="no"/>
+      <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
+      <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
+      <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
+      <layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="no"/>
+      <layer number="109" name="ref-old" color="11" fill="1" visible="no" active="no"/>
+      <layer number="110" name="fp0" color="7" fill="1" visible="no" active="no"/>
+      <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="no"/>
+      <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+      <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="no"/>
+      <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
+      <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
+      <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+      <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+      <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
+      <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
+      <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+      <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+      <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+      <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+      <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+      <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+      <layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+      <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+      <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+      <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
+      <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
+      <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
+      <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+      <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
+      <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
+      <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
+      <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+      <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+      <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="no"/>
+      <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="no"/>
+      <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
+      <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
+      <layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
+      <layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
+      <layer number="207" name="207bmp" color="8" fill="10" visible="no" active="no"/>
+      <layer number="208" name="208bmp" color="9" fill="10" visible="no" active="no"/>
+      <layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="216" name="216bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+      <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+      <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+      <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+      <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+      <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+      <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+      <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+      <layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+      <layer number="227" name="227bmp" color="11" fill="1" visible="no" active="no"/>
+      <layer number="228" name="228bmp" color="10" fill="1" visible="no" active="no"/>
+      <layer number="229" name="229bmp" color="14" fill="1" visible="no" active="no"/>
+      <layer number="230" name="230bmp" color="12" fill="1" visible="no" active="no"/>
+      <layer number="231" name="231bmp" color="9" fill="1" visible="no" active="no"/>
+      <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+      <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+      <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+      <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+      <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+      <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+      <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
+      <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
+    </layers>
+    <library>
+      <packages>
+        <package name="CRYSTAL_SMD-5032_2P">
+          <description>&lt;h3&gt;5x3.2mm 2-pad SMD Crystal&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.txccrystal.com/images/pdf/7a.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+          <smd name="P$1" x="1.85" y="0" dx="1.7" dy="2.4" layer="1"/>
+          <smd name="P$2" x="-1.85" y="0" dx="1.7" dy="2.4" layer="1"/>
+          <wire x1="-2.6" y1="1.7" x2="2.6" y2="1.7" width="0.2032" layer="21"/>
+          <wire x1="2.6" y1="-1.7" x2="-2.6" y2="-1.7" width="0.2032" layer="21"/>
+          <text x="0" y="1.878" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+          <text x="0" y="-1.878" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+          <wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
+          <wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.127" layer="51"/>
+          <wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="51"/>
+          <wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="51"/>
+          <wire x1="-2.6" y1="1.7" x2="-2.6" y2="1.4" width="0.2032" layer="21"/>
+          <wire x1="2.6" y1="-1.7" x2="2.6" y2="-1.4" width="0.2032" layer="21"/>
+          <wire x1="-2.6" y1="-1.7" x2="-2.6" y2="-1.4" width="0.2032" layer="21"/>
+          <wire x1="2.6" y1="1.7" x2="2.6" y2="1.4" width="0.2032" layer="21"/>
+          <polygon width="0.127" layer="51">
+            <vertex x="-2.5" y="1"/>
+            <vertex x="-1.2" y="1"/>
+            <vertex x="-1.2" y="-1"/>
+            <vertex x="-2.5" y="-1"/>
+          </polygon>
+          <polygon width="0.127" layer="51">
+            <vertex x="2.5" y="-1"/>
+            <vertex x="1.2" y="-1"/>
+            <vertex x="1.2" y="1"/>
+            <vertex x="2.5" y="1"/>
+          </polygon>
+        </package>
+      </packages>
+      <symbols>
+        <symbol name="CRYSTAL">
+          <description>&lt;h3&gt;Crystal (no ground pin)&lt;/h3&gt;</description>
+          <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+          <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+          <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+          <wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+          <wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+          <wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+          <wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+          <wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+          <text x="0" y="2.032" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+          <text x="0" y="-2.032" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+          <text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+          <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+          <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+          <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+        </symbol>
+      </symbols>
+      <devicesets>
+        <deviceset name="YSX530GA_8MHZ__20PF_10PPM_C115962">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="YSX530GA_8MHZ__20PF_10PPM_C115962_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C115962" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="expanded" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_11.0592MHZ_20PF_10PPM_-40~+85_C112574">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="YSX530GA_11.0592MHZ_20PF_10PPM_-40~+85_C112574_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112574" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="expanded" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="25M_20pf_30ppm_C122515">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*25M_20pf_30ppm_C122515_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122515" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_30MHZ_20PF_20PPM_C23481">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_30MHZ_20PF_20PPM_C23481_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C23481" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_25MHZ_20PF_20PPM_C27173">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_25MHZ_20PF_20PPM_C27173_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C27173" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_12MHZ_20PF_20PPM_C33728">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_12MHZ_20PF_20PPM_C33728_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C33728" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_22.1184MHZ_18PF_20PPM_C36377">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_22.1184MHZ_18PF_20PPM_C36377_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C36377" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_27MHZ_20PF_20PPM_C46369">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_27MHZ_20PF_20PPM_C46369_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C46369" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_24MHZ_20PF_20PPM_C48304">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_24MHZ_20PF_20PPM_C48304_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C48304" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_16MHZ_20PF_20PPM_C49231">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_16MHZ_20PF_20PPM_C49231_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C49231" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_8MHZ_20pf_30ppm_-40~+85_C58297">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_8MHZ_20pf_30ppm_-40~+85_C58297_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C58297" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="16MHz_20ppm_20pF_-40-+85度_C73355">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*16MHz_20ppm_20pF_-40-+85度_C73355_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C73355" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_27.120MHZ_15PF_10PPM_C70681">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_27.120MHZ_15PF_10PPM_C70681_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C70681" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8MHz_20pF_20ppm_C90881">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*8MHz_20pF_20ppm_C90881_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90881" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_24M_18pF_30ppm_-40~85℃_C94527">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_24M_18pF_30ppm_-40~85℃_C94527_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C94527" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="E5FA8.00000F20E22_C98436">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*E5FA8.00000F20E22_C98436_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C98436" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_8MHz_8pF_30ppm_-40~125℃_C111903">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_8MHz_8pF_30ppm_-40~125℃_C111903_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C111903" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_14.7456MHZ_20PF_10PPM_-40~+85_C112561">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_14.7456MHZ_20PF_10PPM_-40~+85_C112561_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112561" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_30MHZ_20PF_10PPM_-40~+85_C112563">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_30MHZ_20PF_10PPM_-40~+85_C112563_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112563" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_28.63636MHZ_20PF_10PPM_-40~+85_C112564">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_28.63636MHZ_20PF_10PPM_-40~+85_C112564_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112564" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_27MHZ_20PF_10PPM_-40~+85_C112565">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_27MHZ_20PF_10PPM_-40~+85_C112565_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112565" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_20MHZ_20PF_10PPM_-40~+85_C112566">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_20MHZ_20PF_10PPM_-40~+85_C112566_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112566" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_22.1184MHZ_18PF_10PPM_-40~+85_C112567">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_22.1184MHZ_18PF_10PPM_-40~+85_C112567_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112567" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_24.576MHZ_20PF_10PPM_-40~+85_C112568">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_24.576MHZ_20PF_10PPM_-40~+85_C112568_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112568" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_25MHZ_20PF_10PPM_-40~+85_C112569">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_25MHZ_20PF_10PPM_-40~+85_C112569_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112569" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_24MHZ_20PF_10PPM_-40~+85_C112570">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_24MHZ_20PF_10PPM_-40~+85_C112570_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112570" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_16MHZ_20PF_10PPM_-40~+85_C112572">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_16MHZ_20PF_10PPM_-40~+85_C112572_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112572" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_12MHZ_20PF_10PPM_-40~+85_C112573">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_12MHZ_20PF_10PPM_-40~+85_C112573_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112573" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_12MHZ_20PF_20PPM_-40~+85_C114436">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_12MHZ_20PF_20PPM_-40~+85_C114436_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C114436" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="HSX530G_8MHz_12pF_30PPM_C136084">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*HSX530G_8MHz_12pF_30PPM_C136084_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C136084" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="HSX530G_12.288MHZ_18pF_30PPM_C136085">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*HSX530G_12.288MHZ_18pF_30PPM_C136085_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C136085" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="HSX530G_27MHZ_10pF_20PPM_C136086">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*HSX530G_27MHZ_10pF_20PPM_C136086_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C136086" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8MHZ_±20ppm_-40°C_~_+85°C_C144380">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*8MHZ_±20ppm_-40°C_~_+85°C_C144380_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C144380" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_10MHz_20pf_30ppm_C150558">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_10MHz_20pf_30ppm_C150558_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C150558" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_10MHz_10ppm_12pF_C168837">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_10MHz_10ppm_12pF_C168837_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C168837" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_16.384MHZ_20PF_10PPM_C133623">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_16.384MHZ_20PF_10PPM_C133623_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C133623" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_8MHZ_20PF_20PPM_C172361">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_8MHZ_20PF_20PPM_C172361_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C172361" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_16M_12pF_20ppm_80R_-40~85℃_C97724">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_16M_12pF_20ppm_80R_-40~85℃_C97724_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C97724" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="X‘TAL_G5032-2_8M__20pF_30ppm_80R-40~85℃_C111120">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*X‘TAL_G5032-2_8M__20pF_30ppm_80R-40~85℃_C111120_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C111120" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_18.432MHZ_20PF_10PPM_-40~+85_C112559">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_18.432MHZ_20PF_10PPM_-40~+85_C112559_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112559" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_32MHZ_20PF_10PPM_-40~+85_C112560">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_32MHZ_20PF_10PPM_-40~+85_C112560_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112560" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8MHz_10pF_25ppm_-40~85℃_C112659">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*8MHz_10pF_25ppm_-40~85℃_C112659_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C112659" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_22.1184MHz_20pf_30ppm_C122513">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_22.1184MHz_20pf_30ppm_C122513_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122513" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_16M_20pf_30ppm_C122519">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_16M_20pf_30ppm_C122519_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122519" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_24M_20pf_30ppm_C122520">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_24M_20pf_30ppm_C122520_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122520" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_12M_20pf_30ppm_C122521">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_12M_20pf_30ppm_C122521_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122521" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_8M_20pf_30ppm_C122522">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_8M_20pf_30ppm_C122522_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122522" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_11.0592M_20pf_30ppm_C122967">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_11.0592M_20pf_30ppm_C122967_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C122967" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="7A08000006-AHE2G__XTAL_G5032-2_8M_12pF_20ppm_80R_-30~85℃_C128364">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*7A08000006-AHE2G__XTAL_G5032-2_8M_12pF_20ppm_80R_-30~85℃_C128364_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C128364" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="ABM3-25.000MHZ-D2Y-T_C148312">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*ABM3-25.000MHZ-D2Y-T_C148312_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C148312" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="ABM3-12.000MHZ-D2Y-T_C148313">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*ABM3-12.000MHZ-D2Y-T_C148313_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C148313" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8MHZ_8pF_C156253">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*8MHZ_8pF_C156253_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C156253" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_11.0592M__20pF_30ppm_-20~70℃_C90882">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_11.0592M__20pF_30ppm_-20~70℃_C90882_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90882" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_12M_20pF_20ppm_-20~70℃_C90883">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_12M_20pF_20ppm_-20~70℃_C90883_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90883" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_12M_12PF_30PPM_-20~70℃_C90884">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_12M_12PF_30PPM_-20~70℃_C90884_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90884" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_22.1184M_18PF_20PPM__-20~70℃_C90885">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_22.1184M_18PF_20PPM__-20~70℃_C90885_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90885" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_24M_20pF_20ppm_-10~70℃_C90886">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_24M_20pF_20ppm_-10~70℃_C90886_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90886" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_25M_20pF_20ppm_-10~70℃_C90887">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_25M_20pF_20ppm_-10~70℃_C90887_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90887" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_25M_20pF_30ppm_-40~85℃_C90888">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_25M_20pF_30ppm_-40~85℃_C90888_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90888" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_27M_20pF_15ppm_-10~70℃_C90889">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_27M_20pF_15ppm_-10~70℃_C90889_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90889" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_30M_20pF_30ppm_-20~70℃_C90890">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_30M_20pF_30ppm_-20~70℃_C90890_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90890" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="XTAL_G5032-2_54M_19pF_15ppm_15R_-10~70℃_C90891">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*XTAL_G5032-2_54M_19pF_15ppm_15R_-10~70℃_C90891_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C90891" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX531SL_14.7456MHZ_20PF_10PPM_C157342">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX531SL_14.7456MHZ_20PF_10PPM_C157342_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C157342" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_27.12MHZ_20PF_10PPM_C157343">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_27.12MHZ_20PF_10PPM_C157343_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C157343" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="YSX530GA_22.1184MHZ_20PF_10PPM_C157344">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*YSX530GA_22.1184MHZ_20PF_10PPM_C157344_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C157344" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="12MHZ_20pF±30PPM_-40℃~+85℃5032_C295065">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*12MHZ_20pF±30PPM_-40℃~+85℃5032_C295065_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C295065" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="10MHZ_20pF±30ppm_-40℃~+85℃5032_C295066">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*10MHZ_20pF±30ppm_-40℃~+85℃5032_C295066_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C295066" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="11.0592MHZ_20PF30PPM_-40℃~+85℃5032_C295067">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*11.0592MHZ_20PF30PPM_-40℃~+85℃5032_C295067_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C295067" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="24MHZ_20pF±30ppm_-40℃~+85℃5032_C295068">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*24MHZ_20pF±30ppm_-40℃~+85℃5032_C295068_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C295068" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="27MHZ_20pF±30ppm_-40℃~+85℃5032_C295069">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*27MHZ_20pF±30ppm_-40℃~+85℃5032_C295069_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C295069" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8.192MHz_12.5pF_±30PPM_-40℃_~+85℃_C242222">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*8.192MHz_12.5pF_±30PPM_-40℃_~+85℃_C242222_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C242222" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="7A08000001_C331616">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*7A08000001_C331616_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C331616" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="SMD-5032_2P_14.7456MHZ_20pF_20ppm_C362355">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*SMD-5032_2P_14.7456MHZ_20pF_20ppm_C362355_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C362355" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="27MHZ_20pF_±30ppm_C362353">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
+          </gates>
+          <devices>
+            <device name="*27MHZ_20pF_±30ppm_C362353_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+              <connects>
+                <connect gate="C$1" pin="2" pad="P$1"/>
+                <connect gate="C$1" pin="1" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LSCS_PART_NO" value="C362353" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="basic" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+      </devicesets>
+    </library>
+  </drawing>
+  <compatibility>
+    <note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+  </compatibility>
+</eagle>

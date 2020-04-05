@@ -76,12 +76,32 @@ class Party{
     private function generateDeviceDevice(\DOMDocument $libraryFile, Component $component) : \DOMElement{
 
         $device = $libraryFile->createElement('device');
-        $device->setAttribute('name',sprintf("%s_%s", $component->pickDeviceName(), $component->getPackage()));
+        $device->setAttribute('name', sprintf(
+            "%s%s_%s",
+            $component->isExpanded() ? "*" : "",
+            $component->pickDeviceName(),
+            $component->getPackage()
+        ));
         $device->setAttribute('package', $component->pickPackage());
         $device->appendChild($this->generateDeviceConnects($libraryFile, $component));
         $technologies = $libraryFile->createElement('technologies');
         $technology = $libraryFile->createElement('technology');
         $technology->setAttribute('name', '');
+
+        // Add a JLCPCB Part number
+        $partNumber = $libraryFile->createElement('attribute');
+        $partNumber->setAttribute("name", "LSCS_PART_NO");
+        $partNumber->setAttribute("value", $component->getLcscPartNumber());
+        $partNumber->setAttribute("constant", "no");
+        $technology->appendChild($partNumber);
+
+        // Label it basic or not
+        $isBasic = $libraryFile->createElement('attribute');
+        $isBasic->setAttribute("name", "JLCPCB_IS_BASIC");
+        $isBasic->setAttribute("value", $component->isExpanded() ? "basic" : "expanded");
+        $isBasic->setAttribute("constant", "no");
+
+        $technology->appendChild($isBasic);
         $technologies->appendChild($technology);
         $device->appendChild($technologies);
 
@@ -95,20 +115,6 @@ class Party{
         $xpathPads = "//packages/package[@name=\"{$component->pickPackage()}\"]/smd";
         $pins = $xpath->query($xpathPins);
         $pads = $xpath->query($xpathPads);
-        if(!($pins->count() == $component->getPadCount() && $pads->count() == $component->getPadCount())){
-            printf(
-                "Pins (%d) and Pads (%d) count for %s don't add up!\n",
-                count($pins), count($pads),
-                $component->getLcscPartNumber()
-            );
-
-            \Kint::dump(
-                $xpathPins,
-                $xpathPads
-            );
-
-            exit(1);
-        }
 
         $connects = $libraryFile->createElement('connects');
 
@@ -149,9 +155,13 @@ class Party{
         // Keep a list of the referenced packages/symbols so we can clean up the un-used at the end.
         $referencedPackages = [];
         $referencedSymbols = [];
+        $componentsAdded = 0;
 
         // Iterate over components and insert them.
         foreach($components as $component){
+            if(!$component->isValid($xpath)){
+                continue;
+            }
             $referencedPackages[] = $component->pickPackage();
             $referencedSymbols[] = $component->pickSymbol();
             $existingDeviceSet = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]");
@@ -168,6 +178,7 @@ class Party{
                 $devices->appendChild($this->generateDeviceDevice($libraryFile, $component));
             }
             $newDeviceSet->setAttribute('name', $component->pickDeviceName());
+            $componentsAdded++;
         }
 
         // Filter referenced packages/symbols
@@ -207,16 +218,30 @@ class Party{
             }
         }
 
-        // Pretty print our library
-        $prettyXML = $libraryFile->saveXML();
-        $prettyOutputFilename = "$componentGroupName.lbr";
-        file_put_contents($prettyOutputFilename, $prettyXML);
-        printf(
-            "Wrote %d components in %sKB to %s\n",
-            count($components),
-            number_format(strlen($prettyXML) / 1024,2),
-            $prettyOutputFilename
+        $prettyOutputFilename = sprintf(
+            "%s.lbr",
+            str_replace(
+                " ",
+                "_",
+                $componentGroupName
+            )
         );
+        if($componentsAdded > 0) {
+            // Pretty print our library
+            $prettyXML = $libraryFile->saveXML();
+            file_put_contents($prettyOutputFilename, $prettyXML);
+            printf(
+                "Wrote %d components in %sKB to %s\n",
+                $componentsAdded,
+                number_format(strlen($prettyXML) / 1024, 2),
+                $prettyOutputFilename
+            );
+        }else{
+            printf(
+                "Skipped writing to %s, no components generated\n",
+                $prettyOutputFilename
+            );
+        }
     }
 
     private function sortComponents(){
@@ -232,11 +257,11 @@ class Party{
 
     public function build(){
         $this->downloadSheet();
-        if(file_exists(self::CACHE_PATH . "jlcpcb_trimmed.xlsx")) {
-            $this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
-        }else{
+        //if(file_exists(self::CACHE_PATH . "jlcpcb_trimmed.xlsx")) {
+        //    $this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
+        //}else{
             $this->readSheet(self::CACHE_PATH . "jlcpcb.xlsx");
-        }
+        //}
         printf(
             "Found %d components in latest version of %s\n",
             count($this->components),
@@ -246,5 +271,6 @@ class Party{
         foreach($componentGroups as $componentGroupName => $components) {
             $this->generateLibrary($componentGroupName, $components);
         }
+        echo "\x07";
     }
 }

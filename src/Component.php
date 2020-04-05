@@ -1,7 +1,9 @@
 <?php
+
 namespace Party;
 
-class Component {
+class Component
+{
     private string $lcscPartNumber;
     private string $manufacturerPart;
     private string $categoryFirst;
@@ -11,54 +13,108 @@ class Component {
     private string $manufacturer;
     private bool $isExpanded;
 
-    public function getDebugName(){
+    public function getDebugName(): string
+    {
         return sprintf("%s's %s", $this->getManufacturer(), $this->pickDeviceName());
     }
 
-    public function pickDeviceName(){
-        $name = $this->getManufacturerPart();
-        $name = str_replace(" ", "_", $name);
-        return $name;
+    public function pickDeviceName(): string
+    {
+        return sprintf(
+            "%s_%s",
+            str_replace(" ", "_", $this->getManufacturerPart()),
+            $this->getLcscPartNumber()
+        );
     }
 
-    public function pickGateName(){
-        $magicLetter = strtoupper(substr($this->getCategoryFirst(), 0,1));
+    public function pickGateName(): string
+    {
+        $magicLetter = strtoupper(substr($this->getCategoryFirst(), 0, 1));
         return "{$magicLetter}\$1";
     }
 
-    public function pickSymbol(){
-        switch($this->getCategoryFirst()){
+    public function pickSymbol(): ?string
+    {
+        switch ($this->getCategoryFirst()) {
             case 'Resistors':
                 return "RESISTOR";
             case 'Capacitors':
                 return "CAPACITOR";
+            case 'Diodes':
+                return "DIODE";
+            case 'Crystals':
+                return "CRYSTAL";
+            case 'Fuses':
+                return "FUSE";
             default:
-                die("Can't pick a symbol that matches {$this->getCategoryFirst()}!\n");
+                return null;
         }
     }
 
-    public function pickPackage(){
-        return sprintf(
+    public function pickPackage(): string
+    {
+        return strtoupper(sprintf(
             "%s_%s",
             $this->pickSymbol(),
             $this->getPackage()
-        );
+        ));
+    }
+
+    public function isValid(\DOMXPath $xpath): bool
+    {
+        if(!$this->pickSymbol()){
+            printf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not pick a symbol suitable for category \e[0,34m%s\e[0m!\n",
+                $this->getDebugName(),
+                $this->getLcscPartNumber(),
+                $this->getCategoryFirst()
+            );
+            return false;
+        }
+        $xpathPackage = "//packages/package[@name=\"{$this->pickPackage()}\"]";
+        $xpathPins = "//symbols/symbol[@name=\"{$this->pickSymbol()}\"]/pin";
+        $xpathPads = "{$xpathPackage}/smd";
+        $package = $xpath->query($xpathPackage);
+        if ($package->count() == 0) {
+            printf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Package %s doesn't exist!\n",
+                $this->getDebugName(),
+                $this->getLcscPartNumber(),
+                $this->pickPackage()
+            );
+            return false;
+        }
+        $pins = $xpath->query($xpathPins);
+        $pads = $xpath->query($xpathPads);
+        if (!($pins->count() == $this->getPadCount() && $pads->count() == $this->getPadCount())) {
+            printf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Pins (%d) and Pads (%d) count don't add up!\n",
+                $this->getDebugName(),
+                $this->getLcscPartNumber(),
+                count($pins), count($pads)
+            );
+            printf(" > xpath pins: %s\n", $xpathPins);
+            printf(" > xpath pads: %s\n", $xpathPads);
+            return false;
+        }
+
+        return true;
     }
 
     public function __construct($rowData)
     {
-        $this->lcscPartNumber = $rowData['LCSC Part'];
-        $this->manufacturerPart = $rowData['MFR.Part'];
-        $this->categoryFirst = $rowData['First Category'];
-        $this->categorySecond = $rowData['Second Category'];
-        $this->package = $rowData['Package'];
-        if(is_numeric($rowData['Solder Joint'])) {
-            $this->padCount = $rowData['Solder Joint'];
-        }else{
+        $this->lcscPartNumber       = trim($rowData['LCSC Part']);
+        $this->manufacturerPart     = trim($rowData['MFR.Part']);
+        $this->categoryFirst        = trim($rowData['First Category']);
+        $this->categorySecond       = trim($rowData['Second Category']);
+        $this->package              = trim($rowData['Package']);
+        if (is_numeric(trim($rowData['Solder Joint']))) {
+            $this->padCount         = intval($rowData['Solder Joint']);
+        } else {
             die("Unknown Solder Joint count: {$rowData['Solder Joint']}\n");
         }
-        $this->manufacturer = $rowData['Manufacturer'];
-        switch($rowData['Library Type']){
+        $this->manufacturer         = trim($rowData['Manufacturer']);
+        switch (trim($rowData['Library Type'])) {
             case 'base':
                 $this->isExpanded = false;
                 break;
@@ -70,10 +126,7 @@ class Component {
         };
     }
 
-    /**
-     * @return mixed|string
-     */
-    public function getLcscPartNumber()
+    public function getLcscPartNumber(): string
     {
         return $this->lcscPartNumber;
     }
@@ -88,16 +141,13 @@ class Component {
         return $this;
     }
 
-    /**
-     * @return mixed|string
-     */
-    public function getManufacturerPart()
+    public function getManufacturerPart(): string
     {
         return $this->manufacturerPart;
     }
 
     /**
-     * @param mixed|string $manufacturerPart
+     * @param string $manufacturerPart
      * @return Component
      */
     public function setManufacturerPart($manufacturerPart)
