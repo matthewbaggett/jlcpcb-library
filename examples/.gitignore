@@ -1,0 +1,7 @@
+.idea
+*.pro
+*.s#*
+*.b#*
+.~lock.*
+*.lck
+*.job

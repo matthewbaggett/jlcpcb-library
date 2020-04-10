@@ -8,4 +8,11 @@ I thought it'd be useful to turn that into an eaglecad parts library.
 To maximise its usefulness, I've done a few other things:
 
  * Copied Sparkfuns fabulous Power Symbols library
- * Copied in DirtyPCBs DRU for design checking - JLCPCB seem fine with it from previous orders.
+ * Copied CAM job, Desirn Rules file & ULPs from https://github.com/oxullo/jlcpcb-eagle
+ 
+## TODO List:
+ * Dockerise this tool
+ * Create github actions to run on a schedule.
+ * Add github actions linting.
+ * Fix non-trivial packages (multipin ICs)
+ 
