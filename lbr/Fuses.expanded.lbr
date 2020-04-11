@@ -162,6 +162,7 @@
       <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
     </layers>
     <library>
+      <description>JLCPCB automatically generated library</description>
       <packages>
         <package name="FUSE_1206">
           <description>&lt;b&gt;FUSE&lt;/b&gt;</description>
@@ -210,3473 +211,3641 @@
         </symbol>
       </symbols>
       <devicesets>
-        <deviceset name="1.1A_8V_自恢复型">
+        <deviceset name="11A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C3102_1.1A_8V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C3102_11A_8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C3102" constant="no"/>
+                  <attribute name="LCSC_PART" value="C3102" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A__63V__快断">
+        <deviceset name="2A__63V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C3105_2A__63V__快断_1206" package="FUSE_1206">
+            <device name="X_C3105_2A__63V__CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C3105" constant="no"/>
+                  <attribute name="LCSC_PART" value="C3105" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A_8V_自恢复">
+        <deviceset name="2A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C3106_2A_8V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C3106_2A_8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C3106" constant="no"/>
+                  <attribute name="LCSC_PART" value="C3106" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.1A_60V_自恢复保险丝">
+        <deviceset name="01A_60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C12068_0.1A_60V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C12068_01A_60V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C12068" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12068" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C220143_0.1A_60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C220143_01A_60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C220143" constant="no"/>
+                  <attribute name="LCSC_PART" value="C220143" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C180196_0.1A_60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C180196_01A_60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C180196" constant="no"/>
+                  <attribute name="LCSC_PART" value="C180196" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C194142_0.1A_60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C194142_01A_60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C194142" constant="no"/>
+                  <attribute name="LCSC_PART" value="C194142" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.1A__60V">
+        <deviceset name="01A__60V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C12430_0.1A__60V_1812" package="FUSE_1812">
+            <device name="X_C12430_01A__60V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C12430" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12430" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A_24V_自恢复型">
+        <deviceset name="075A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C12557_0.75A_24V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C12557_075A_24V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C12557" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12557" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_15V_自恢复型">
+        <deviceset name="05A_15V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C12558_0.5A_15V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C12558_05A_15V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C12558" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12558" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
+            <device name="X_C106264_05A_15V_CN_1206" package="FUSE_1206">
+              <connects>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C106264" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_30V_自恢复型">
+        <deviceset name="05A_30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C12559_0.5A_30V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C12559_05A_30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C12559" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12559" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.3A_30V">
+        <deviceset name="03A_30V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C12604_0.3A_30V_1812" package="FUSE_1812">
+            <device name="X_C12604_03A_30V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C12604" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12604" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C369555_0.3A_30V_1812" package="FUSE_1812">
+            <device name="X_C369555_03A_30V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369555" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369555" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.2A_30V_自恢复型">
+        <deviceset name="02A_30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C13575_0.2A_30V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C13575_02A_30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C13575" constant="no"/>
+                  <attribute name="LCSC_PART" value="C13575" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3A__32V__快断">
+        <deviceset name="3A__32V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C14165_3A__32V__快断_1206" package="FUSE_1206">
+            <device name="X_C14165_3A__32V__CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C14165" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14165" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A_16V">
+        <deviceset name="1A_16V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C14956_1A_16V_1812" package="FUSE_1812">
+            <device name="X_C14956_1A_16V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C14956" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14956" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.14A_60V">
+        <deviceset name="014A_60V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C18045_0.14A_60V_1812" package="FUSE_1812">
+            <device name="X_C18045_014A_60V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C18045" constant="no"/>
+                  <attribute name="LCSC_PART" value="C18045" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.14A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.3A__30V_自恢复保险丝">
+        <deviceset name="03A__30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C18331_0.3A__30V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C18331_03A__30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C18331" constant="no"/>
+                  <attribute name="LCSC_PART" value="C18331" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.05A_自恢复型">
+        <deviceset name="005A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20797_0.05A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20797_005A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20797" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20797" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.05A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.25A_自恢复型">
+        <deviceset name="025A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20798_0.25A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20798_025A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20798" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20798" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A_自恢复型">
+        <deviceset name="050A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20799_0.50A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20799_050A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20799" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20799" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.00A_自恢复型">
+        <deviceset name="100A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20800_1.00A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20800_100A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20800" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20800" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.10A_自恢复型">
+        <deviceset name="110A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20801_1.10A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20801_110A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20801" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20801" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20998_1.10A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20998_110A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20998" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20998" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20999_1.10A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20999_110A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20999" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20999" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C21000_1.10A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C21000_110A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C21000" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21000" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.50A_自恢复型">
+        <deviceset name="150A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20802_1.50A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20802_150A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20802" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20802" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20810_1.50A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20810_150A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20810" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20810" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2.50A_自恢复型">
+        <deviceset name="250A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20803_2.50A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20803_250A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20803" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20803" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2.00A_自恢复型">
+        <deviceset name="200A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20812_2.00A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20812_200A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20812" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20812" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20988_2.00A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20988_200A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20988" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20988" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C21010_2.00A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C21010_200A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C21010" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21010" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2.60A_自恢复型">
+        <deviceset name="260A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20814_2.60A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20814_260A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20814" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20814" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.60A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C21003_2.60A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C21003_260A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C21003" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21003" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.60A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3.50A_自恢复型">
+        <deviceset name="350A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20815_3.50A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20815_350A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20815" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20815" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.10A_自恢复型">
+        <deviceset name="010A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20981_0.10A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20981_010A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20981" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20981" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20993_0.10A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20993_010A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20993" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20993" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.12A_自恢复型">
+        <deviceset name="012A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20982_0.12A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20982_012A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20982" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20982" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.12A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.16A_自恢复型">
+        <deviceset name="016A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20983_0.16A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20983_016A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20983" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20983" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.16A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.20A_自恢复型">
+        <deviceset name="020A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20984_0.20A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20984_020A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20984" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20984" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.20A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.35A_自恢复型">
+        <deviceset name="035A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20985_0.35A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20985_035A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20985" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20985" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.35A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A_自恢复型">
+        <deviceset name="075A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20987_0.75A_自恢复型_1206" package="FUSE_1206">
+            <device name="X_C20987_075A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20987" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20987" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20996_0.75A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20996_075A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20996" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20996" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C20997_0.75A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20997_075A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20997" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20997" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.14A_自恢复型">
+        <deviceset name="014A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20994_0.14A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20994_014A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20994" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20994" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.14A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C35455_0.14A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C35455_014A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C35455" constant="no"/>
+                  <attribute name="LCSC_PART" value="C35455" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.14A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.30A_自恢复型">
+        <deviceset name="030A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C20995_0.30A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C20995_030A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C20995" constant="no"/>
+                  <attribute name="LCSC_PART" value="C20995" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.30A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.25A_自恢复型">
+        <deviceset name="125A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C21001_1.25A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C21001_125A_CN_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C21001" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.25A" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="X_C135361_125A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C21001" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135361" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A_8V_自恢复型">
+        <deviceset name="15A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C21002_1.5A_8V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C21002_15A_8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C21002" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21002" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3.00A_自恢复型">
+        <deviceset name="300A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C21004_3.00A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C21004_300A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C21004" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21004" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A_24V_自恢复型">
+        <deviceset name="15A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C32404_1.5A_24V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C32404_15A_24V_CN_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C32404" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="X_C182976_15A_24V_CN_1206" package="FUSE_1206">
+              <connects>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C182976" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="15A" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="X_C179796_15A_24V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C32404" constant="no"/>
+                  <attribute name="LCSC_PART" value="C179796" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C78695_1.5A_24V_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C78695_15A_24V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C78695" constant="no"/>
+                  <attribute name="LCSC_PART" value="C78695" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.2A_自恢复型">
+        <deviceset name="02A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C35456_0.2A_自恢复型_1812" package="FUSE_1812">
+            <device name="X_C35456_02A_CN_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C35456" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.2A" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="X_C135356_02A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C35456" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135356" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A">
+        <deviceset name="050A" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C43379_0.50A_1206" package="FUSE_1206">
+            <device name="X_C43379_050A_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C43379" constant="no"/>
+                  <attribute name="LCSC_PART" value="C43379" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="5A_24V_快断">
+        <deviceset name="5A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C48332_5A_24V_快断_1206" package="FUSE_1206">
+            <device name="X_C48332_5A_24V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C48332" constant="no"/>
+                  <attribute name="LCSC_PART" value="C48332" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A__自恢复保险丝">
+        <deviceset name="05A__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C63614_0.5A__自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C63614_05A__CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C63614" constant="no"/>
+                  <attribute name="LCSC_PART" value="C63614" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.1A_8V__自恢复保险丝">
+        <deviceset name="11A_8V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C66450_1.1A_8V__自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C66450_11A_8V__CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C66450" constant="no"/>
+                  <attribute name="LCSC_PART" value="C66450" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A_6V_自恢复保险管">
+        <deviceset name="1A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C66453_1A_6V_自恢复保险管_1206" package="FUSE_1206">
+            <device name="X_C66453_1A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C66453" constant="no"/>
+                  <attribute name="LCSC_PART" value="C66453" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.2A_30V__自恢复保险丝">
+        <deviceset name="02A_30V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C69680_0.2A_30V__自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C69680_02A_30V__CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C69680" constant="no"/>
+                  <attribute name="LCSC_PART" value="C69680" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_6V__自恢复保险丝">
+        <deviceset name="05A_6V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C69688_0.5A_6V__自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C69688_05A_6V__CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C69688" constant="no"/>
+                  <attribute name="LCSC_PART" value="C69688" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3A_8V__自恢复保险丝">
+        <deviceset name="3A_8V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C69689_3A_8V__自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C69689_3A_8V__CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C69689" constant="no"/>
+                  <attribute name="LCSC_PART" value="C69689" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.1A_16V__自恢复保险丝">
+        <deviceset name="11A_16V__CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C69691_1.1A_16V__自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C69691_11A_16V__CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C69691" constant="no"/>
+                  <attribute name="LCSC_PART" value="C69691" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.05A__60V_自恢复保险丝">
+        <deviceset name="005A__60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70064_0.05A__60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70064_005A__60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70064" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70064" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.05A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.1A__60V_自恢复保险丝">
+        <deviceset name="01A__60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70065_0.1A__60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70065_01A__60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70065" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70065" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.12A__60V_自恢复保险丝">
+        <deviceset name="012A__60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70066_0.12A__60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70066_012A__60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70066" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70066" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.12A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.2A__24V_自恢复保险丝">
+        <deviceset name="02A__24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70067_0.2A__24V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70067_02A__24V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70067" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70067" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.25A_16V_自恢复">
+        <deviceset name="025A_16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70068_0.25A_16V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70068_025A_16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70068" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70068" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.25A_24V_自恢复">
+        <deviceset name="025A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70069_0.25A_24V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70069_025A_24V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70069" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70069" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.25A__30V_自恢复保险丝">
+        <deviceset name="025A__30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70070_0.25A__30V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70070_025A__30V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70070" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70070" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.35A_6V_自恢复">
+        <deviceset name="035A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70071_0.35A_6V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70071_035A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70071" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70071" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.35A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.35A_16V_自恢复">
+        <deviceset name="035A_16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70072_0.35A_16V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70072_035A_16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70072" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70072" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.35A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.35A_24V_自恢复">
+        <deviceset name="035A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70073_0.35A_24V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70073_035A_24V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70073" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70073" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.35A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A__13.2V_自恢复保险丝">
+        <deviceset name="050A__132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70074_0.50A__13.2V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70074_050A__132V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70074" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70074" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A__16V_自恢复保险丝">
+        <deviceset name="050A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70075_0.50A__16V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70075_050A__16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70075" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70075" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A__24V_自恢复保险丝">
+        <deviceset name="050A__24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70076_0.50A__24V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70076_050A__24V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70076" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70076" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A__33V_自恢复保险丝">
+        <deviceset name="050A__33V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70077_0.50A__33V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70077_050A__33V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70077" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70077" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C70112_0.50A__33V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70112_050A__33V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70112" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70112" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A_6V_自恢复">
+        <deviceset name="075A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70078_0.75A_6V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70078_075A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70078" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70078" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A_13.2V_自恢复">
+        <deviceset name="075A_132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70079_0.75A_13.2V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70079_075A_132V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C70079" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="X_C84140_075A_132V_CN_1812" package="FUSE_1812">
+              <connects>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70079" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84140" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A_16V_自恢复">
+        <deviceset name="075A_16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70080_0.75A_16V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70080_075A_16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70080" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70080" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A__13.2V_自恢复保险丝">
+        <deviceset name="1A__132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70081_1A__13.2V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70081_1A__132V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70081" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70081" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A__16V_自恢复保险丝">
+        <deviceset name="1A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70082_1A__16V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70082_1A__16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70082" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70082" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A_6V_自恢复">
+        <deviceset name="15A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70083_1.5A_6V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C70083_15A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70083" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70083" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A__13.2V_自恢复保险丝">
+        <deviceset name="15A__132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70084_1.5A__13.2V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70084_15A__132V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70084" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70084" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A__6V_自恢复保险丝">
+        <deviceset name="2A__6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70085_2A__6V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C70085_2A__6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70085" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70085" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.10A__30V_自恢复保险丝">
+        <deviceset name="010A__30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70105_0.10A__30V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70105_010A__30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70105" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70105" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.14A__60V_自恢复保险丝">
+        <deviceset name="014A__60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70106_0.14A__60V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70106_014A__60V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70106" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70106" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.14A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.20A__30V_自恢复保险丝">
+        <deviceset name="020A__30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70107_0.20A__30V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70107_020A__30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70107" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70107" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.20A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.30A_60V_自恢复">
+        <deviceset name="030A_60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70109_0.30A_60V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C70109_030A_60V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70109" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70109" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.30A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A_24V_自恢复">
+        <deviceset name="050A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70111_0.50A_24V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C70111_050A_24V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70111" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70111" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.50A__60V_自恢复保险丝">
+        <deviceset name="050A__60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70113_0.50A__60V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70113_050A__60V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70113" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70113" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A__13.2V_自恢复保险丝">
+        <deviceset name="075A__132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70114_0.75A__13.2V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70114_075A__132V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70114" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70114" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A__16V_自恢复保险丝">
+        <deviceset name="075A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70115_0.75A__16V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70115_075A__16V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70115" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70115" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A__33V_自恢复保险丝">
+        <deviceset name="075A__33V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70117_0.75A__33V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70117_075A__33V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70117" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70117" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C220153_0.75A__33V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C220153_075A__33V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C220153" constant="no"/>
+                  <attribute name="LCSC_PART" value="C220153" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.10A__24V_自恢复保险丝">
+        <deviceset name="110A__24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70118_1.10A__24V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70118_110A__24V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70118" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70118" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.10A__33V_自恢复保险丝">
+        <deviceset name="110A__33V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70119_1.10A__33V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70119_110A__33V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70119" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70119" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.10A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.25A__16V_自恢复保险丝">
+        <deviceset name="125A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70120_1.25A__16V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70120_125A__16V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70120" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70120" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.50A__8V_自恢复保险丝">
+        <deviceset name="150A__8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70121_1.50A__8V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70121_150A__8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70121" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70121" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.50A__16V_自恢复保险丝">
+        <deviceset name="150A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70122_1.50A__16V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70122_150A__16V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70122" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70122" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.50A__24V_自恢复保险丝">
+        <deviceset name="150A__24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70123_1.50A__24V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70123_150A__24V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70123" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70123" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A__8V_自恢复保险丝">
+        <deviceset name="2A__8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70124_2A__8V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70124_2A__8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70124" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70124" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A__16V_自恢复保险丝">
+        <deviceset name="2A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70126_2A__16V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70126_2A__16V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70126" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70126" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2.60A_8V_自恢复">
+        <deviceset name="260A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70127_2.60A_8V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C70127_260A_8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70127" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70127" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.60A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3.50A_6V_自恢复">
+        <deviceset name="350A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70130_3.50A_6V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C70130_350A_6V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70130" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70130" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3.50A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3.75A_6V_自恢复">
+        <deviceset name="375A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70131_3.75A_6V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C70131_375A_6V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70131" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70131" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="4.00A__6V_自恢复保险丝">
+        <deviceset name="400A__6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70132_4.00A__6V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70132_400A__6V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70132" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70132" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="4.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.1A_6V_自恢复">
+        <deviceset name="11A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C71465_1.1A_6V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C71465_11A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C71465" constant="no"/>
+                  <attribute name="LCSC_PART" value="C71465" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-            <device name="*C89654_1.1A_6V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C89654_11A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C89654" constant="no"/>
+                  <attribute name="LCSC_PART" value="C89654" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.60A_8V_自恢复">
+        <deviceset name="160A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C71467_1.60A_8V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C71467_160A_8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C71467" constant="no"/>
+                  <attribute name="LCSC_PART" value="C71467" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.60A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_13.2V_自恢复保险丝">
+        <deviceset name="05A_132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C75464_0.5A_13.2V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C75464_05A_132V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C75464" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="0.75A_13.2V_自恢复保险丝">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C84140_0.75A_13.2V_自恢复保险丝_1812" package="FUSE_1812">
-              <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C84140" constant="no"/>
+                  <attribute name="LCSC_PART" value="C75464" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3A_63V_快断">
+        <deviceset name="3A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182441_3A_63V_快断_1206" package="FUSE_1206">
+            <device name="X_C182441_3A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182441" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182441" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="5A_32V_快断">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C182442_5A_32V_快断_1206" package="FUSE_1206">
+            <device name="X_C182445_3A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182442" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182445" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="20A_24V_快断">
+        <deviceset name="5A_32V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182443_20A_24V_快断_1206" package="FUSE_1206">
+            <device name="X_C182442_5A_32V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182443" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182442" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="2.5A_63V_熔断式">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C182444_2.5A_63V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C182446_5A_32V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182444" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182446" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="3A_63V_熔断式">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C182445_3A_63V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C187597_5A_32V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182445" constant="no"/>
+                  <attribute name="LCSC_PART" value="C187597" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="5A_32V_熔断式">
+        <deviceset name="20A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182446_5A_32V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C182443_20A_24V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182446" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182443" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="20A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="750mA_125V_快断">
+        <deviceset name="25A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182447_750mA_125V_快断_1206" package="FUSE_1206">
+            <device name="X_C182444_25A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182447" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182444" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A_125V_快断">
+        <deviceset name="750MA_125V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182449_1.5A_125V_快断_1206" package="FUSE_1206">
+            <device name="X_C182447_750MA_125V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182449" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182447" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="750mA" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A_125V_快断">
+        <deviceset name="15A_125V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182974_1A_125V_快断_1206" package="FUSE_1206">
+            <device name="X_C182449_15A_125V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182974" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182449" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3.5A_63V_熔断式">
+        <deviceset name="1A_125V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182975_3.5A_63V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C182974_1A_125V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182975" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182974" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="15A_24V_快断">
+        <deviceset name="35A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182976_15A_24V_快断_1206" package="FUSE_1206">
+            <device name="X_C182975_35A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182976" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182975" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.35A__16V_自恢复保险丝">
+        <deviceset name="035A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C183288_0.35A__16V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C183288_035A__16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C183288" constant="no"/>
+                  <attribute name="LCSC_PART" value="C183288" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.35A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.75A__8V_自恢复保险丝">
+        <deviceset name="075A__8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C183290_0.75A__8V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C183290_075A__8V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C183290" constant="no"/>
+                  <attribute name="LCSC_PART" value="C183290" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.75A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A__6V_自恢复保险丝">
+        <deviceset name="1A__6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C183292_1A__6V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C183292_1A__6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C183292" constant="no"/>
+                  <attribute name="LCSC_PART" value="C183292" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A__8V_自恢复保险丝">
+        <deviceset name="15A__8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C183293_1.5A__8V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C183293_15A__8V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C183293" constant="no"/>
+                  <attribute name="LCSC_PART" value="C183293" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A_63V_快断">
+        <deviceset name="1A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182305_1A_63V_快断_1206" package="FUSE_1206">
+            <device name="X_C182305_1A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182305" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182305" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1.5A_63V_快断">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C182307_1.5A_63V_快断_1206" package="FUSE_1206">
+            <device name="X_C182308_1A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182307" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182308" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A_63V_熔断式">
+        <deviceset name="15A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182308_1A_63V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C182307_15A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182308" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182307" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1.5A_63V_熔断式">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C182309_1.5A_63V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C182309_15A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182309" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182309" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A_63V_熔断式">
+        <deviceset name="2A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C182310_2A_63V_熔断式_1206" package="FUSE_1206">
+            <device name="X_C182310_2A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C182310" constant="no"/>
+                  <attribute name="LCSC_PART" value="C182310" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="0.25A__16V_自恢复保险丝">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C183286_0.25A__16V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C354895_2A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C183286" constant="no"/>
+                  <attribute name="LCSC_PART" value="C354895" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="5A_32V_特快熔断">
+        <deviceset name="025A__16V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C187597_5A_32V_特快熔断_1206" package="FUSE_1206">
+            <device name="X_C183286_025A__16V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C187597" constant="no"/>
+                  <attribute name="LCSC_PART" value="C183286" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.25A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="30V_50mA_自恢复">
+        <deviceset name="30V_50MA_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C261946_30V_50mA_自恢复_1206" package="FUSE_1206">
+            <device name="X_C261946_30V_50MA_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C261946" constant="no"/>
+                  <attribute name="LCSC_PART" value="C261946" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="30V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="30V_120mA_自恢复">
+        <deviceset name="30V_120MA_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C261948_30V_120mA_自恢复_1206" package="FUSE_1206">
+            <device name="X_C261948_30V_120MA_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C261948" constant="no"/>
+                  <attribute name="LCSC_PART" value="C261948" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="30V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="60V_100mA_自恢复">
+        <deviceset name="60V_100MA_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C262018_60V_100mA_自恢复_1812" package="FUSE_1812">
+            <device name="X_C262018_60V_100MA_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C262018" constant="no"/>
+                  <attribute name="LCSC_PART" value="C262018" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="60V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.1A_8Vdc">
+        <deviceset name="11A_8VDC" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C163516_1.1A_8Vdc_1812" package="FUSE_1812">
+            <device name="X_C163516_11A_8VDC_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C163516" constant="no"/>
+                  <attribute name="LCSC_PART" value="C163516" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="16V_1.6A_自恢复">
+        <deviceset name="16V_16A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C262031_16V_1.6A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C262031_16V_16A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C262031" constant="no"/>
+                  <attribute name="LCSC_PART" value="C262031" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="16V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A_自恢复">
+        <deviceset name="2A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135342_2A_自恢复_1206" package="FUSE_1206">
+            <device name="X_C135342_2A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135342" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135342" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.20A_60V_自恢复保险丝">
+        <deviceset name="020A_60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C70108_0.20A_60V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C70108_020A_60V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C70108" constant="no"/>
+                  <attribute name="LCSC_PART" value="C70108" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.20A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="24V_1.5A">
+        <deviceset name="24V_15A" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C269140_24V_1.5A_1812" package="FUSE_1812">
+            <device name="X_C269140_24V_15A_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C269140" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="63VDC_750mA_快断">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C207150_63VDC_750mA_快断_1206" package="FUSE_1206">
-              <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C207150" constant="no"/>
+                  <attribute name="LCSC_PART" value="C269140" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="24V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_15V">
+        <deviceset name="63VDC_750MA_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C170165_0.5A_15V_1206" package="FUSE_1206">
+            <device name="X_C207150_63VDC_750MA_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C170165" constant="no"/>
+                  <attribute name="LCSC_PART" value="C207150" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="63VDC" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_15V_自恢复保险丝">
+        <deviceset name="05A_15V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C106264_0.5A_15V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C170165_05A_15V_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C106264" constant="no"/>
+                  <attribute name="LCSC_PART" value="C170165" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.05A_60V_自恢复保险丝">
+        <deviceset name="005A_60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369153_0.05A_60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C369153_005A_60V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369153" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369153" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.05A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1A_63V">
+        <deviceset name="1A_63V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C310957_1A_63V_1206" package="FUSE_1206">
+            <device name="X_C310957_1A_63V_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C310957" constant="no"/>
+                  <attribute name="LCSC_PART" value="C310957" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="15.0A_32VDC">
+        <deviceset name="150A_32VDC" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C311035_15.0A_32VDC_1206" package="FUSE_1206">
+            <device name="X_C311035_150A_32VDC_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C311035" constant="no"/>
+                  <attribute name="LCSC_PART" value="C311035" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="15.0A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3A_自恢复">
+        <deviceset name="3A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135366_3A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C135366_3A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135366" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135366" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="4A_63V">
+        <deviceset name="4A_63V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C354899_4A_63V_1206" package="FUSE_1206">
+            <device name="X_C354899_4A_63V_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C354899" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1.5A_24V_自恢复保险丝">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="*C179796_1.5A_24V_自恢复保险丝_1812" package="FUSE_1812">
-              <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C179796" constant="no"/>
+                  <attribute name="LCSC_PART" value="C354899" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="4A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="24V_500mA">
+        <deviceset name="24V_500MA" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C207201_24V_500mA_1812" package="FUSE_1812">
+            <device name="X_C207201_24V_500MA_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C207201" constant="no"/>
+                  <attribute name="LCSC_PART" value="C207201" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="24V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.1A_33V_自恢复保险丝">
+        <deviceset name="11A_33V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369173_1.1A_33V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C369173_11A_33V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369173" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369173" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="4A_63V_慢断">
+        <deviceset name="4A_63V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C140479_4A_63V_慢断_1206" package="FUSE_1206">
+            <device name="X_C140479_4A_63V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C140479" constant="no"/>
+                  <attribute name="LCSC_PART" value="C140479" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="4A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1206_0.5A_13.2V_自恢复保险丝">
+        <deviceset name="1206_05A_132V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369159_1206_0.5A_13.2V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C369159_1206_05A_132V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369159" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369159" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1206" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="12V_2.6A">
+        <deviceset name="12V_26A" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C207183_12V_2.6A_1812" package="FUSE_1812">
+            <device name="X_C207183_12V_26A_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C207183" constant="no"/>
+                  <attribute name="LCSC_PART" value="C207183" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="12V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="SMD1812B260TF/12">
+        <deviceset name="SMD1812B260TF12" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C269147_SMD1812B260TF/12_1812" package="FUSE_1812">
+            <device name="X_C269147_SMD1812B260TF12_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C269147" constant="no"/>
+                  <attribute name="LCSC_PART" value="C269147" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="SMD1812B260TF/12" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A_自恢复">
+        <deviceset name="15A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135341_1.5A_自恢复_1206" package="FUSE_1206">
+            <device name="X_C135341_15A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135341" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135341" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3A_16V">
+        <deviceset name="3A_16V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C55996_3A_16V_1812" package="FUSE_1812">
+            <device name="X_C55996_3A_16V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C55996" constant="no"/>
+                  <attribute name="LCSC_PART" value="C55996" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.3A_30V_自恢复保险丝">
+        <deviceset name="03A_30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369166_0.3A_30V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C369166_03A_30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369166" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369166" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.3A__60V">
+        <deviceset name="03A__60V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C117855_0.3A__60V_1812" package="FUSE_1812">
+            <device name="X_C117855_03A__60V_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C117855" constant="no"/>
+                  <attribute name="LCSC_PART" value="C117855" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.3A_自恢复">
+        <deviceset name="03A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135357_0.3A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C135357_03A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135357" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135357" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="16V_1.25A">
+        <deviceset name="16V_125A" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369557_16V_1.25A_1812" package="FUSE_1812">
+            <device name="X_C369557_16V_125A_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369557" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369557" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="16V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.25A_自恢复">
+        <deviceset name="6A_24V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135361_1.25A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C311006_6A_24V_1206" package="FUSE_1206">
               <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135361" constant="no"/>
+                  <attribute name="LCSC_PART" value="C311006" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="6A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="6A_24V">
+        <deviceset name="2A_6V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C311006_6A_24V_1206" package="FUSE_1206">
+            <device name="X_C207216_2A_6V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C311006" constant="no"/>
+                  <attribute name="LCSC_PART" value="C207216" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A_6V_可恢复保险丝">
+        <deviceset name="30V_100MA_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C207216_2A_6V_可恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C261947_30V_100MA_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C207216" constant="no"/>
+                  <attribute name="LCSC_PART" value="C261947" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="30V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2A_63V_编带">
+        <deviceset name="012A__48V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C354895_2A_63V_编带_1206" package="FUSE_1206">
+            <device name="X_C220144_012A__48V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C354895" constant="no"/>
+                  <attribute name="LCSC_PART" value="C220144" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.12A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="30V_100mA_自恢复">
+        <deviceset name="015A_60V_15S_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C261947_30V_100mA_自恢复_1206" package="FUSE_1206">
+            <device name="X_C181348_015A_60V_15S_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C261947" constant="no"/>
+                  <attribute name="LCSC_PART" value="C181348" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.15A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.12A__48V_自恢复保险丝">
+        <deviceset name="05A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C220144_0.12A__48V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C135338_05A_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C220144" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135338" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.15A_60V_1.5S_自恢复保险丝">
+        <deviceset name="16V_750MA_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C181348_0.15A_60V_1.5S_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C262024_16V_750MA_CN_1812" package="FUSE_1812">
               <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C181348" constant="no"/>
+                  <attribute name="LCSC_PART" value="C262024" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="16V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_自恢复">
+        <deviceset name="24V_750MA" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135338_0.5A_自恢复_1206" package="FUSE_1206">
+            <device name="X_C208467_24V_750MA_1812" package="FUSE_1812">
               <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135338" constant="no"/>
+                  <attribute name="LCSC_PART" value="C208467" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="24V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="16V_750mA_自恢复">
+        <deviceset name="500MA_30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C262024_16V_750mA_自恢复_1812" package="FUSE_1812">
+            <device name="X_C151168_500MA_30V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C262024" constant="no"/>
+                  <attribute name="LCSC_PART" value="C151168" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="500mA" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="24V_750mA">
+        <deviceset name="CN_1206_01A_60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C208467_24V_750mA_1812" package="FUSE_1812">
+            <device name="X_C369154_CN_1206_01A_60V_CN_1206" package="FUSE_1206">
               <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C208467" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369154" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="贴片保险丝" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="500mA_30V_自恢复">
+        <deviceset name="01A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C151168_500mA_30V_自恢复_1812" package="FUSE_1812">
+            <device name="X_C135334_01A_CN_1206" package="FUSE_1206">
               <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C151168" constant="no"/>
+                  <attribute name="LCSC_PART" value="C135334" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.1A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="贴片保险丝_1206_0.1A_60V_自恢复保险丝">
+        <deviceset name="3A_32V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369154_贴片保险丝_1206_0.1A_60V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C208499_3A_32V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369154" constant="no"/>
+                  <attribute name="LCSC_PART" value="C208499" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="3A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.1A_自恢复">
+        <deviceset name="15A_12V" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135334_0.1A_自恢复_1206" package="FUSE_1206">
+            <device name="X_C315895_15A_12V_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135334" constant="no"/>
+                  <attribute name="LCSC_PART" value="C315895" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="3A_32V_快断">
+        <deviceset name="500MA_15V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C208499_3A_32V_快断_1206" package="FUSE_1206">
+            <device name="X_C151162_500MA_15V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C208499" constant="no"/>
+                  <attribute name="LCSC_PART" value="C151162" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="500mA" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.2A_自恢复">
+        <deviceset name="20A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C135356_0.2A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C89650_20A_8V_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C135356" constant="no"/>
+                  <attribute name="LCSC_PART" value="C89650" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="2.0A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1.5A_12V">
+        <deviceset name="8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C315895_1.5A_12V_1206" package="FUSE_1206">
+            <device name="X_C126818_8V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C315895" constant="no"/>
+                  <attribute name="LCSC_PART" value="C126818" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="8V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="500mA_15V_自恢复">
+        <deviceset name="6V_3A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C151162_500mA_15V_自恢复_1206" package="FUSE_1206">
+            <device name="X_C262035_6V_3A_CN_1812" package="FUSE_1812">
               <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C151162" constant="no"/>
+                  <attribute name="LCSC_PART" value="C262035" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="6V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="2.0A_8V_自恢复保险丝">
+        <deviceset name="16V_25A_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C89650_2.0A_8V_自恢复保险丝_1812" package="FUSE_1812">
+            <device name="X_C262033_16V_25A_CN_1812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C89650" constant="no"/>
+                  <attribute name="LCSC_PART" value="C262033" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="16V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="8V_可复位">
+        <deviceset name="60V_02A" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C126818_8V_可复位_1206" package="FUSE_1206">
+            <device name="X_C269125_60V_02A_1812" package="FUSE_1812">
               <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C126818" constant="no"/>
+                  <attribute name="LCSC_PART" value="C269125" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="60V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="6V_3A_自恢复">
+        <deviceset name="05A_24V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C262035_6V_3A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C209741_05A_24V_CN_1206" package="FUSE_1206">
               <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C262035" constant="no"/>
+                  <attribute name="LCSC_PART" value="C209741" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="16V_2.5A_自恢复">
+        <deviceset name="05A_8V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C262033_16V_2.5A_自恢复_1812" package="FUSE_1812">
+            <device name="X_C220147_05A_8V_CN_1206" package="FUSE_1206">
               <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C262033" constant="no"/>
+                  <attribute name="LCSC_PART" value="C220147" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.5A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="60V_0.2A">
+        <deviceset name="1206CN_32V_7A_CNULCN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C269125_60V_0.2A_1812" package="FUSE_1812">
+            <device name="X_C364827_1206CN_32V_7A_CNULCN_1206" package="FUSE_1206">
               <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
+                <connect gate="F$1" pin="1" pad="2"/>
+                <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C269125" constant="no"/>
+                  <attribute name="LCSC_PART" value="C364827" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="1206慢断" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_24V_可恢复保险丝">
+        <deviceset name="CN_1206_012A_30V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C209741_0.5A_24V_可恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C369155_CN_1206_012A_30V_CN_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C209741" constant="no"/>
+                  <attribute name="LCSC_PART" value="C369155" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="贴片保险丝" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0.5A_8V_自恢复保险丝">
+        <deviceset name="014A_60V_CN" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C220147_0.5A_8V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C495356_014A_60V_CN_1812" package="FUSE_1812">
               <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
+                <connect gate="F$1" pin="1" pad="1"/>
+                <connect gate="F$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C220147" constant="no"/>
+                  <attribute name="LCSC_PART" value="C495356" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0.14A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1206慢断_32V_7A_一次性贴片保险丝-UL安规认证产品">
+        <deviceset name="32V_5A" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C364827_1206慢断_32V_7A_一次性贴片保险丝-UL安规认证产品_1206" package="FUSE_1206">
+            <device name="X_C163128_32V_5A_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C364827" constant="no"/>
+                  <attribute name="LCSC_PART" value="C163128" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="32V" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="贴片保险丝_1206_0.12A_30V_自恢复保险丝">
+        <deviceset name="800A_32VDC" prefix="F">
           <gates>
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="*C369155_贴片保险丝_1206_0.12A_30V_自恢复保险丝_1206" package="FUSE_1206">
+            <device name="X_C311032_800A_32VDC_1206" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C369155" constant="no"/>
+                  <attribute name="LCSC_PART" value="C311032" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="8.00A" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
       </devicesets>
-      <description>hello</description>
     </library>
   </drawing>
   <compatibility>
+    <note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
     <note version="8.3" severity="warning">
-            Since Version 8.3, EAGLE supports URNs for individual library
-            assets (packages, symbols, and devices). The URNs of those assets
-            will not be understood (or retained) with this version.
-        </note>
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
   </compatibility>
 </eagle>

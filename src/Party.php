@@ -2,6 +2,7 @@
 namespace Party;
 use Cache\Adapter\Apcu\ApcuCachePool;
 use Cache\Bridge\SimpleCache\SimpleCacheBridge;
+use ForceUTF8\Encoding;
 use GuzzleHttp\Client as Guzzle;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
@@ -80,8 +81,8 @@ class Party{
     {
         $device = $libraryFile->createElement('device');
         $device->setAttribute('name', sprintf(
-            "%s%s_%s_%s",
-            $component->isExpanded() ? "*" : "",
+            "%s_%s_%s_%s",
+            $component->isExpanded() ? "X" : "",
             $component->getLcscPartNumber(),
             $component->pickDeviceName(),
             $component->getPackage()
@@ -94,7 +95,7 @@ class Party{
 
         // Add a JLCPCB Part number
         $partNumber = $libraryFile->createElement('attribute');
-        $partNumber->setAttribute("name", "LSCS_PART_NO");
+        $partNumber->setAttribute("name", "LCSC_PART");
         $partNumber->setAttribute("value", $component->getLcscPartNumber());
         $partNumber->setAttribute("constant", "no");
         $technology->appendChild($partNumber);
@@ -104,8 +105,16 @@ class Party{
         $isBasic->setAttribute("name", "JLCPCB_IS_BASIC");
         $isBasic->setAttribute("value", $component->isExpanded() ? "no" : "yes");
         $isBasic->setAttribute("constant", "no");
-
         $technology->appendChild($isBasic);
+
+        // Label its value
+        $value = $libraryFile->createElement('attribute');
+        $value->setAttribute("name", "VALUE");
+        $value->setAttribute("value", $component->pickValue());
+        $value->setAttribute("constant", "no");
+        $technology->appendChild($value);
+
+        // Glue the XML together.
         $technologies->appendChild($technology);
         $device->appendChild($technologies);
 
@@ -150,6 +159,12 @@ class Party{
         $libraryFile->formatOutput = true;
         $libraryFile->loadXML(file_get_contents( "assets/empty.lbr"));
         $xpath = new \DOMXPath($libraryFile);
+
+        $description = $libraryFile->createElement("description", "JLCPCB automatically generated library");
+        $packages = $xpath->query("//packages");
+        $packagesElem = $packages->item(0);
+        $packagesElem->parentNode->insertBefore($description, $packagesElem);
+
         /** @var \DOMElement $deviceSets */
         $deviceSets = $libraryFile->getElementsByTagName('devicesets')[0];
 
@@ -170,20 +185,34 @@ class Party{
             }
             $referencedPackages[] = $component->pickPackage();
             $referencedSymbols[] = $component->pickSymbol();
+
             $existingDeviceSet = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]");
             if($existingDeviceSet->count() > 0) {
-                $newDeviceSet = $existingDeviceSet->item(0);
+                //$deviceSet = $existingDeviceSet->item(0);
                 $devices = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]/devices");
                 $devices->item(0)->appendChild($this->generateDeviceDevice($libraryFile, $component));
             }else{
-                $newDeviceSet = $libraryFile->createElement('deviceset');
-                $deviceSets->appendChild($newDeviceSet);
-                $newDeviceSet->appendChild($this->generateDeviceGates($libraryFile, $component));
+                $deviceSet = $libraryFile->createElement('deviceset');
+                $deviceSets->appendChild($deviceSet);
+                $deviceSet->appendChild($this->generateDeviceGates($libraryFile, $component));
                 $devices = $libraryFile->createElement('devices');
-                $newDeviceSet->appendChild($devices);
+                $deviceSet->appendChild($devices);
                 $devices->appendChild($this->generateDeviceDevice($libraryFile, $component));
+                $deviceSet->setAttribute('name', $component->pickDeviceName());
+                $deviceSet->setAttribute('prefix', $component->pickPrefix());
+                unset($deviceSet);
             }
-            $newDeviceSet->setAttribute('name', $component->pickDeviceName());
+
+            if($component->pickDeviceName() == ""){
+                \Kint::dump(
+                    $component,
+                    $component->pickDeviceName()
+                );
+                die("Device name cannot be empty\n");
+            }
+
+            //$newDeviceSet->setAttribute('uuid' , $component->pickDeviceUUID());
+
             $componentsAdded++;
         }
 
@@ -224,9 +253,6 @@ class Party{
             }
         }
 
-        $description = $libraryFile->createElement("description", "hello");
-        $xpath->query("//library")[0]->appendChild($description);
-
         $prettyOutputFilename = sprintf(
             "lbr/%s.lbr",
             $componentGroupName
@@ -258,7 +284,8 @@ class Party{
 
         foreach($this->components as $component){
             /** @var Component $component */
-            $groups[$component->getCategoryFirst()][] = $component;
+            $groupName = sprintf("%s.%s", $component->getCategoryFirst(), $component->isExpanded() ? 'expanded' : 'basic');
+            $groups[$groupName][] = $component;
         }
 
         return $groups;
@@ -266,10 +293,11 @@ class Party{
 
     public function build() : void
     {
+        echo "Building EAGLE libraries ... \n";
+
         $this->downloadSheet();
 
         $this->readSheet();
-        #$this->readSheet(self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
 
         $this->debug(sprintf(
             "Found %d components in latest version of %s\n",
@@ -288,7 +316,7 @@ class Party{
 
     private function debug(string $message) : void
     {
-        echo $message . "\n";
+        //echo $message . "\n";
         file_put_contents(
             "validation.log",
             $test = preg_replace('#\\x1b[[][^A-Za-z]*[A-Za-z]#', '', $message) . "\n",

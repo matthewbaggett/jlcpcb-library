@@ -2,6 +2,11 @@
 
 namespace Party;
 
+use ForceUTF8\Encoding;
+use Gone\UUID\UUID;
+use Stichoza\GoogleTranslate\GoogleTranslate;
+use Symfony\Component\Yaml\Yaml;
+
 class Component
 {
     private string $lcscPartNumber;
@@ -12,26 +17,102 @@ class Component
     private int $padCount;
     private string $manufacturer;
     private bool $isExpanded;
+    private bool $valid = true;
 
     public function getDebugName(): string
     {
         return sprintf("%s's %s", $this->getManufacturer(), $this->pickDeviceName());
     }
 
-    public function pickDeviceName(): string
+    public function pickValue() : string
     {
-        return str_replace(" ", "_", $this->getManufacturerPart());
-        return sprintf(
-            "%s_%s",
-            $this->getLcscPartNumber(),
-            str_replace(" ", "_", $this->getManufacturerPart())
-        );
+        if(stripos($this->getManufacturerPart()," ") !== false){
+            $part = substr($this->getManufacturerPart(),0, stripos($this->getManufacturerPart(), " "));
+            if(stripos($part, "(") !== false) {
+                $part = substr($part, 0, stripos($part, "("));
+            }
+            return $part;
+        }
+        return $this->getManufacturerPart();
+    }
+
+    public function pickDeviceUUID() : string
+    {
+        return UUID::v4Hash([$this->pickDeviceName()]);
+    }
+
+    private array $translations = [];
+    public function translate($input) : string{
+        $tr = new GoogleTranslate('en'); // Translates into English
+        $translationFile = __DIR__ . "/../cache/translations.yaml";
+
+        if(empty(!$this->translations) && file_exists($translationFile)){
+            $this->translations = Yaml::parseFile($translationFile);
+        }
+        if(!isset($this->translations[$input])){
+            try {
+                $this->translations[$input] = $tr->translate($input);
+                file_put_contents($translationFile, Yaml::dump($this->translations));
+            }catch(\ErrorException $errorException){
+                $this->valid = false;
+                $this->debug(sprintf(
+                    "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not translate %s because %s!",
+                    $this->getDebugName(),
+                    $this->getLcscPartNumber(),
+                    $input,
+                    $errorException->getMessage()
+                ));
+            }
+        }
+
+        return $this->translations[$input];
+    }
+
+    public function pickDeviceName(): ?string
+    {
+        // Get the ManufacturerPart
+        $part = trim($this->getManufacturerPart());
+
+        // Make sure its converted to UTF8
+        $part = Encoding::toUTF8($part);
+
+        // Detect chinese, translate to english characters.
+        if(preg_match("/\p{Han}+/u", $part)){
+            $part = preg_replace("/\p{Han}+/u", 'CN', $part);
+            //return null;
+            //$part = $this->translate($part);
+        }
+
+        $part = preg_replace("/[^A-Za-z0-9_Ω% ]/", '', $part);
+
+        // Replace spaces with underscores.
+        $part = str_replace(" ", "_", $part);
+
+        // Uppercase it.
+        $part = strtoupper($part);
+
+        // Finally, fix any utf8 wierdness.
+        $part = Encoding::fixUTF8($part, Encoding::ICONV_IGNORE);
+
+        return $part;
     }
 
     public function pickGateName(): string
     {
         $magicLetter = strtoupper(substr($this->getCategoryFirst(), 0, 1));
         return "{$magicLetter}\$1";
+    }
+
+    public function pickPrefix(): ?string
+    {
+        switch($this->pickSymbol()){
+            case 'CRYSTAL':
+                return 'Y';
+            case 'LED':
+                return 'D';
+            default:
+                return substr($this->pickSymbol(),0,1);
+        }
     }
 
     public function pickSymbol(): ?string
@@ -97,7 +178,7 @@ class Component
 
     private function debug(string $message) : void
     {
-        echo $message . "\n";
+        //echo $message . "\n";
         file_put_contents(
             "validation.log",
             $test = preg_replace('#\\x1b[[][^A-Za-z]*[A-Za-z]#', '', $message) . "\n",
@@ -107,6 +188,14 @@ class Component
 
     public function isValid(\DOMXPath $xpath): bool
     {
+        if( $this->pickDeviceName() === null){
+            $this->debug(sprintf(
+                "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not generate a device name!",
+                $this->getDebugName(),
+                $this->getLcscPartNumber()
+            ));
+            return false;
+        }
         if(!$this->pickSymbol()){
             $this->debug(sprintf(
                 "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not pick a symbol suitable for category \e[0,34m%s\e[0m!",

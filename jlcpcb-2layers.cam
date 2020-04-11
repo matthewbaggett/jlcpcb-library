@@ -1,7 +1,7 @@
 {
     "author": {
-        "email": "x@brainrapers.org",
-        "name": "OXullo Intersecans"
+        "email": "matthew@baggett.me",
+        "name": "Matthew Baggett"
     },
     "description": {
         "EN": "JLCPCB 2 Layers CAM job"
@@ -206,16 +206,30 @@
             "filename_prefix": "CAMOutputs/Assembly",
             "output_type": "assembly",
             "outputs": [
+                {
+                    "filename_format": "%ASSEMBLYPREFIX/%N",
+                    "list_attribute": true,
+                    "list_type": "parts",
+                    "name": "Bill of Material",
+                    "output_format": "csv",
+                    "type": "bom"
+                }
             ]
         },
         {
             "filename_prefix": "CAMOutputs/DrawingFiles",
             "output_type": "drawing",
             "outputs": [
+                {
+                    "filename_format": "%DRAWINGPREFIX/%N.dxf",
+                    "name": "dxf",
+                    "signals_on_individual_layers": false,
+                    "type": "DXF"
+                }
             ]
         }
     ],
-    "timestamp": "2019-09-21T18:34:01",
+    "timestamp": "2020-04-11T05:18:14",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"

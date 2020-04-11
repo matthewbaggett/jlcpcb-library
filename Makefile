@@ -1,10 +1,15 @@
-all: build missing-packages
+all: reset build missing-packages
+
+reset:
+	reset
 
 install:
-	@composer install
+	@composer install --optimize-autoloader
 
-build: install
+clean:
 	@rm -f validation.log assets/*.l#*
+
+build: install clean
 	@php build.php
 	@#docker run --rm -it -v $PWD:/app gone/php:cli-7.4 php /app/build.php
 

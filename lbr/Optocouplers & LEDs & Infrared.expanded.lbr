@@ -162,6 +162,7 @@
       <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
     </layers>
     <library>
+      <description>JLCPCB automatically generated library</description>
       <packages>
         <package name="LED_0805" urn="urn:adsk.eagle:footprint:15674/1" locally_modified="yes">
           <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
@@ -219,53 +220,58 @@
         </symbol>
       </symbols>
       <devicesets>
-        <deviceset name="17-21/R6C-AQ2R2B/3T">
+        <deviceset name="1721R6CAQ2R2B3T" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="*C113551_17-21/R6C-AQ2R2B/3T_0805" package="LED_0805">
+            <device name="X_C113551_1721R6CAQ2R2B3T_0805" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C113551" constant="no"/>
+                  <attribute name="LCSC_PART" value="C113551" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="17-21/R6C-AQ2R2B/3T" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0805_红色">
+        <deviceset name="0805_CN" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="*C205444_0805_红色_0805" package="LED_0805">
+            <device name="X_C205444_0805_CN_0805" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LSCS_PART_NO" value="C205444" constant="no"/>
+                  <attribute name="LCSC_PART" value="C205444" constant="no"/>
                   <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
+                  <attribute name="VALUE" value="0805" constant="no"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
       </devicesets>
-      <description>hello</description>
     </library>
   </drawing>
   <compatibility>
+    <note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
     <note version="8.3" severity="warning">
-            Since Version 8.3, EAGLE supports URNs for individual library
-            assets (packages, symbols, and devices). The URNs of those assets
-            will not be understood (or retained) with this version.
-        </note>
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
   </compatibility>
 </eagle>

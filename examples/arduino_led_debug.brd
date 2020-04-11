@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -163,32 +163,17 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="-0.8025" y1="0" x2="19.1975" y2="0" width="0" layer="20"/>
+<wire x1="19.1975" y1="0" x2="19.1975" y2="20" width="0" layer="20"/>
+<wire x1="19.1975" y1="20" x2="2.0425" y2="20" width="0" layer="20"/>
+<wire x1="2.0425" y1="20" x2="-0.8025" y2="17.55" width="0" layer="20" curve="90"/>
+<wire x1="-0.8025" y1="17.55" x2="-0.8025" y2="0" width="0" layer="20"/>
+<wire x1="1.5875" y1="6.985" x2="1.27" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="1.27" y1="6.35" x2="1.905" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="1.905" y1="6.35" x2="1.5875" y2="6.985" width="0.4064" layer="21"/>
+<wire x1="1.5875" y1="6.985" x2="1.5875" y2="5.3975" width="0.4064" layer="21"/>
 </plain>
 <libraries>
-<library name="Resistors">
-<packages>
-<package name="RESISTOR_1206" urn="urn:adsk.eagle:footprint:23047/1" locally_modified="yes">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -277,7 +262,28 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 </package>
 </packages>
 </library>
-<library name="Optocouplers &amp; LEDs &amp; Infrared">
+<library name="Resistors.basic">
+<description>JLCPCB automatically generated library</description>
+<packages>
+<package name="RESISTOR_0402" urn="urn:adsk.eagle:footprint:23043/3" locally_modified="yes">
+<description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
+</package>
+</packages>
+</library>
+<library name="Optocouplers &amp; LEDs &amp; Infrared.expanded">
 <description>JLCPCB automatically generated library</description>
 <packages>
 <package name="LED_0805" urn="urn:adsk.eagle:footprint:15674/1" locally_modified="yes">
@@ -493,44 +499,147 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Resistors" package="RESISTOR_1206" value="1KΩ(1001)_±0.1%_C95522*1KΩ(1001)_±0.1%_C95522_1206" x="6.35" y="17.78" smashed="yes" rot="R90">
-<attribute name="JLCPCB_IS_BASIC" value="no" x="52.07" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LSCS_PART_NO" value="C95522" x="52.07" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.08" y="16.51" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="8.89" y="16.51" size="1.27" layer="27" rot="R90"/>
+<element name="J1" library="SparkFun-Connectors" package="1X07_LOCK" value="" x="1.5875" y="1.5875" smashed="yes">
+<attribute name="VALUE" x="0.3175" y="-0.4445" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="U$2" library="Optocouplers &amp; LEDs &amp; Infrared" package="LED_0805" value="17-21/R6C-AQ2R2B/3T*C113551_17-21/R6C-AQ2R2B/3T_0805" x="5.08" y="6.35" smashed="yes">
-<attribute name="JLCPCB_IS_BASIC" value="no" x="21.59" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="LSCS_PART_NO" value="C113551" x="21.59" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="3.81" y="5.08" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="7.62" y="5.08" size="1.27" layer="27" rot="R90"/>
+<element name="R1" library="Resistors.basic" package="RESISTOR_0402" value="1KΩ" x="16.8275" y="3.81" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="yes" x="16.8275" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C11702" x="16.8275" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="1X07_LOCK" value="" x="2.54" y="2.54" smashed="yes">
-<attribute name="NAME" x="1.27" y="3.937" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="1.27" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="R2" library="Resistors.basic" package="RESISTOR_0402" value="1KΩ" x="14.2875" y="3.81" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="yes" x="14.2875" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C11702" x="14.2875" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="Resistors.basic" package="RESISTOR_0402" value="1KΩ" x="11.7475" y="3.81" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="yes" x="11.7475" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C11702" x="11.7475" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="Resistors.basic" package="RESISTOR_0402" value="1KΩ" x="9.2075" y="3.81" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="yes" x="9.2075" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C11702" x="9.2075" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R5" library="Resistors.basic" package="RESISTOR_0402" value="1KΩ" x="6.6675" y="3.81" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="yes" x="6.6675" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C11702" x="6.6675" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="Resistors.basic" package="RESISTOR_0402" value="1KΩ" x="4.1275" y="3.81" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="yes" x="4.1275" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C11702" x="4.1275" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="Optocouplers &amp; LEDs &amp; Infrared.expanded" package="LED_0805" value="17-21/R6C-AQ2R2B/3T" x="16.8275" y="6.35" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="no" x="16.8275" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C113551" x="16.8275" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="Optocouplers &amp; LEDs &amp; Infrared.expanded" package="LED_0805" value="17-21/R6C-AQ2R2B/3T" x="14.2875" y="6.35" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="no" x="14.2875" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C113551" x="14.2875" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="Optocouplers &amp; LEDs &amp; Infrared.expanded" package="LED_0805" value="17-21/R6C-AQ2R2B/3T" x="11.7475" y="6.35" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="no" x="11.7475" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C113551" x="11.7475" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="Optocouplers &amp; LEDs &amp; Infrared.expanded" package="LED_0805" value="17-21/R6C-AQ2R2B/3T" x="9.2075" y="6.35" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="no" x="9.2075" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C113551" x="9.2075" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="Optocouplers &amp; LEDs &amp; Infrared.expanded" package="LED_0805" value="17-21/R6C-AQ2R2B/3T" x="6.6675" y="6.35" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="no" x="6.6675" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C113551" x="6.6675" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="Optocouplers &amp; LEDs &amp; Infrared.expanded" package="LED_0805" value="17-21/R6C-AQ2R2B/3T" x="4.1275" y="6.35" smashed="yes">
+<attribute name="JLCPCB_IS_BASIC" value="no" x="4.1275" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="C113551" x="4.1275" y="6.35" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="N$4">
 <contactref element="J1" pad="7"/>
+<contactref element="R1" pad="2"/>
+<wire x1="17.3275" y1="3.81" x2="17.3275" y2="2.2145" width="0.4064" layer="1"/>
+<wire x1="17.3275" y1="2.2145" x2="16.8275" y2="1.7145" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="J1" pad="2"/>
+<contactref element="R6" pad="2"/>
+<wire x1="4.6275" y1="3.81" x2="4.6275" y2="1.9605" width="0.4064" layer="1"/>
+<wire x1="4.6275" y1="1.9605" x2="4.1275" y2="1.4605" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="J1" pad="3"/>
+<contactref element="R5" pad="2"/>
+<wire x1="7.1675" y1="3.81" x2="7.1675" y2="2.2145" width="0.4064" layer="1"/>
+<wire x1="7.1675" y1="2.2145" x2="6.6675" y2="1.7145" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="J1" pad="4"/>
+<contactref element="R4" pad="2"/>
+<wire x1="9.7075" y1="3.81" x2="9.7075" y2="1.9605" width="0.4064" layer="1"/>
+<wire x1="9.7075" y1="1.9605" x2="9.2075" y2="1.4605" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="J1" pad="5"/>
+<contactref element="R3" pad="2"/>
+<wire x1="12.2475" y1="3.81" x2="12.2475" y2="2.2145" width="0.4064" layer="1"/>
+<wire x1="12.2475" y1="2.2145" x2="11.7475" y2="1.7145" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="J1" pad="6"/>
+<contactref element="R2" pad="2"/>
+<wire x1="14.7875" y1="3.81" x2="14.7875" y2="1.9605" width="0.4064" layer="1"/>
+<wire x1="14.7875" y1="1.9605" x2="14.2875" y2="1.4605" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="1"/>
+<contactref element="D1" pad="C"/>
+<contactref element="D6" pad="C"/>
+<contactref element="D5" pad="C"/>
+<contactref element="D4" pad="C"/>
+<contactref element="D3" pad="C"/>
+<contactref element="D2" pad="C"/>
+<wire x1="16.8275" y1="7.4" x2="14.2875" y2="7.4" width="0.4064" layer="1"/>
+<wire x1="14.2875" y1="7.4" x2="11.7475" y2="7.4" width="0.4064" layer="1"/>
+<wire x1="11.7475" y1="7.4" x2="9.2075" y2="7.4" width="0.4064" layer="1"/>
+<wire x1="9.2075" y1="7.4" x2="6.6675" y2="7.4" width="0.4064" layer="1"/>
+<wire x1="6.6675" y1="7.4" x2="4.1275" y2="7.4" width="0.4064" layer="1"/>
+<wire x1="4.1275" y1="7.4" x2="2.6375" y2="7.4" width="0.4064" layer="1"/>
+<wire x1="2.6375" y1="7.4" x2="1.5875" y2="6.35" width="0.4064" layer="1" curve="90"/>
+<wire x1="1.5875" y1="6.35" x2="1.5875" y2="1.7145" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R1" pad="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="16.3275" y1="3.81" x2="16.3275" y2="4.8" width="0.4064" layer="1"/>
+<wire x1="16.3275" y1="4.8" x2="16.8275" y2="5.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R2" pad="1"/>
+<contactref element="D2" pad="A"/>
+<wire x1="13.7875" y1="3.81" x2="13.7875" y2="4.8" width="0.4064" layer="1"/>
+<wire x1="13.7875" y1="4.8" x2="14.2875" y2="5.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R3" pad="1"/>
+<contactref element="D3" pad="A"/>
+<wire x1="11.2475" y1="3.81" x2="11.2475" y2="4.8" width="0.4064" layer="1"/>
+<wire x1="11.2475" y1="4.8" x2="11.7475" y2="5.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R4" pad="1"/>
+<contactref element="D4" pad="A"/>
+<wire x1="8.7075" y1="3.81" x2="8.7075" y2="4.8" width="0.4064" layer="1"/>
+<wire x1="8.7075" y1="4.8" x2="9.2075" y2="5.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="R5" pad="1"/>
+<contactref element="D5" pad="A"/>
+<wire x1="6.1675" y1="3.81" x2="6.1675" y2="4.8" width="0.4064" layer="1"/>
+<wire x1="6.1675" y1="4.8" x2="6.6675" y2="5.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="R6" pad="1"/>
+<contactref element="D6" pad="A"/>
+<wire x1="3.6275" y1="3.81" x2="3.6275" y2="4.8" width="0.4064" layer="1"/>
+<wire x1="3.6275" y1="4.8" x2="4.1275" y2="5.3" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
