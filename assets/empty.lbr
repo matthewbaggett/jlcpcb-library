@@ -296,8 +296,7 @@
 <wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="1.27" y="0" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
