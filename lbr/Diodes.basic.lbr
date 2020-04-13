@@ -412,6 +412,26 @@
             </device>
           </devices>
         </deviceset>
+        <deviceset name="SM4007PL" prefix="D">
+          <gates>
+            <gate name="D$1" x="0" y="0" symbol="DIODE"/>
+          </gates>
+          <devices>
+            <device name="_C64898_SM4007PL_SOD-123FL" package="DIODE_SOD-123">
+              <connects>
+                <connect gate="D$1" pin="C" pad="P$1"/>
+                <connect gate="D$1" pin="A" pad="P$2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C64898" constant="no"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
+                  <attribute name="VALUE" value="SM4007PL" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
         <deviceset name="1N4148W" prefix="D">
           <gates>
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
