@@ -6,7 +6,7 @@
       <setting alwaysvectorfont="no"/>
       <setting verticaltext="up"/>
     </settings>
-    <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+    <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
     <layers>
       <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
       <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -221,7 +221,7 @@
             <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
           </gates>
           <devices>
-            <device name="_C115962_YSX530GA_8MHZ__20PF_10PPM_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+            <device name="C115962" package="CRYSTAL_SMD-5032_2P">
               <connects>
                 <connect gate="C$1" pin="2" pad="P$1"/>
                 <connect gate="C$1" pin="1" pad="P$2"/>
@@ -241,7 +241,7 @@
             <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
           </gates>
           <devices>
-            <device name="_C112574_YSX530GA_110592MHZ_20PF_10PPM_4085_SMD-5032_2P" package="CRYSTAL_SMD-5032_2P">
+            <device name="C112574" package="CRYSTAL_SMD-5032_2P">
               <connects>
                 <connect gate="C$1" pin="2" pad="P$1"/>
                 <connect gate="C$1" pin="1" pad="P$2"/>

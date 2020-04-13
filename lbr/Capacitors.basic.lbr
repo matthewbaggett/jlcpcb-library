@@ -6,7 +6,7 @@
       <setting alwaysvectorfont="no"/>
       <setting verticaltext="up"/>
     </settings>
-    <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+    <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
     <layers>
       <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
       <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -279,7 +279,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C14971_1PF_010_025PF_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C14971" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -292,7 +292,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23969_1PF_010_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C23969" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -312,7 +312,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1710_10NF_103_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1710" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -325,7 +325,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C57112_10NF_103_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C57112" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -338,7 +338,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C15195_10NF_103_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C15195" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -351,7 +351,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1846_10NF_103_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C1846" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -371,7 +371,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1729_22NF_223_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1729" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -384,7 +384,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C21122_22NF_223_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C21122" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -397,7 +397,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1532_22NF_223_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1532" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -417,7 +417,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1739_33NF_333_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1739" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -430,7 +430,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C21117_33NF_333_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C21117" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -450,7 +450,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1740_330NF_334_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1740" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -470,7 +470,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1743_470PF_471_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1743" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -483,7 +483,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1620_470PF_471_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1620" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -496,7 +496,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1537_470PF_471_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1537" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -509,7 +509,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1868_470PF_471_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C1868" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -529,7 +529,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1744_47NF_472_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1744" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -542,7 +542,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C53987_47NF_472_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C53987" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -555,7 +555,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1538_47NF_472_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1538" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -575,7 +575,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1779_47UF_475_10%_25V_X5R_0805" package="CAPACITOR_0805">
+            <device name="C1779" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -595,7 +595,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1785_10PF_100_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1785" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -608,7 +608,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1634_10PF_100_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1634" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -621,7 +621,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C32949_10PF_100_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C32949" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -641,7 +641,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1790_100PF_101_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1790" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -654,7 +654,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C14858_100PF_101_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C14858" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -667,7 +667,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1546_100PF_101_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1546" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -687,7 +687,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1794_15PF_150_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1794" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -700,7 +700,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1644_15PF_150_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1644" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -713,7 +713,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1548_15PF_150_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1548" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -733,7 +733,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1797_18PF_180_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1797" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -746,7 +746,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1647_18PF_180_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1647" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -759,7 +759,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1549_18PF_180_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1549" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -779,7 +779,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1798_20PF_200_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1798" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -792,7 +792,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1648_20PF_200_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1648" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -805,7 +805,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1554_20PF_200_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1554" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -825,7 +825,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1804_22PF_220_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1804" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -838,7 +838,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1653_22PF_220_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1653" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -851,7 +851,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1555_22PF_220_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1555" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -871,7 +871,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1809_30PF_300_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1809" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -884,7 +884,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22397_30PF_300_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C22397" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -897,7 +897,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1570_30PF_300_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1570" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -917,7 +917,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1814_33PF_330_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1814" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -930,7 +930,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1663_33PF_330_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1663" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -943,7 +943,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1562_33PF_330_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1562" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -963,7 +963,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C5378_220NF_224_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C5378" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -976,7 +976,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1857_220NF_224_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C1857" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -996,7 +996,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C8031_27PF_270_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C8031" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1009,7 +1009,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1656_27PF_270_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1656" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1022,7 +1022,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1557_27PF_270_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1557" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1042,7 +1042,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C13967_470NF_474_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C13967" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1055,7 +1055,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1871_470NF_474_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C1871" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1075,7 +1075,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C14857_47PF_470_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C14857" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1088,7 +1088,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1671_47PF_470_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1671" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1101,7 +1101,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1567_47PF_470_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1567" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1121,7 +1121,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C15850_10UF_106_10%_25V_X5R_0805" package="CAPACITOR_0805">
+            <device name="C15850" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1141,7 +1141,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C28323_1UF_105_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C28323" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1154,7 +1154,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1848_1UF_105_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C1848" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1174,7 +1174,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C45783_22UF_226_20%_25V_X5R_0805" package="CAPACITOR_0805">
+            <device name="C45783" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1194,7 +1194,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C49217_22UF_225_20%_50V_Y5V_0805" package="CAPACITOR_0805">
+            <device name="C49217" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1214,7 +1214,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C49678_100NF104_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C49678" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1234,7 +1234,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C53134_47NF_473_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C53134" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1247,7 +1247,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1622_47NF_473_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1622" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1267,7 +1267,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C53172_220PF_221_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C53172" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1280,7 +1280,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1603_220PF_221_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1603" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1293,7 +1293,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1530_220PF_221_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1530" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1306,7 +1306,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1854_220PF_221_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C1854" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1326,7 +1326,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C53175_33NF_332_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C53175" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1339,7 +1339,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1613_33NF_332_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1613" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1352,7 +1352,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26404_33NF_332_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C26404" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1372,7 +1372,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1800_2PF_2R0_025PF_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1800" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1385,7 +1385,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1558_2PF_2R0_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1558" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1405,7 +1405,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C67560_6PF_6R0_025PF_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C67560" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1418,7 +1418,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C37474_6PF_6R0_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C37474" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1431,7 +1431,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C30274_6PF_6R0_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C30274" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1451,7 +1451,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1792_12PF_120_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1792" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1464,7 +1464,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C38523_12PF_120_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C38523" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1477,7 +1477,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1547_12PF_120_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1547" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1497,7 +1497,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1828_56PF_560_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1828" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1510,7 +1510,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C39148_56PF_560_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C39148" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1523,7 +1523,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1572_56PF_560_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1572" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1543,7 +1543,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1834_68PF_680_5%_50V_C0G_0805" package="CAPACITOR_0805">
+            <device name="C1834" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1556,7 +1556,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C28262_68PF_680_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C28262" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1569,7 +1569,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C14441_68PF_680_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C14441" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1589,7 +1589,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1716_150PF_151_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1716" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1602,7 +1602,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1594_150PF_151_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1594" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1615,7 +1615,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1527_150PF_151_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1527" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1635,7 +1635,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1724_200PF_201_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1724" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1648,7 +1648,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1600_200PF_201_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1600" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1668,7 +1668,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C51207_330PF_331_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C51207" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1688,7 +1688,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C53150_680PF_681_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C53150" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1701,7 +1701,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1630_680PF_681_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1630" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1721,7 +1721,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1717_15NF_152_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1717" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1734,7 +1734,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1595_15NF_152_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1595" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1747,7 +1747,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23967_15NF_152_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C23967" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1767,7 +1767,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1755_68NF_682_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1755" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1780,7 +1780,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1631_68NF_682_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1631" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1793,7 +1793,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1542_68NF_682_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1542" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1813,7 +1813,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1756_68NF_683_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C1756" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1826,7 +1826,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C31658_68NF_683_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C31658" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1846,7 +1846,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C46653_1NF_102_10%_50V_X7R_0805" package="CAPACITOR_0805">
+            <device name="C46653" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1859,7 +1859,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1588_1NF_102_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1588" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1872,7 +1872,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1523_1NF_102_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1523" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1892,7 +1892,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C30615_12NF_122_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C30615" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1912,7 +1912,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1593_12NF_123_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1593" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1932,7 +1932,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1596_15NF_153_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1596" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1952,7 +1952,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1609_27NF_272_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1609" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1972,7 +1972,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1700_27NF_273_20%_50V_Y5V_0603" package="CAPACITOR_0603">
+            <device name="C1700" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -1992,7 +1992,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C27920_82NF_822_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C27920" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2012,7 +2012,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1685_82PF_8R2_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1685" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2032,7 +2032,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1683_82PF_820_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1683" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2052,7 +2052,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1604_22NF_222_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1604" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2065,7 +2065,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1531_22NF_222_10%_50V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1531" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2085,7 +2085,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1623_470NF_474_10%_25V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1623" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2105,7 +2105,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1639_15PF_1R5_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1639" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2118,7 +2118,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1552_15PF_1R5_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1552" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2138,7 +2138,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1664_330PF_331_5%_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1664" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2151,7 +2151,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C13533_330PF_331_5%_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C13533" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2171,7 +2171,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1669_47PF_4R7_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1669" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2184,7 +2184,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1569_47PF_4R7_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1569" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2204,7 +2204,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1679_68PF_6R8_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C1679" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2217,7 +2217,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1576_68PF_6R8_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1576" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2237,7 +2237,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C14663_100NF_104_10%_50V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C14663" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2250,7 +2250,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C24497_100NF_104_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C24497" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2270,7 +2270,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C15849_1UF_105_10%_50V_X5R_0603" package="CAPACITOR_0603">
+            <device name="C15849" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2290,7 +2290,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C16149_27PF_2R7_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C16149" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2303,7 +2303,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C1561_27PF_2R7_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1561" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2323,7 +2323,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C19666_47UF_475_10%_16V_X5R_0603" package="CAPACITOR_0603">
+            <device name="C19666" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2343,7 +2343,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C19702_10UF_106_10%_10V_X5R_0603" package="CAPACITOR_0603">
+            <device name="C19702" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2363,7 +2363,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C21120_220NF_224_10%_25V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C21120" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2383,7 +2383,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C21895_2PF_020_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C21895" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2403,7 +2403,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C23630_22UF_225_10%_16V_X5R_0603" package="CAPACITOR_0603">
+            <device name="C23630" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2423,7 +2423,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C46219_3PF_3R0_025PF_50V_C0G_0603" package="CAPACITOR_0603">
+            <device name="C46219" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2443,7 +2443,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C59461_22UF_226_20%_63V_X5R_0603" package="CAPACITOR_0603">
+            <device name="C59461" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2463,7 +2463,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1615_330NF_334_10%_25V_X7R_0603" package="CAPACITOR_0603">
+            <device name="C1615" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2483,7 +2483,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C52923_1UF_105_10%_25V_X5R_0402" package="CAPACITOR_0402">
+            <device name="C52923" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2503,7 +2503,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C15525_10UF_106_20%_63V_X5R_0402" package="CAPACITOR_0402">
+            <device name="C15525" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2523,7 +2523,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1565_33PF_3R3_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1565" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2543,7 +2543,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1585_33NF_333_20%_50V_Y5V_0402" package="CAPACITOR_0402">
+            <device name="C1585" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2563,7 +2563,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1525_100NF_104_10%_16V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C1525" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2583,7 +2583,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1559_22PF_2R2_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1559" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2603,7 +2603,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C16772_220NF_224_10%_16V_X7R_0402" package="CAPACITOR_0402">
+            <device name="C16772" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2623,7 +2623,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C23733_47UF_475_20%_10V_X5R_0402" package="CAPACITOR_0402">
+            <device name="C23733" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2643,7 +2643,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C1550_1PF_1R0_025PF_50V_C0G_0402" package="CAPACITOR_0402">
+            <device name="C1550" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2663,7 +2663,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C47339_470NF_474_10%_10V_X5R_0402" package="CAPACITOR_0402">
+            <device name="C47339" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2683,7 +2683,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C13585_10UF_106_10%_50V_X5R_1206" package="CAPACITOR_1206">
+            <device name="C13585" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2703,7 +2703,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C29823_47UF_475_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C29823" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2723,7 +2723,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C35216_1NF_102_10%_500V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C35216" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2743,7 +2743,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C50254_22UF_225_10%_50V_X7R_1206" package="CAPACITOR_1206">
+            <device name="C50254" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
@@ -2763,7 +2763,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C7171_10UF_106_10%_16V_CASE-A_3216" package="CAPACITOR_CASE-A_3216">
+            <device name="C7171" package="CAPACITOR_CASE-A_3216">
               <connects>
                 <connect gate="C$1" pin="1" pad="+"/>
                 <connect gate="C$1" pin="2" pad="-"/>
@@ -2783,7 +2783,7 @@
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="_C16133_100UF_107_10%_63V_CASE-B_3528" package="CAPACITOR_CASE-B_3528">
+            <device name="C16133" package="CAPACITOR_CASE-B_3528">
               <connects>
                 <connect gate="C$1" pin="1" pad="+"/>
                 <connect gate="C$1" pin="2" pad="-"/>

@@ -6,7 +6,7 @@
       <setting alwaysvectorfont="no"/>
       <setting verticaltext="up"/>
     </settings>
-    <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+    <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
     <layers>
       <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
       <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -216,7 +216,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C3102_11A_8V_CN_1812" package="FUSE_1812">
+            <device name="C3102" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -236,7 +236,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C3105_2A__63V__CN_1206" package="FUSE_1206">
+            <device name="C3105" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -256,7 +256,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C3106_2A_8V_CN_1812" package="FUSE_1812">
+            <device name="C3106" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -276,7 +276,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C12068_01A_60V_CN_1812" package="FUSE_1812">
+            <device name="C12068" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -289,7 +289,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C220143_01A_60V_CN_1206" package="FUSE_1206">
+            <device name="C220143" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -302,7 +302,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C180196_01A_60V_CN_1206" package="FUSE_1206">
+            <device name="C180196" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -315,7 +315,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C194142_01A_60V_CN_1206" package="FUSE_1206">
+            <device name="C194142" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -335,7 +335,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C12430_01A__60V_1812" package="FUSE_1812">
+            <device name="C12430" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -355,7 +355,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C12557_075A_24V_CN_1812" package="FUSE_1812">
+            <device name="C12557" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -375,7 +375,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C12558_05A_15V_CN_1812" package="FUSE_1812">
+            <device name="C12558" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -388,7 +388,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C106264_05A_15V_CN_1206" package="FUSE_1206">
+            <device name="C106264" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -408,7 +408,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C12559_05A_30V_CN_1812" package="FUSE_1812">
+            <device name="C12559" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -428,7 +428,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C12604_03A_30V_1812" package="FUSE_1812">
+            <device name="C12604" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -441,7 +441,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C369555_03A_30V_1812" package="FUSE_1812">
+            <device name="C369555" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -461,7 +461,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C13575_02A_30V_CN_1812" package="FUSE_1812">
+            <device name="C13575" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -481,7 +481,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C14165_3A__32V__CN_1206" package="FUSE_1206">
+            <device name="C14165" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -501,7 +501,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C14956_1A_16V_1812" package="FUSE_1812">
+            <device name="C14956" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -521,7 +521,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C18045_014A_60V_1812" package="FUSE_1812">
+            <device name="C18045" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -541,7 +541,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C18331_03A__30V_CN_1812" package="FUSE_1812">
+            <device name="C18331" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -561,7 +561,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20797_005A_CN_1206" package="FUSE_1206">
+            <device name="C20797" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -581,7 +581,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20798_025A_CN_1206" package="FUSE_1206">
+            <device name="C20798" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -601,7 +601,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20799_050A_CN_1206" package="FUSE_1206">
+            <device name="C20799" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -621,7 +621,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20800_100A_CN_1206" package="FUSE_1206">
+            <device name="C20800" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -641,7 +641,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20801_110A_CN_1206" package="FUSE_1206">
+            <device name="C20801" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -654,7 +654,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20998_110A_CN_1812" package="FUSE_1812">
+            <device name="C20998" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -667,7 +667,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20999_110A_CN_1812" package="FUSE_1812">
+            <device name="C20999" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -680,7 +680,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C21000_110A_CN_1812" package="FUSE_1812">
+            <device name="C21000" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -700,7 +700,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20802_150A_CN_1206" package="FUSE_1206">
+            <device name="C20802" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -713,7 +713,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20810_150A_CN_1812" package="FUSE_1812">
+            <device name="C20810" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -733,7 +733,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20803_250A_CN_1206" package="FUSE_1206">
+            <device name="C20803" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -753,7 +753,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20812_200A_CN_1812" package="FUSE_1812">
+            <device name="C20812" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -766,7 +766,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20988_200A_CN_1206" package="FUSE_1206">
+            <device name="C20988" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -779,7 +779,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C21010_200A_CN_1812" package="FUSE_1812">
+            <device name="C21010" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -799,7 +799,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20814_260A_CN_1812" package="FUSE_1812">
+            <device name="C20814" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -812,7 +812,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C21003_260A_CN_1812" package="FUSE_1812">
+            <device name="C21003" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -832,7 +832,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20815_350A_CN_1812" package="FUSE_1812">
+            <device name="C20815" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -852,7 +852,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20981_010A_CN_1206" package="FUSE_1206">
+            <device name="C20981" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -865,7 +865,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20993_010A_CN_1812" package="FUSE_1812">
+            <device name="C20993" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -885,7 +885,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20982_012A_CN_1206" package="FUSE_1206">
+            <device name="C20982" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -905,7 +905,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20983_016A_CN_1206" package="FUSE_1206">
+            <device name="C20983" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -925,7 +925,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20984_020A_CN_1206" package="FUSE_1206">
+            <device name="C20984" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -945,7 +945,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20985_035A_CN_1206" package="FUSE_1206">
+            <device name="C20985" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -965,7 +965,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20987_075A_CN_1206" package="FUSE_1206">
+            <device name="C20987" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -978,7 +978,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20996_075A_CN_1812" package="FUSE_1812">
+            <device name="C20996" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -991,7 +991,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C20997_075A_CN_1812" package="FUSE_1812">
+            <device name="C20997" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1011,7 +1011,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20994_014A_CN_1812" package="FUSE_1812">
+            <device name="C20994" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1024,7 +1024,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C35455_014A_CN_1812" package="FUSE_1812">
+            <device name="C35455" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1044,7 +1044,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C20995_030A_CN_1812" package="FUSE_1812">
+            <device name="C20995" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1064,7 +1064,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C21001_125A_CN_1812" package="FUSE_1812">
+            <device name="C21001" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1077,7 +1077,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C135361_125A_CN_1812" package="FUSE_1812">
+            <device name="C135361" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1097,7 +1097,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C21002_15A_8V_CN_1812" package="FUSE_1812">
+            <device name="C21002" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1117,7 +1117,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C21004_300A_CN_1812" package="FUSE_1812">
+            <device name="C21004" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1137,7 +1137,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C32404_15A_24V_CN_1812" package="FUSE_1812">
+            <device name="C32404" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1150,7 +1150,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C182976_15A_24V_CN_1206" package="FUSE_1206">
+            <device name="C182976" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1163,7 +1163,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C179796_15A_24V_CN_1812" package="FUSE_1812">
+            <device name="C179796" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1176,7 +1176,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C78695_15A_24V_CN_1812" package="FUSE_1812">
+            <device name="C78695" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1196,7 +1196,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C35456_02A_CN_1812" package="FUSE_1812">
+            <device name="C35456" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1209,7 +1209,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C135356_02A_CN_1812" package="FUSE_1812">
+            <device name="C135356" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1229,7 +1229,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C43379_050A_1206" package="FUSE_1206">
+            <device name="C43379" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1249,7 +1249,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C48332_5A_24V_CN_1206" package="FUSE_1206">
+            <device name="C48332" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1269,7 +1269,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C63614_05A__CN_1812" package="FUSE_1812">
+            <device name="C63614" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1289,7 +1289,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C66450_11A_8V__CN_1812" package="FUSE_1812">
+            <device name="C66450" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1309,7 +1309,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C66453_1A_6V_CN_1206" package="FUSE_1206">
+            <device name="C66453" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1329,7 +1329,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C69680_02A_30V__CN_1206" package="FUSE_1206">
+            <device name="C69680" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1349,7 +1349,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C69688_05A_6V__CN_1206" package="FUSE_1206">
+            <device name="C69688" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1369,7 +1369,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C69689_3A_8V__CN_1812" package="FUSE_1812">
+            <device name="C69689" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1389,7 +1389,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C69691_11A_16V__CN_1812" package="FUSE_1812">
+            <device name="C69691" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1409,7 +1409,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70064_005A__60V_CN_1206" package="FUSE_1206">
+            <device name="C70064" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1429,7 +1429,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70065_01A__60V_CN_1206" package="FUSE_1206">
+            <device name="C70065" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1449,7 +1449,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70066_012A__60V_CN_1206" package="FUSE_1206">
+            <device name="C70066" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1469,7 +1469,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70067_02A__24V_CN_1206" package="FUSE_1206">
+            <device name="C70067" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1489,7 +1489,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70068_025A_16V_CN_1206" package="FUSE_1206">
+            <device name="C70068" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1509,7 +1509,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70069_025A_24V_CN_1206" package="FUSE_1206">
+            <device name="C70069" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1529,7 +1529,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70070_025A__30V_CN_1206" package="FUSE_1206">
+            <device name="C70070" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1549,7 +1549,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70071_035A_6V_CN_1206" package="FUSE_1206">
+            <device name="C70071" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1569,7 +1569,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70072_035A_16V_CN_1206" package="FUSE_1206">
+            <device name="C70072" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1589,7 +1589,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70073_035A_24V_CN_1206" package="FUSE_1206">
+            <device name="C70073" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1609,7 +1609,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70074_050A__132V_CN_1206" package="FUSE_1206">
+            <device name="C70074" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1629,7 +1629,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70075_050A__16V_CN_1206" package="FUSE_1206">
+            <device name="C70075" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1649,7 +1649,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70076_050A__24V_CN_1206" package="FUSE_1206">
+            <device name="C70076" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1669,7 +1669,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70077_050A__33V_CN_1206" package="FUSE_1206">
+            <device name="C70077" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1682,7 +1682,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C70112_050A__33V_CN_1812" package="FUSE_1812">
+            <device name="C70112" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1702,7 +1702,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70078_075A_6V_CN_1206" package="FUSE_1206">
+            <device name="C70078" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1722,7 +1722,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70079_075A_132V_CN_1206" package="FUSE_1206">
+            <device name="C70079" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1735,7 +1735,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C84140_075A_132V_CN_1812" package="FUSE_1812">
+            <device name="C84140" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1755,7 +1755,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70080_075A_16V_CN_1206" package="FUSE_1206">
+            <device name="C70080" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1775,7 +1775,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70081_1A__132V_CN_1206" package="FUSE_1206">
+            <device name="C70081" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1795,7 +1795,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70082_1A__16V_CN_1206" package="FUSE_1206">
+            <device name="C70082" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1815,7 +1815,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70083_15A_6V_CN_1206" package="FUSE_1206">
+            <device name="C70083" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1835,7 +1835,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70084_15A__132V_CN_1206" package="FUSE_1206">
+            <device name="C70084" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1855,7 +1855,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70085_2A__6V_CN_1206" package="FUSE_1206">
+            <device name="C70085" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -1875,7 +1875,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70105_010A__30V_CN_1812" package="FUSE_1812">
+            <device name="C70105" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1895,7 +1895,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70106_014A__60V_CN_1812" package="FUSE_1812">
+            <device name="C70106" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1915,7 +1915,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70107_020A__30V_CN_1812" package="FUSE_1812">
+            <device name="C70107" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1935,7 +1935,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70109_030A_60V_CN_1812" package="FUSE_1812">
+            <device name="C70109" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1955,7 +1955,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70111_050A_24V_CN_1812" package="FUSE_1812">
+            <device name="C70111" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1975,7 +1975,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70113_050A__60V_CN_1812" package="FUSE_1812">
+            <device name="C70113" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -1995,7 +1995,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70114_075A__132V_CN_1812" package="FUSE_1812">
+            <device name="C70114" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2015,7 +2015,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70115_075A__16V_CN_1812" package="FUSE_1812">
+            <device name="C70115" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2035,7 +2035,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70117_075A__33V_CN_1812" package="FUSE_1812">
+            <device name="C70117" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2048,7 +2048,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C220153_075A__33V_CN_1812" package="FUSE_1812">
+            <device name="C220153" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2068,7 +2068,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70118_110A__24V_CN_1812" package="FUSE_1812">
+            <device name="C70118" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2088,7 +2088,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70119_110A__33V_CN_1812" package="FUSE_1812">
+            <device name="C70119" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2108,7 +2108,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70120_125A__16V_CN_1812" package="FUSE_1812">
+            <device name="C70120" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2128,7 +2128,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70121_150A__8V_CN_1812" package="FUSE_1812">
+            <device name="C70121" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2148,7 +2148,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70122_150A__16V_CN_1812" package="FUSE_1812">
+            <device name="C70122" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2168,7 +2168,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70123_150A__24V_CN_1812" package="FUSE_1812">
+            <device name="C70123" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2188,7 +2188,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70124_2A__8V_CN_1812" package="FUSE_1812">
+            <device name="C70124" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2208,7 +2208,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70126_2A__16V_CN_1812" package="FUSE_1812">
+            <device name="C70126" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2228,7 +2228,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70127_260A_8V_CN_1812" package="FUSE_1812">
+            <device name="C70127" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2248,7 +2248,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70130_350A_6V_CN_1812" package="FUSE_1812">
+            <device name="C70130" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2268,7 +2268,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70131_375A_6V_CN_1812" package="FUSE_1812">
+            <device name="C70131" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2288,7 +2288,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70132_400A__6V_CN_1812" package="FUSE_1812">
+            <device name="C70132" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2308,7 +2308,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C71465_11A_6V_CN_1206" package="FUSE_1206">
+            <device name="C71465" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2321,7 +2321,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C89654_11A_6V_CN_1206" package="FUSE_1206">
+            <device name="C89654" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2341,7 +2341,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C71467_160A_8V_CN_1812" package="FUSE_1812">
+            <device name="C71467" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2361,7 +2361,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C75464_05A_132V_CN_1206" package="FUSE_1206">
+            <device name="C75464" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2381,7 +2381,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182441_3A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182441" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2394,7 +2394,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C182445_3A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182445" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2414,7 +2414,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182442_5A_32V_CN_1206" package="FUSE_1206">
+            <device name="C182442" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2427,7 +2427,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C182446_5A_32V_CN_1206" package="FUSE_1206">
+            <device name="C182446" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2440,7 +2440,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C187597_5A_32V_CN_1206" package="FUSE_1206">
+            <device name="C187597" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2460,7 +2460,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182443_20A_24V_CN_1206" package="FUSE_1206">
+            <device name="C182443" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2480,7 +2480,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182444_25A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182444" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2500,7 +2500,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182447_750MA_125V_CN_1206" package="FUSE_1206">
+            <device name="C182447" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2520,7 +2520,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182449_15A_125V_CN_1206" package="FUSE_1206">
+            <device name="C182449" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2540,7 +2540,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182974_1A_125V_CN_1206" package="FUSE_1206">
+            <device name="C182974" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2560,7 +2560,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182975_35A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182975" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2580,7 +2580,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C183288_035A__16V_CN_1206" package="FUSE_1206">
+            <device name="C183288" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2600,7 +2600,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C183290_075A__8V_CN_1206" package="FUSE_1206">
+            <device name="C183290" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2620,7 +2620,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C183292_1A__6V_CN_1206" package="FUSE_1206">
+            <device name="C183292" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2640,7 +2640,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C183293_15A__8V_CN_1206" package="FUSE_1206">
+            <device name="C183293" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2660,7 +2660,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182305_1A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182305" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2673,7 +2673,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C182308_1A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182308" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2693,7 +2693,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182307_15A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182307" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2706,7 +2706,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C182309_15A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182309" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2726,7 +2726,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C182310_2A_63V_CN_1206" package="FUSE_1206">
+            <device name="C182310" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2739,7 +2739,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="X_C354895_2A_63V_CN_1206" package="FUSE_1206">
+            <device name="C354895" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2759,7 +2759,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C183286_025A__16V_CN_1206" package="FUSE_1206">
+            <device name="C183286" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2779,7 +2779,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C261946_30V_50MA_CN_1206" package="FUSE_1206">
+            <device name="C261946" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2799,7 +2799,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C261948_30V_120MA_CN_1206" package="FUSE_1206">
+            <device name="C261948" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2819,7 +2819,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C262018_60V_100MA_CN_1812" package="FUSE_1812">
+            <device name="C262018" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2839,7 +2839,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C163516_11A_8VDC_1812" package="FUSE_1812">
+            <device name="C163516" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2859,7 +2859,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C262031_16V_16A_CN_1812" package="FUSE_1812">
+            <device name="C262031" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2879,7 +2879,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C135342_2A_CN_1206" package="FUSE_1206">
+            <device name="C135342" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2899,7 +2899,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C70108_020A_60V_CN_1812" package="FUSE_1812">
+            <device name="C70108" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2919,7 +2919,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C269140_24V_15A_1812" package="FUSE_1812">
+            <device name="C269140" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -2939,7 +2939,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C207150_63VDC_750MA_CN_1206" package="FUSE_1206">
+            <device name="C207150" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2959,7 +2959,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C170165_05A_15V_1206" package="FUSE_1206">
+            <device name="C170165" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2979,7 +2979,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369153_005A_60V_CN_1206" package="FUSE_1206">
+            <device name="C369153" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -2999,7 +2999,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C310957_1A_63V_1206" package="FUSE_1206">
+            <device name="C310957" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3019,7 +3019,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C311035_150A_32VDC_1206" package="FUSE_1206">
+            <device name="C311035" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3039,7 +3039,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C135366_3A_CN_1812" package="FUSE_1812">
+            <device name="C135366" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3059,7 +3059,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C354899_4A_63V_1206" package="FUSE_1206">
+            <device name="C354899" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3079,7 +3079,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C207201_24V_500MA_1812" package="FUSE_1812">
+            <device name="C207201" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3099,7 +3099,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369173_11A_33V_CN_1812" package="FUSE_1812">
+            <device name="C369173" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3119,7 +3119,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C140479_4A_63V_CN_1206" package="FUSE_1206">
+            <device name="C140479" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3139,7 +3139,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369159_1206_05A_132V_CN_1206" package="FUSE_1206">
+            <device name="C369159" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3159,7 +3159,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C207183_12V_26A_1812" package="FUSE_1812">
+            <device name="C207183" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3179,7 +3179,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C269147_SMD1812B260TF12_1812" package="FUSE_1812">
+            <device name="C269147" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3199,7 +3199,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C135341_15A_CN_1206" package="FUSE_1206">
+            <device name="C135341" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3219,7 +3219,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C55996_3A_16V_1812" package="FUSE_1812">
+            <device name="C55996" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3239,7 +3239,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369166_03A_30V_CN_1812" package="FUSE_1812">
+            <device name="C369166" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3259,7 +3259,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C117855_03A__60V_1812" package="FUSE_1812">
+            <device name="C117855" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3279,7 +3279,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C135357_03A_CN_1812" package="FUSE_1812">
+            <device name="C135357" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3299,7 +3299,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369557_16V_125A_1812" package="FUSE_1812">
+            <device name="C369557" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3319,7 +3319,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C311006_6A_24V_1206" package="FUSE_1206">
+            <device name="C311006" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3339,7 +3339,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C207216_2A_6V_CN_1206" package="FUSE_1206">
+            <device name="C207216" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3359,7 +3359,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C261947_30V_100MA_CN_1206" package="FUSE_1206">
+            <device name="C261947" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3379,7 +3379,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C220144_012A__48V_CN_1206" package="FUSE_1206">
+            <device name="C220144" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3399,7 +3399,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C181348_015A_60V_15S_CN_1206" package="FUSE_1206">
+            <device name="C181348" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3419,7 +3419,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C135338_05A_CN_1206" package="FUSE_1206">
+            <device name="C135338" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3439,7 +3439,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C262024_16V_750MA_CN_1812" package="FUSE_1812">
+            <device name="C262024" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3459,7 +3459,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C208467_24V_750MA_1812" package="FUSE_1812">
+            <device name="C208467" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3479,7 +3479,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C151168_500MA_30V_CN_1812" package="FUSE_1812">
+            <device name="C151168" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3499,7 +3499,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369154_CN_1206_01A_60V_CN_1206" package="FUSE_1206">
+            <device name="C369154" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3519,7 +3519,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C135334_01A_CN_1206" package="FUSE_1206">
+            <device name="C135334" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3539,7 +3539,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C208499_3A_32V_CN_1206" package="FUSE_1206">
+            <device name="C208499" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3559,7 +3559,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C315895_15A_12V_1206" package="FUSE_1206">
+            <device name="C315895" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3579,7 +3579,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C151162_500MA_15V_CN_1206" package="FUSE_1206">
+            <device name="C151162" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3599,7 +3599,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C89650_20A_8V_CN_1812" package="FUSE_1812">
+            <device name="C89650" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3619,7 +3619,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C126818_8V_CN_1206" package="FUSE_1206">
+            <device name="C126818" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3639,7 +3639,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C262035_6V_3A_CN_1812" package="FUSE_1812">
+            <device name="C262035" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3659,7 +3659,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C262033_16V_25A_CN_1812" package="FUSE_1812">
+            <device name="C262033" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3679,7 +3679,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C269125_60V_02A_1812" package="FUSE_1812">
+            <device name="C269125" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3699,7 +3699,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C209741_05A_24V_CN_1206" package="FUSE_1206">
+            <device name="C209741" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3719,7 +3719,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C220147_05A_8V_CN_1206" package="FUSE_1206">
+            <device name="C220147" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3739,7 +3739,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C364827_1206CN_32V_7A_CNULCN_1206" package="FUSE_1206">
+            <device name="C364827" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3759,7 +3759,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C369155_CN_1206_012A_30V_CN_1206" package="FUSE_1206">
+            <device name="C369155" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3779,7 +3779,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C495356_014A_60V_CN_1812" package="FUSE_1812">
+            <device name="C495356" package="FUSE_1812">
               <connects>
                 <connect gate="F$1" pin="1" pad="1"/>
                 <connect gate="F$1" pin="2" pad="2"/>
@@ -3799,7 +3799,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C163128_32V_5A_1206" package="FUSE_1206">
+            <device name="C163128" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>
@@ -3819,7 +3819,7 @@
             <gate name="F$1" x="0" y="0" symbol="FUSE"/>
           </gates>
           <devices>
-            <device name="X_C311032_800A_32VDC_1206" package="FUSE_1206">
+            <device name="C311032" package="FUSE_1206">
               <connects>
                 <connect gate="F$1" pin="1" pad="2"/>
                 <connect gate="F$1" pin="2" pad="1"/>

@@ -6,7 +6,7 @@
       <setting alwaysvectorfont="no"/>
       <setting verticaltext="up"/>
     </settings>
-    <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+    <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
     <layers>
       <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
       <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -206,8 +206,7 @@
           <wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
           <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
           <smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
-          <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-          <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+          <text x="1.27" y="0" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
           <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
           <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
           <rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
@@ -247,7 +246,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4410_1K_1001_1%_1206" package="RESISTOR_1206">
+            <device name="C4410" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -260,7 +259,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C11702_1K_1001_1%_0402" package="RESISTOR_0402">
+            <device name="C11702" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -273,7 +272,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C21190_1K_1001_1%_0603" package="RESISTOR_0603">
+            <device name="C21190" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -286,7 +285,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17513_1K_1001_1%_0805" package="RESISTOR_0805">
+            <device name="C17513" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -306,7 +305,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17985_750_7500_1%_1206" package="RESISTOR_1206">
+            <device name="C17985" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -319,7 +318,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23241_750_7500_1%_0603" package="RESISTOR_0603">
+            <device name="C23241" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -332,7 +331,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17818_750_7500_1%_0805" package="RESISTOR_0805">
+            <device name="C17818" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -352,7 +351,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17887_300_3000_1%_1206" package="RESISTOR_1206">
+            <device name="C17887" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -365,7 +364,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25102_300_3000_1%_0402" package="RESISTOR_0402">
+            <device name="C25102" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -378,7 +377,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23025_300_3000_1%_0603" package="RESISTOR_0603">
+            <device name="C23025" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -391,7 +390,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17617_300_3000_1%_0805" package="RESISTOR_0805">
+            <device name="C17617" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -411,7 +410,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17888_0_0R0_1%_1206" package="RESISTOR_1206">
+            <device name="C17888" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -424,7 +423,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17168_0_0R0_1%_0402" package="RESISTOR_0402">
+            <device name="C17168" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -437,7 +436,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C21189_0_0R0_1%_0603" package="RESISTOR_0603">
+            <device name="C21189" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -450,7 +449,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17477_0_0R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17477" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -470,7 +469,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17900_100K_1003_1%_1206" package="RESISTOR_1206">
+            <device name="C17900" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -483,7 +482,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25741_100K_1003_1%_0402" package="RESISTOR_0402">
+            <device name="C25741" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -496,7 +495,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25803_100K_1003_1%_0603" package="RESISTOR_0603">
+            <device name="C25803" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -509,7 +508,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17407_100K_1003_1%_0805" package="RESISTOR_0805">
+            <device name="C17407" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -529,7 +528,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17901_100_1000_1%_1206" package="RESISTOR_1206">
+            <device name="C17901" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -542,7 +541,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25076_100_1000_1%_0402" package="RESISTOR_0402">
+            <device name="C25076" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -555,7 +554,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22775_100_1000_1%_0603" package="RESISTOR_0603">
+            <device name="C22775" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -568,7 +567,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17408_100_1000_1%_0805" package="RESISTOR_0805">
+            <device name="C17408" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -588,7 +587,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17902_10K_1002_1%_1206" package="RESISTOR_1206">
+            <device name="C17902" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -601,7 +600,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25744_10K_1002_1%_0402" package="RESISTOR_0402">
+            <device name="C25744" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -614,7 +613,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25804_10K_1002_1%_0603" package="RESISTOR_0603">
+            <device name="C25804" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -627,7 +626,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17414_10K_1002_1%_0805" package="RESISTOR_0805">
+            <device name="C17414" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -647,7 +646,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17903_10_10R0_1%_1206" package="RESISTOR_1206">
+            <device name="C17903" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -660,7 +659,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25077_10_10R0_1%_0402" package="RESISTOR_0402">
+            <device name="C25077" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -673,7 +672,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22859_10_10R0_1%_0603" package="RESISTOR_0603">
+            <device name="C22859" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -686,7 +685,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17415_10_10R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17415" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -706,7 +705,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17924_180_1800_1%_1206" package="RESISTOR_1206">
+            <device name="C17924" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -719,7 +718,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22828_180_1800_1%_0603" package="RESISTOR_0603">
+            <device name="C22828" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -732,7 +731,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25270_180_1800_1%_0805" package="RESISTOR_0805">
+            <device name="C25270" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -752,7 +751,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17928_1_1R00_1%_1206" package="RESISTOR_1206">
+            <device name="C17928" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -765,7 +764,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25086_1_1R00_1%_0402" package="RESISTOR_0402">
+            <device name="C25086" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -778,7 +777,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22936_1_1R00_1%_0603" package="RESISTOR_0603">
+            <device name="C22936" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -791,7 +790,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25271_1_1R00_1%_0805" package="RESISTOR_0805">
+            <device name="C25271" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -811,7 +810,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17936_47K_4701_1%_1206" package="RESISTOR_1206">
+            <device name="C17936" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -824,7 +823,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25900_47K_4701_1%_0402" package="RESISTOR_0402">
+            <device name="C25900" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -837,7 +836,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23162_47K_4701_1%_0603" package="RESISTOR_0603">
+            <device name="C23162" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -850,7 +849,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17673_47K_4701_1%_0805" package="RESISTOR_0805">
+            <device name="C17673" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -870,7 +869,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17944_2K_2001_1%_1206" package="RESISTOR_1206">
+            <device name="C17944" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -883,7 +882,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22975_2K_2001_1%_0603" package="RESISTOR_0603">
+            <device name="C22975" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -896,7 +895,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17604_2K_2001_1%_0805" package="RESISTOR_0805">
+            <device name="C17604" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -909,7 +908,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4109_2K_2001_1%_0402" package="RESISTOR_0402">
+            <device name="C4109" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -929,7 +928,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17955_20_20R0_1%_1206" package="RESISTOR_1206">
+            <device name="C17955" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -942,7 +941,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22950_20_20R0_1%_0603" package="RESISTOR_0603">
+            <device name="C22950" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -955,7 +954,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17544_20_20R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17544" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -975,7 +974,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C17958_22_22R0_1%_1206" package="RESISTOR_1206">
+            <device name="C17958" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -988,7 +987,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25092_22_22R0_1%_0402" package="RESISTOR_0402">
+            <device name="C25092" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1001,7 +1000,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23345_22_22R0_1%_0603" package="RESISTOR_0603">
+            <device name="C23345" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1014,7 +1013,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17561_22_22R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17561" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1034,7 +1033,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22107_12M_1204_1%_1206" package="RESISTOR_1206">
+            <device name="C22107" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -1047,7 +1046,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22766_12M_1204_1%_0603" package="RESISTOR_0603">
+            <device name="C22766" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1060,7 +1059,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17380_12M_1204_1%_0805" package="RESISTOR_0805">
+            <device name="C17380" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1080,7 +1079,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25334_01_R100_1%_1206" package="RESISTOR_1206">
+            <device name="C25334" package="RESISTOR_1206">
               <connects>
                 <connect gate="R$1" pin="2" pad="2"/>
                 <connect gate="R$1" pin="1" pad="1"/>
@@ -1100,7 +1099,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25117_470_4700_1%_0402" package="RESISTOR_0402">
+            <device name="C25117" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1113,7 +1112,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23179_470_4700_1%_0603" package="RESISTOR_0603">
+            <device name="C23179" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1126,7 +1125,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17710_470_4700_1%_0805" package="RESISTOR_0805">
+            <device name="C17710" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1146,7 +1145,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25120_499_49R9_1%_0402" package="RESISTOR_0402">
+            <device name="C25120" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1159,7 +1158,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23185_499_49R9_1%_0603" package="RESISTOR_0603">
+            <device name="C23185" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1172,7 +1171,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17720_499_49R9_1%_0805" package="RESISTOR_0805">
+            <device name="C17720" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1192,7 +1191,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25792_47K_4702_1%_0402" package="RESISTOR_0402">
+            <device name="C25792" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1205,7 +1204,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25819_47K_4702_1%_0603" package="RESISTOR_0603">
+            <device name="C25819" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1218,7 +1217,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17713_47K_4702_1%_0805" package="RESISTOR_0805">
+            <device name="C17713" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1238,7 +1237,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25796_56K_5602_1%_0402" package="RESISTOR_0402">
+            <device name="C25796" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1251,7 +1250,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23206_56K_5602_1%_0603" package="RESISTOR_0603">
+            <device name="C23206" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1264,7 +1263,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17756_56K_5602_1%_0805" package="RESISTOR_0805">
+            <device name="C17756" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1284,7 +1283,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25867_15K_1501_1%_0402" package="RESISTOR_0402">
+            <device name="C25867" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1297,7 +1296,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22843_15K_1501_1%_0603" package="RESISTOR_0603">
+            <device name="C22843" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1310,7 +1309,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4310_15K_1501_1%_0805" package="RESISTOR_0805">
+            <device name="C4310" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1330,7 +1329,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25879_22K_2201_1%_0402" package="RESISTOR_0402">
+            <device name="C25879" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1343,7 +1342,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4190_22K_2201_1%_0603" package="RESISTOR_0603">
+            <device name="C4190" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1356,7 +1355,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17520_22K_2201_1%_0805" package="RESISTOR_0805">
+            <device name="C17520" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1376,7 +1375,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25890_33K_3301_1%_0402" package="RESISTOR_0402">
+            <device name="C25890" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1389,7 +1388,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22978_33K_3301_1%_0603" package="RESISTOR_0603">
+            <device name="C22978" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1402,7 +1401,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26010_33K_3301_1%_0805" package="RESISTOR_0805">
+            <device name="C26010" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1422,7 +1421,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C26083_1M_1004_1%_0402" package="RESISTOR_0402">
+            <device name="C26083" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1435,7 +1434,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22935_1M_1004_1%_0603" package="RESISTOR_0603">
+            <device name="C22935" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1448,7 +1447,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17514_1M_1004_1%_0805" package="RESISTOR_0805">
+            <device name="C17514" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1468,7 +1467,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25790_470K_4703_1%_0402" package="RESISTOR_0402">
+            <device name="C25790" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1481,7 +1480,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23178_470K_4703_1%_0603" package="RESISTOR_0603">
+            <device name="C23178" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1494,7 +1493,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17709_470K_4703_1%_0805" package="RESISTOR_0805">
+            <device name="C17709" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1514,7 +1513,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25862_12K_1201_1%_0402" package="RESISTOR_0402">
+            <device name="C25862" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1527,7 +1526,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22765_12K_1201_1%_0603" package="RESISTOR_0603">
+            <device name="C22765" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1540,7 +1539,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17379_12K_1201_1%_0805" package="RESISTOR_0805">
+            <device name="C17379" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1560,7 +1559,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C26082_10M_1005_1%_0402" package="RESISTOR_0402">
+            <device name="C26082" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1573,7 +1572,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C7250_10M_1005_1%_0603" package="RESISTOR_0603">
+            <device name="C7250" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1586,7 +1585,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26108_10M_1005_1%_0805" package="RESISTOR_0805">
+            <device name="C26108" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1606,7 +1605,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25750_120K_1203_1%_0402" package="RESISTOR_0402">
+            <device name="C25750" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1619,7 +1618,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25808_120K_1203_1%_0603" package="RESISTOR_0603">
+            <device name="C25808" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1632,7 +1631,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17436_120K_1203_1%_0805" package="RESISTOR_0805">
+            <device name="C17436" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1652,7 +1651,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25079_120_1200_1%_0402" package="RESISTOR_0402">
+            <device name="C25079" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1665,7 +1664,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22787_120_1200_1%_0603" package="RESISTOR_0603">
+            <device name="C22787" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1678,7 +1677,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17437_120_1200_1%_0805" package="RESISTOR_0805">
+            <device name="C17437" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1698,7 +1697,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25752_12K_1202_1%_0402" package="RESISTOR_0402">
+            <device name="C25752" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1711,7 +1710,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22790_12K_1202_1%_0603" package="RESISTOR_0603">
+            <device name="C22790" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1724,7 +1723,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17444_12K_1202_1%_0805" package="RESISTOR_0805">
+            <device name="C17444" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1744,7 +1743,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25755_150K_1503_1%_0402" package="RESISTOR_0402">
+            <device name="C25755" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1757,7 +1756,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22807_150K_1503_1%_0603" package="RESISTOR_0603">
+            <device name="C22807" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1770,7 +1769,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17470_150K_1503_1%_0805" package="RESISTOR_0805">
+            <device name="C17470" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1790,7 +1789,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25082_150_1500_1%_0402" package="RESISTOR_0402">
+            <device name="C25082" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1803,7 +1802,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22808_150_1500_1%_0603" package="RESISTOR_0603">
+            <device name="C22808" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1816,7 +1815,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17471_150_1500_1%_0805" package="RESISTOR_0805">
+            <device name="C17471" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1836,7 +1835,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25756_15K_1502_1%_0402" package="RESISTOR_0402">
+            <device name="C25756" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1849,7 +1848,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22809_15K_1502_1%_0603" package="RESISTOR_0603">
+            <device name="C22809" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1862,7 +1861,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17475_15K_1502_1%_0805" package="RESISTOR_0805">
+            <device name="C17475" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1882,7 +1881,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25762_18K_1802_1%_0402" package="RESISTOR_0402">
+            <device name="C25762" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1895,7 +1894,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25810_18K_1802_1%_0603" package="RESISTOR_0603">
+            <device name="C25810" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1908,7 +1907,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17506_18K_1802_1%_0805" package="RESISTOR_0805">
+            <device name="C17506" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1928,7 +1927,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25882_24K_2401_1%_0402" package="RESISTOR_0402">
+            <device name="C25882" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1941,7 +1940,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22940_24K_2401_1%_0603" package="RESISTOR_0603">
+            <device name="C22940" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1954,7 +1953,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17526_24K_2401_1%_0805" package="RESISTOR_0805">
+            <device name="C17526" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1974,7 +1973,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25764_200K_2003_1%_0402" package="RESISTOR_0402">
+            <device name="C25764" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -1987,7 +1986,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25811_200K_2003_1%_0603" package="RESISTOR_0603">
+            <device name="C25811" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2000,7 +1999,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17539_200K_2003_1%_0805" package="RESISTOR_0805">
+            <device name="C17539" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2020,7 +2019,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25087_200_2000_1%_0402" package="RESISTOR_0402">
+            <device name="C25087" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2033,7 +2032,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C8218_200_2000_1%_0603" package="RESISTOR_0603">
+            <device name="C8218" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2046,7 +2045,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17540_200_2000_1%_0805" package="RESISTOR_0805">
+            <device name="C17540" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2066,7 +2065,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25765_20K_2002_1%_0402" package="RESISTOR_0402">
+            <device name="C25765" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2079,7 +2078,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4184_20K_2002_1%_0603" package="RESISTOR_0603">
+            <device name="C4184" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2092,7 +2091,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4328_20K_2002_1%_0805" package="RESISTOR_0805">
+            <device name="C4328" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2112,7 +2111,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25767_220K_2203_1%_0402" package="RESISTOR_0402">
+            <device name="C25767" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2125,7 +2124,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22961_220K_2203_1%_0603" package="RESISTOR_0603">
+            <device name="C22961" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2138,7 +2137,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17556_220K_2203_1%_0805" package="RESISTOR_0805">
+            <device name="C17556" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2158,7 +2157,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25091_220_2200_1%_0402" package="RESISTOR_0402">
+            <device name="C25091" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2171,7 +2170,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22962_220_2200_1%_0603" package="RESISTOR_0603">
+            <device name="C22962" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2184,7 +2183,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17557_220_2200_1%_0805" package="RESISTOR_0805">
+            <device name="C17557" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2204,7 +2203,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25768_22K_2202_1%_0402" package="RESISTOR_0402">
+            <device name="C25768" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2217,7 +2216,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C31850_22K_2202_1%_0603" package="RESISTOR_0603">
+            <device name="C31850" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2230,7 +2229,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17560_22K_2202_1%_0805" package="RESISTOR_0805">
+            <device name="C17560" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2250,7 +2249,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25769_24K_2402_1%_0402" package="RESISTOR_0402">
+            <device name="C25769" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2263,7 +2262,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23352_24K_2402_1%_0603" package="RESISTOR_0603">
+            <device name="C23352" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2276,7 +2275,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17575_24K_2402_1%_0805" package="RESISTOR_0805">
+            <device name="C17575" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2296,7 +2295,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25771_27K_2702_1%_0402" package="RESISTOR_0402">
+            <device name="C25771" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2309,7 +2308,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C22967_27K_2702_1%_0603" package="RESISTOR_0603">
+            <device name="C22967" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2322,7 +2321,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17593_27K_2702_1%_0805" package="RESISTOR_0805">
+            <device name="C17593" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2342,7 +2341,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C51721_39K3901_1%_0402" package="RESISTOR_0402">
+            <device name="C51721" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2362,7 +2361,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25774_300K_3003_1%_0402" package="RESISTOR_0402">
+            <device name="C25774" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2375,7 +2374,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23024_300K_3003_1%_0603" package="RESISTOR_0603">
+            <device name="C23024" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2388,7 +2387,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17616_300K_3003_1%_0805" package="RESISTOR_0805">
+            <device name="C17616" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2408,7 +2407,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25778_330K_3303_1%_0402" package="RESISTOR_0402">
+            <device name="C25778" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2421,7 +2420,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23137_330K_3303_1%_0603" package="RESISTOR_0603">
+            <device name="C23137" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2434,7 +2433,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17629_330K_3303_1%_0805" package="RESISTOR_0805">
+            <device name="C17629" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2454,7 +2453,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25104_330_3300_1%_0402" package="RESISTOR_0402">
+            <device name="C25104" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2467,7 +2466,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23138_330_3300_1%_0603" package="RESISTOR_0603">
+            <device name="C23138" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2480,7 +2479,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17630_330_3300_1%_0805" package="RESISTOR_0805">
+            <device name="C17630" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2500,7 +2499,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25779_33K_3302_1%_0402" package="RESISTOR_0402">
+            <device name="C25779" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2513,7 +2512,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4216_33K_3302_1%_0603" package="RESISTOR_0603">
+            <device name="C4216" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2526,7 +2525,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17633_33K_3302_1%_0805" package="RESISTOR_0805">
+            <device name="C17633" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2546,7 +2545,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25105_33_33R0_1%_0402" package="RESISTOR_0402">
+            <device name="C25105" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2559,7 +2558,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23140_33_33R0_1%_0603" package="RESISTOR_0603">
+            <device name="C23140" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2572,7 +2571,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17634_33_33R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17634" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2592,7 +2591,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25783_39K_3902_1%_0402" package="RESISTOR_0402">
+            <device name="C25783" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2605,7 +2604,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23153_39K_3902_1%_0603" package="RESISTOR_0603">
+            <device name="C23153" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2618,7 +2617,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25826_39K_3902_1%_0805" package="RESISTOR_0805">
+            <device name="C25826" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2638,7 +2637,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25118_47_47R0_1%_0402" package="RESISTOR_0402">
+            <device name="C25118" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2651,7 +2650,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23182_47_47R0_1%_0603" package="RESISTOR_0603">
+            <device name="C23182" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2664,7 +2663,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17714_47_47R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17714" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2684,7 +2683,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25897_499K_4992_1%_0402" package="RESISTOR_0402">
+            <device name="C25897" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2697,7 +2696,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23184_499K_4992_1%_0603" package="RESISTOR_0603">
+            <device name="C23184" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2710,7 +2709,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17719_499K_4992_1%_0805" package="RESISTOR_0805">
+            <device name="C17719" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2730,7 +2729,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25905_51K_5101_1%_0402" package="RESISTOR_0402">
+            <device name="C25905" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2743,7 +2742,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23186_51K_5101_1%_0603" package="RESISTOR_0603">
+            <device name="C23186" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2756,7 +2755,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C27834_51K_5101_1%_0805" package="RESISTOR_0805">
+            <device name="C27834" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2776,7 +2775,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25908_56K_5601_1%_0402" package="RESISTOR_0402">
+            <device name="C25908" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2789,7 +2788,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23189_56K_5601_1%_0603" package="RESISTOR_0603">
+            <device name="C23189" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2802,7 +2801,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4382_56K_5601_1%_0805" package="RESISTOR_0805">
+            <device name="C4382" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2822,7 +2821,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C11616_510K_5103_1%_0402" package="RESISTOR_0402">
+            <device name="C11616" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2835,7 +2834,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23192_510K_5103_1%_0603" package="RESISTOR_0603">
+            <device name="C23192" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2848,7 +2847,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17733_510K_5103_1%_0805" package="RESISTOR_0805">
+            <device name="C17733" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2868,7 +2867,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25123_510_5100_1%_0402" package="RESISTOR_0402">
+            <device name="C25123" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2881,7 +2880,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23193_510_5100_1%_0603" package="RESISTOR_0603">
+            <device name="C23193" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2894,7 +2893,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17734_510_5100_1%_0805" package="RESISTOR_0805">
+            <device name="C17734" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2914,7 +2913,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25794_51K_5102_1%_0402" package="RESISTOR_0402">
+            <device name="C25794" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2927,7 +2926,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23196_51K_5102_1%_0603" package="RESISTOR_0603">
+            <device name="C23196" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2940,7 +2939,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17737_51K_5102_1%_0805" package="RESISTOR_0805">
+            <device name="C17737" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2960,7 +2959,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25125_51_51R0_1%_0402" package="RESISTOR_0402">
+            <device name="C25125" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2973,7 +2972,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23197_51_51R0_1%_0603" package="RESISTOR_0603">
+            <device name="C23197" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -2986,7 +2985,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17738_51_51R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17738" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3006,7 +3005,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25917_68K_6801_1%_0402" package="RESISTOR_0402">
+            <device name="C25917" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3019,7 +3018,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23212_68K_6801_1%_0603" package="RESISTOR_0603">
+            <device name="C23212" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3032,7 +3031,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17772_68K_6801_1%_0805" package="RESISTOR_0805">
+            <device name="C17772" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3052,7 +3051,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25130_680_6800_1%_0402" package="RESISTOR_0402">
+            <device name="C25130" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3065,7 +3064,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23228_680_6800_1%_0603" package="RESISTOR_0603">
+            <device name="C23228" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3078,7 +3077,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17798_680_6800_1%_0805" package="RESISTOR_0805">
+            <device name="C17798" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3098,7 +3097,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C36871_68K_6802_1%_0402" package="RESISTOR_0402">
+            <device name="C36871" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3111,7 +3110,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23231_68K_6802_1%_0603" package="RESISTOR_0603">
+            <device name="C23231" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3124,7 +3123,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17801_68K_6802_1%_0805" package="RESISTOR_0805">
+            <device name="C17801" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3144,7 +3143,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25918_75K_7501_1%_0402" package="RESISTOR_0402">
+            <device name="C25918" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3157,7 +3156,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23234_75K_7501_1%_0603" package="RESISTOR_0603">
+            <device name="C23234" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3170,7 +3169,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17807_75K_7501_1%_0805" package="RESISTOR_0805">
+            <device name="C17807" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3190,7 +3189,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25798_75K_7502_1%_0402" package="RESISTOR_0402">
+            <device name="C25798" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3203,7 +3202,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C23242_75K_7502_1%_0603" package="RESISTOR_0603">
+            <device name="C23242" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3216,7 +3215,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17819_75K_7502_1%_0805" package="RESISTOR_0805">
+            <device name="C17819" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3236,7 +3235,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25133_75_75R0_1%_0402" package="RESISTOR_0402">
+            <device name="C25133" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3249,7 +3248,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4275_75_75R0_1%_0603" package="RESISTOR_0603">
+            <device name="C4275" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3262,7 +3261,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C20638_75_75R0_1%_0805" package="RESISTOR_0805">
+            <device name="C20638" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3282,7 +3281,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25924_82K_8201_1%_0402" package="RESISTOR_0402">
+            <device name="C25924" package="RESISTOR_0402">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3295,7 +3294,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25981_82K_8201_1%_0603" package="RESISTOR_0603">
+            <device name="C25981" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3308,7 +3307,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17828_82K_8201_1%_0805" package="RESISTOR_0805">
+            <device name="C17828" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3328,7 +3327,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4172_15M_1504_1%_0603" package="RESISTOR_0603">
+            <device name="C4172" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3341,7 +3340,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26110_15M_1504_1%_0805" package="RESISTOR_0805">
+            <device name="C26110" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3361,7 +3360,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4260_62K_6201_1%_0603" package="RESISTOR_0603">
+            <device name="C4260" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3374,7 +3373,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17767_62K_6201_1%_0805" package="RESISTOR_0805">
+            <device name="C17767" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3394,7 +3393,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C12447_402K_4022_1%_0603" package="RESISTOR_0603">
+            <device name="C12447" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3407,7 +3406,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17678_402K_4022_1%_0805" package="RESISTOR_0805">
+            <device name="C17678" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3427,7 +3426,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C13320_51M_5104_1%_0603" package="RESISTOR_0603">
+            <device name="C13320" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3440,7 +3439,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26114_51M_5104_1%_0805" package="RESISTOR_0805">
+            <device name="C26114" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3460,7 +3459,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22797_13K_1302_1%_0603" package="RESISTOR_0603">
+            <device name="C22797" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3473,7 +3472,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17455_13K_1302_1%_0805" package="RESISTOR_0805">
+            <device name="C17455" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3493,7 +3492,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22810_15_15R0_1%_0603" package="RESISTOR_0603">
+            <device name="C22810" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3506,7 +3505,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17480_15_15R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17480" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3526,7 +3525,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22818_16K_1602_1%_0603" package="RESISTOR_0603">
+            <device name="C22818" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3539,7 +3538,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17490_16K_1602_1%_0805" package="RESISTOR_0805">
+            <device name="C17490" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3559,7 +3558,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22827_180K_1803_1%_0603" package="RESISTOR_0603">
+            <device name="C22827" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3572,7 +3571,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17501_180K_1803_1%_0805" package="RESISTOR_0805">
+            <device name="C17501" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3592,7 +3591,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4177_18K_1801_1%_0603" package="RESISTOR_0603">
+            <device name="C4177" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3605,7 +3604,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17398_18K_1801_1%_0805" package="RESISTOR_0805">
+            <device name="C17398" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3625,7 +3624,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22938_22M_2204_1%_0603" package="RESISTOR_0603">
+            <device name="C22938" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3638,7 +3637,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26113_22M_2204_1%_0805" package="RESISTOR_0805">
+            <device name="C26113" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3658,7 +3657,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22939_22_2R20_1%_0603" package="RESISTOR_0603">
+            <device name="C22939" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3671,7 +3670,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17521_22_2R20_1%_0805" package="RESISTOR_0805">
+            <device name="C17521" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3691,7 +3690,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C13167_27K_2701_1%_0603" package="RESISTOR_0603">
+            <device name="C13167" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3704,7 +3703,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17530_27K_2701_1%_0805" package="RESISTOR_0805">
+            <device name="C17530" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3724,7 +3723,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22965_270K_2703_1%_0603" package="RESISTOR_0603">
+            <device name="C22965" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3737,7 +3736,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17589_270K_2703_1%_0805" package="RESISTOR_0805">
+            <device name="C17589" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3757,7 +3756,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22966_270_2700_1%_0603" package="RESISTOR_0603">
+            <device name="C22966" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3770,7 +3769,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17590_270_2700_1%_0805" package="RESISTOR_0805">
+            <device name="C17590" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3790,7 +3789,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22976_2M_2004_1%_0603" package="RESISTOR_0603">
+            <device name="C22976" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3803,7 +3802,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C26112_2M_2004_1%_0805" package="RESISTOR_0805">
+            <device name="C26112" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3823,7 +3822,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22977_2_2R00_1%_0603" package="RESISTOR_0603">
+            <device name="C22977" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3836,7 +3835,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17606_2_2R00_1%_0805" package="RESISTOR_0805">
+            <device name="C17606" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3856,7 +3855,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22980_36K_3601_1%_0603" package="RESISTOR_0603">
+            <device name="C22980" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3869,7 +3868,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C18359_36K_3601_1%_0805" package="RESISTOR_0805">
+            <device name="C18359" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3889,7 +3888,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23018_39K_3901_1%_0603" package="RESISTOR_0603">
+            <device name="C23018" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3902,7 +3901,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17614_39K_3901_1%_0805" package="RESISTOR_0805">
+            <device name="C17614" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3922,7 +3921,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23046_499K_4991_1%_0603" package="RESISTOR_0603">
+            <device name="C23046" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3935,7 +3934,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17677_499K_4991_1%_0805" package="RESISTOR_0805">
+            <device name="C17677" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3955,7 +3954,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23147_36K_3602_1%_0603" package="RESISTOR_0603">
+            <device name="C23147" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3968,7 +3967,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C4360_36K_3602_1%_0805" package="RESISTOR_0805">
+            <device name="C4360" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -3988,7 +3987,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23150_390K_3903_1%_0603" package="RESISTOR_0603">
+            <device name="C23150" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4001,7 +4000,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17656_390K_3903_1%_0805" package="RESISTOR_0805">
+            <device name="C17656" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4021,7 +4020,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23151_390_3900_1%_0603" package="RESISTOR_0603">
+            <device name="C23151" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4034,7 +4033,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17655_390_3900_1%_0805" package="RESISTOR_0805">
+            <device name="C17655" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4054,7 +4053,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4211_3K_3001_1%_0603" package="RESISTOR_0603">
+            <device name="C4211" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4067,7 +4066,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17661_3K_3001_1%_0805" package="RESISTOR_0805">
+            <device name="C17661" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4087,7 +4086,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23156_3M_3004_1%_0603" package="RESISTOR_0603">
+            <device name="C23156" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4107,7 +4106,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23159_43K_4301_1%_0603" package="RESISTOR_0603">
+            <device name="C23159" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4120,7 +4119,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17667_43K_4301_1%_0805" package="RESISTOR_0805">
+            <device name="C17667" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4140,7 +4139,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23163_47M_4704_1%_0603" package="RESISTOR_0603">
+            <device name="C23163" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4153,7 +4152,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17674_47M_4704_1%_0805" package="RESISTOR_0805">
+            <device name="C17674" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4173,7 +4172,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23164_47_4R70_1%_0603" package="RESISTOR_0603">
+            <device name="C23164" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4186,7 +4185,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17675_47_4R70_1%_0805" package="RESISTOR_0805">
+            <device name="C17675" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4206,7 +4205,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23172_43K_4302_1%_0603" package="RESISTOR_0603">
+            <device name="C23172" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4219,7 +4218,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17695_43K_4302_1%_0805" package="RESISTOR_0805">
+            <device name="C17695" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4239,7 +4238,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23203_560K_5603_1%_0603" package="RESISTOR_0603">
+            <device name="C23203" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4252,7 +4251,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C15785_560K_5603_1%_0805" package="RESISTOR_0805">
+            <device name="C15785" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4272,7 +4271,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23204_560_5600_1%_0603" package="RESISTOR_0603">
+            <device name="C23204" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4285,7 +4284,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C28636_560_5600_1%_0805" package="RESISTOR_0805">
+            <device name="C28636" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4305,7 +4304,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23221_62K_6202_1%_0603" package="RESISTOR_0603">
+            <device name="C23221" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4318,7 +4317,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17783_62K_6202_1%_0805" package="RESISTOR_0805">
+            <device name="C17783" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4338,7 +4337,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23253_820_8200_1%_0603" package="RESISTOR_0603">
+            <device name="C23253" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4351,7 +4350,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17837_820_8200_1%_0805" package="RESISTOR_0805">
+            <device name="C17837" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4371,7 +4370,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23254_82K_8202_1%_0603" package="RESISTOR_0603">
+            <device name="C23254" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4384,7 +4383,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17840_82K_8202_1%_0805" package="RESISTOR_0805">
+            <device name="C17840" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4404,7 +4403,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23260_91K_9101_1%_0603" package="RESISTOR_0603">
+            <device name="C23260" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4417,7 +4416,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17855_91K_9101_1%_0805" package="RESISTOR_0805">
+            <device name="C17855" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4437,7 +4436,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23265_91K_9102_1%_0603" package="RESISTOR_0603">
+            <device name="C23265" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4450,7 +4449,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17866_91K_9102_1%_0805" package="RESISTOR_0805">
+            <device name="C17866" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4470,7 +4469,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4197_240K_2403_1%_0603" package="RESISTOR_0603">
+            <device name="C4197" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4483,7 +4482,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C25824_240K_2403_1%_0805" package="RESISTOR_0805">
+            <device name="C25824" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4503,7 +4502,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23350_240_2400_1%_0603" package="RESISTOR_0603">
+            <device name="C23350" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4516,7 +4515,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17572_240_2400_1%_0805" package="RESISTOR_0805">
+            <device name="C17572" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4536,7 +4535,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25190_27_27R0_1%_0603" package="RESISTOR_0603">
+            <device name="C25190" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4549,7 +4548,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17594_27_27R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17594" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4569,7 +4568,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25196_56_56R0_1%_0603" package="RESISTOR_0603">
+            <device name="C25196" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4582,7 +4581,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17757_56_56R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17757" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4602,7 +4601,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25197_51_5R10_1%_0603" package="RESISTOR_0603">
+            <device name="C25197" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4615,7 +4614,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17724_51_5R10_1%_0805" package="RESISTOR_0805">
+            <device name="C17724" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4635,7 +4634,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25805_110K_1103_1%_0603" package="RESISTOR_0603">
+            <device name="C25805" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4648,7 +4647,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17422_110K_1103_1%_0805" package="RESISTOR_0805">
+            <device name="C17422" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4668,7 +4667,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25822_680K_6803_1%_0603" package="RESISTOR_0603">
+            <device name="C25822" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4681,7 +4680,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17797_680K_6803_1%_0805" package="RESISTOR_0805">
+            <device name="C17797" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4701,7 +4700,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25950_11K_1102_1%_0603" package="RESISTOR_0603">
+            <device name="C25950" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4714,7 +4713,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17429_11K_1102_1%_0805" package="RESISTOR_0805">
+            <device name="C17429" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4734,7 +4733,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C27592_68_68R0_1%_0603" package="RESISTOR_0603">
+            <device name="C27592" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4747,7 +4746,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17802_68_68R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17802" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4767,7 +4766,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23255_82_82R0_1%_0603" package="RESISTOR_0603">
+            <device name="C23255" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4780,7 +4779,7 @@
                 </technology>
               </technologies>
             </device>
-            <device name="_C17841_82_82R0_1%_0805" package="RESISTOR_0805">
+            <device name="C17841" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4800,7 +4799,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22764_11K_1101_1%_0603" package="RESISTOR_0603">
+            <device name="C22764" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4820,7 +4819,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22781_110_1100_1%_0603" package="RESISTOR_0603">
+            <device name="C22781" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4840,7 +4839,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22795_130K_1303_1%_0603" package="RESISTOR_0603">
+            <device name="C22795" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4860,7 +4859,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22796_130_1300_1%_0603" package="RESISTOR_0603">
+            <device name="C22796" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4880,7 +4879,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22813_160K_1603_1%_0603" package="RESISTOR_0603">
+            <device name="C22813" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4900,7 +4899,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22814_160_1600_1%_0603" package="RESISTOR_0603">
+            <device name="C22814" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4920,7 +4919,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C4198_24_24R0_1%_0603" package="RESISTOR_0603">
+            <device name="C4198" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4940,7 +4939,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C22984_30K_3002_1%_0603" package="RESISTOR_0603">
+            <device name="C22984" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4960,7 +4959,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23146_360K_3603_1%_0603" package="RESISTOR_0603">
+            <device name="C23146" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -4980,7 +4979,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25194_360_3600_1%_0603" package="RESISTOR_0603">
+            <device name="C25194" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5000,7 +4999,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25969_430K_4303_1%_0603" package="RESISTOR_0603">
+            <device name="C25969" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5020,7 +5019,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23170_430_4300_1%_0603" package="RESISTOR_0603">
+            <device name="C23170" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5040,7 +5039,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23219_620K_6203_1%_0603" package="RESISTOR_0603">
+            <device name="C23219" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5060,7 +5059,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23220_620_6200_1%_0603" package="RESISTOR_0603">
+            <device name="C23220" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5080,7 +5079,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23240_750K_7503_1%_0603" package="RESISTOR_0603">
+            <device name="C23240" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5100,7 +5099,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C23264_910_9100_1%_0603" package="RESISTOR_0603">
+            <device name="C23264" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5120,7 +5119,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C25199_91_91R0_1%_0603" package="RESISTOR_0603">
+            <device name="C25199" package="RESISTOR_0603">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
@@ -5140,7 +5139,7 @@
             <gate name="R$1" x="0" y="0" symbol="RESISTOR"/>
           </gates>
           <devices>
-            <device name="_C26117_3M_305_5%_0805" package="RESISTOR_0805">
+            <device name="C26117" package="RESISTOR_0805">
               <connects>
                 <connect gate="R$1" pin="2" pad="1"/>
                 <connect gate="R$1" pin="1" pad="2"/>
