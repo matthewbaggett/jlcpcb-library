@@ -272,7 +272,7 @@ class Party{
         }
 
         $prettyOutputFilename = sprintf(
-            "lbr/%s.lbr",
+            "lbr/JLCPCB.%s.lbr",
             $componentGroupName
         );
 

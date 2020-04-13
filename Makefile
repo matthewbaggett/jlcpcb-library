@@ -7,7 +7,7 @@ install:
 	@composer install --optimize-autoloader
 
 clean:
-	@rm -f validation.log assets/*.l#*
+	@rm -f validation.log assets/*.l#* lbr/*.l#*
 
 build: install clean
 	@php build.php
