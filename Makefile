@@ -12,6 +12,7 @@ clean:
 build: install clean
 	@php build.php
 	@#docker run --rm -it -v $PWD:/app gone/php:cli-7.4 php /app/build.php
+	@cat validation.log
 
 missing-packages:
 	@echo "Most popular missing packages:"

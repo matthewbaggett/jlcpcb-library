@@ -65,14 +65,14 @@ class Party{
         $this->debug(sprintf("%d components found.\n", count($this->components)));
     }
 
-    private function generateDeviceGates(\DOMDocument $libraryFile, Component $component) : \DOMElement
+    private function generateDeviceGates(\DOMDocument $libraryFile, Component $component, bool $hasBespokeSymbol = false) : \DOMElement
     {
         $gates = $libraryFile->createElement('gates');
         $gate = $libraryFile->createElement('gate');
         $gate->setAttribute("name", $component->pickGateName());
         $gate->setAttribute("x","0");
         $gate->setAttribute("y","0");
-        $gate->setAttribute("symbol", $component->pickSymbol());
+        $gate->setAttribute("symbol", $hasBespokeSymbol ? $component->pickGateSymbol() : $component->pickSymbol());
         $gates->appendChild($gate);
         return $gates;
     }
@@ -80,13 +80,11 @@ class Party{
     private function generateDeviceDevice(\DOMDocument $libraryFile, Component $component) : \DOMElement
     {
         $device = $libraryFile->createElement('device');
-        $device->setAttribute('name', sprintf(
-            "%s_%s_%s_%s",
-            $component->isExpanded() ? "X" : "",
-            $component->getLcscPartNumber(),
-            $component->pickDeviceName(),
-            $component->getPackage()
-        ));
+
+        $name = $component->getLcscPartNumber();
+        $name = substr($name, 0,24);
+
+        $device->setAttribute('name', $name);
         $device->setAttribute('package', $component->pickPackage());
         $device->appendChild($this->generateDeviceConnects($libraryFile, $component));
         $technologies = $libraryFile->createElement('technologies');
@@ -125,9 +123,15 @@ class Party{
     {
         $xpath = new \DOMXPath($libraryFile);
 
-        $xpathPins = "//symbols/symbol[@name=\"{$component->pickSymbol()}\"]/pin";
+        $symbol = $component->pickSymbol();
+        $symbolBespoke = $component->pickSymbol() . "_" . $component->pickDeviceName();
+        $xpathPins = "//symbols/symbol[@name=\"{$symbol}\"]/pin";
+        $xpathPinsBespoke = "//symbols/symbol[@name=\"{$symbolBespoke}\"]/pin";
         $xpathPads = "//packages/package[@name=\"{$component->pickPackage()}\"]/smd";
         $pins = $xpath->query($xpathPins);
+        if($xpath->query($xpathPinsBespoke)->count() > 0){
+            $pins = $xpath->query($xpathPinsBespoke);
+        }
         $pads = $xpath->query($xpathPads);
 
         $connects = $libraryFile->createElement('connects');
@@ -137,6 +141,17 @@ class Party{
             $pin = $pins[$i];
             /** @var \DOMElement $pad */
             $pad = $pads[$i];
+
+            if(!$pin || !$pad){
+                \Kint::dump(
+                    $component,
+                    $i,
+                    $pin,
+                    $pad
+                );
+                exit;
+            }
+
             $connect = $libraryFile->createElement('connect');
             $connect->setAttribute('gate',$component->pickGateName());
             $connect->setAttribute('pin',$pin->getAttribute('name'));
@@ -185,6 +200,9 @@ class Party{
             }
             $referencedPackages[] = $component->pickPackage();
             $referencedSymbols[] = $component->pickSymbol();
+            $referencedSymbols[] = $component->pickGateSymbol();
+
+            $hasBespokePart = $component->hasBespokePart($xpath);
 
             $existingDeviceSet = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]");
             if($existingDeviceSet->count() > 0) {
@@ -194,7 +212,7 @@ class Party{
             }else{
                 $deviceSet = $libraryFile->createElement('deviceset');
                 $deviceSets->appendChild($deviceSet);
-                $deviceSet->appendChild($this->generateDeviceGates($libraryFile, $component));
+                $deviceSet->appendChild($this->generateDeviceGates($libraryFile, $component, $hasBespokePart));
                 $devices = $libraryFile->createElement('devices');
                 $deviceSet->appendChild($devices);
                 $devices->appendChild($this->generateDeviceDevice($libraryFile, $component));
@@ -295,9 +313,10 @@ class Party{
     {
         echo "Building EAGLE libraries ... \n";
 
-        $this->downloadSheet();
+        //$this->downloadSheet();
 
         $this->readSheet();
+        //$this->readSheet( self::CACHE_PATH . "cropped.xlsx");
 
         $this->debug(sprintf(
             "Found %d components in latest version of %s\n",

@@ -19,6 +19,19 @@ class Component
     private bool $isExpanded;
     private bool $valid = true;
 
+    private array $packageAliases = [
+        'SOT-23-3'  => ['SOT-23-3L'],
+        'SOT-23-6'  => ['SOT-23-6L'],
+        'SOT-323'   => ['SOT-323F'],
+        'SOD-123'   => ['SOD-123FL'],
+        'SMB'       => ['SMBF'],
+        'SOIC-16'   => ['SOIC-16_3.9x9.9x1.27P'],
+    ];
+
+    private array $bodgeStringReplacement = [
+        'LED_LED_' => 'LED_',
+    ];
+
     public function getDebugName(): string
     {
         return sprintf("%s's %s", $this->getManufacturer(), $this->pickDeviceName());
@@ -110,9 +123,15 @@ class Component
                 return 'Y';
             case 'LED':
                 return 'D';
+            case 'IC':
+                return 'IC';
             default:
                 return substr($this->pickSymbol(),0,1);
         }
+    }
+
+    public function pickGateSymbol() : string{
+        return sprintf("%s_%s", $this->pickSymbol(), $this->pickDeviceName());
     }
 
     public function pickSymbol(): ?string
@@ -129,10 +148,13 @@ class Component
             case 'Fuses':
                 return "FUSE";
             case 'Embedded Processors & Controllers':
+            case 'Embedded Peripheral ICs':
             case 'Power Management ICs':
             case 'Driver ICs':
             case 'Logic ICs':
             case 'Analog ICs':
+            case 'Interface ICs':
+            case 'Memory':
                 return "IC";
             case 'Optocouplers & LEDs & Infrared':
                 switch ($this->getCategorySecond()){
@@ -146,19 +168,16 @@ class Component
         }
     }
 
-    private array $packageAliases = [
-        'SOT-23-3'  => ['SOT-23-3L'],
-        'SOT-23-6'  => ['SOT-23-6L'],
-        'SOT-323'   => ['SOT-323F'],
-        'SOD-123'   => ['SOD-123FL'],
-        'SMB'       => ['SMBF'],
-    ];
+    private ?string $_foundPackage = null;
 
     public function pickPackage(): string
     {
+        if($this->_foundPackage){
+            return $this->_foundPackage;
+        }
         $potentialPackages = explode(",", $this->getPackage());
 
-        foreach($potentialPackages as $potentialPackage){
+        foreach($potentialPackages as &$potentialPackage){
             $potentialPackage = trim($potentialPackage);
             foreach($this->packageAliases as $alias => $matches){
                 foreach($matches as $match){
@@ -169,11 +188,18 @@ class Component
             }
         }
 
-        return strtoupper(sprintf(
+        $this->_foundPackage = strtoupper(sprintf(
             "%s_%s",
             $this->pickSymbol(),
             $potentialPackages[0]
         ));
+
+        // Bodge:
+        foreach($this->bodgeStringReplacement as $bad => $good) {
+            $this->_foundPackage = str_replace($bad, $good, $this->_foundPackage);
+        }
+
+        return $this->_foundPackage;
     }
 
     private function debug(string $message) : void
@@ -186,9 +212,33 @@ class Component
         );
     }
 
+    private ?string $_detectedSymbol = null;
+
+    public function hasBespokePart(\DOMXPath $xpath) : bool
+    {
+        $symbolBespoke = $this->pickSymbol() . "_" . $this->pickDeviceName();
+        $xpathPinsBespoke = "//symbols/symbol[@name=\"{$symbolBespoke}\"]/pin";
+
+        // If there is a bespoke matching part, use it.
+        $pinsBespoke = $xpath->query($xpathPinsBespoke);
+        if($pinsBespoke->count() > 0){
+            $this->_detectedSymbol = $symbolBespoke;
+            $this->debug(sprintf(
+                "NOTICE \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Found a bespoke Symbol: %s !",
+                $this->getDebugName(),
+                $this->getLcscPartNumber(),
+                $this->_detectedSymbol
+            ));
+            return true;
+        }
+        $this->_detectedSymbol = $this->pickSymbol();
+        return false;
+
+    }
     public function isValid(\DOMXPath $xpath): bool
     {
-        if( $this->pickDeviceName() === null){
+        $this->hasBespokePart($xpath);
+        if($this->pickDeviceName() === null){
             $this->debug(sprintf(
                 "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not generate a device name!",
                 $this->getDebugName(),
@@ -206,7 +256,7 @@ class Component
             return false;
         }
         $xpathPackage = "//packages/package[@name=\"{$this->pickPackage()}\"]";
-        $xpathPins = "//symbols/symbol[@name=\"{$this->pickSymbol()}\"]/pin";
+        $xpathPins = "//symbols/symbol[@name=\"{$this->_detectedSymbol}\"]/pin";
         $xpathPads = "{$xpathPackage}/smd";
         $package = $xpath->query($xpathPackage);
         if ($package->count() == 0) {
@@ -218,6 +268,8 @@ class Component
             ));
             return false;
         }
+
+        // If there is a bespoke matching part, use it.
         $pins = $xpath->query($xpathPins);
         $pads = $xpath->query($xpathPads);
         if (!($pins->count() == $this->getPadCount() && $pads->count() == $this->getPadCount())) {
@@ -227,8 +279,8 @@ class Component
                 $this->getLcscPartNumber(),
                 count($pins), count($pads)
             ));
-            //$this->debug(sprintf(" > xpath pins: %s", $xpathPins));
-            //$this->debug(sprintf(" > xpath pads: %s", $xpathPads));
+            $this->debug(sprintf(" > xpath pins: %s", $xpathPins));
+            $this->debug(sprintf(" > xpath pads: %s", $xpathPads));
             return false;
         }
 

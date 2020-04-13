@@ -20,3 +20,4 @@ To maximise its usefulness, I've done a few other things:
  * Dockerise this tool
  * Create github actions to run on a schedule.
  * Add github actions linting.
+ * Proceedurally generate power symbols from a list of power rails
