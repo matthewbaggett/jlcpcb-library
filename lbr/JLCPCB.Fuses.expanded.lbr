@@ -3774,66 +3774,6 @@
             </device>
           </devices>
         </deviceset>
-        <deviceset name="014A_60V_CN" prefix="F">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="C495356" package="FUSE_1812">
-              <connects>
-                <connect gate="F$1" pin="1" pad="1"/>
-                <connect gate="F$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C495356" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="0.14A" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="32V_5A" prefix="F">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="C163128" package="FUSE_1206">
-              <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C163128" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="32V" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="800A_32VDC" prefix="F">
-          <gates>
-            <gate name="F$1" x="0" y="0" symbol="FUSE"/>
-          </gates>
-          <devices>
-            <device name="C311032" package="FUSE_1206">
-              <connects>
-                <connect gate="F$1" pin="1" pad="2"/>
-                <connect gate="F$1" pin="2" pad="1"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C311032" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="8.00A" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
       </devicesets>
     </library>
   </drawing>
