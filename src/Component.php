@@ -247,12 +247,12 @@ class Component
             return false;
         }
         if(!$this->pickSymbol()){
-            $this->debug(sprintf(
+            /*$this->debug(sprintf(
                 "WARNING \e[0;31m\"%s\"\e[0m (\e[0;32m%s\e[0m): Could not pick a symbol suitable for category \e[0,34m%s\e[0m!",
                 $this->getDebugName(),
                 $this->getLcscPartNumber(),
                 $this->getCategoryFirst()
-            ));
+            ));/**/
             return false;
         }
         $xpathPackage = "//packages/package[@name=\"{$this->pickPackage()}\"]";
