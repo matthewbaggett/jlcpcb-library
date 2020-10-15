@@ -257,16 +257,16 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C95872" package="DIODE_SMA">
+            <device name="-SMA-C95872" package="DIODE_SMA">
               <connects>
                 <connect gate="D$1" pin="C" pad="A"/>
                 <connect gate="D$1" pin="A" pad="C"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C95872" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="M7" constant="no"/>
+                  <attribute name="LCSC_PART" value="C95872"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="M7"/>
                 </technology>
               </technologies>
             </device>
@@ -277,16 +277,16 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C14996" package="DIODE_SMA">
+            <device name="-SMA-C14996" package="DIODE_SMA">
               <connects>
                 <connect gate="D$1" pin="C" pad="A"/>
                 <connect gate="D$1" pin="A" pad="C"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C14996" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="SS210" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14996"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="SS210"/>
                 </technology>
               </technologies>
             </device>
@@ -297,36 +297,36 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C22452" package="DIODE_SMA">
+            <device name="-SMA-C22452" package="DIODE_SMA">
               <connects>
                 <connect gate="D$1" pin="C" pad="A"/>
                 <connect gate="D$1" pin="A" pad="C"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C22452" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="SS54" constant="no"/>
+                  <attribute name="LCSC_PART" value="C22452"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="SS54"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="SS36E357T" prefix="D">
+        <deviceset name="SS36-E3/57T" prefix="D">
           <gates>
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C35722" package="DIODE_SMC">
+            <device name="-SMC-C35722" package="DIODE_SMC">
               <connects>
                 <connect gate="D$1" pin="C" pad="1"/>
                 <connect gate="D$1" pin="A" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C35722" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="SS36-E3/57T" constant="no"/>
+                  <attribute name="LCSC_PART" value="C35722"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="SS36-E3/57T"/>
                 </technology>
               </technologies>
             </device>
@@ -337,36 +337,36 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C8598" package="DIODE_SOD-123">
+            <device name="-SOD-123-C8598" package="DIODE_SOD-123">
               <connects>
                 <connect gate="D$1" pin="C" pad="P$1"/>
                 <connect gate="D$1" pin="A" pad="P$2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C8598" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="B5819W" constant="no"/>
+                  <attribute name="LCSC_PART" value="C8598"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="B5819W"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="P6SMB68CA" prefix="D">
+        <deviceset name="P6SMB6.8CA" prefix="D">
           <gates>
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C78395" package="DIODE_SMB">
+            <device name="-SMB-C78395" package="DIODE_SMB">
               <connects>
                 <connect gate="D$1" pin="C" pad="1"/>
                 <connect gate="D$1" pin="A" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C78395" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="P6SMB6.8CA" constant="no"/>
+                  <attribute name="LCSC_PART" value="C78395"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="P6SMB6.8CA"/>
                 </technology>
               </technologies>
             </device>
@@ -377,16 +377,16 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C2480" package="DIODE_SMA">
+            <device name="-SMA-C2480" package="DIODE_SMA">
               <connects>
                 <connect gate="D$1" pin="C" pad="A"/>
                 <connect gate="D$1" pin="A" pad="C"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C2480" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="SS14" constant="no"/>
+                  <attribute name="LCSC_PART" value="C2480"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="SS14"/>
                 </technology>
               </technologies>
             </device>
@@ -397,16 +397,16 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C8678" package="DIODE_SMA">
+            <device name="-SMA-C8678" package="DIODE_SMA">
               <connects>
                 <connect gate="D$1" pin="C" pad="A"/>
                 <connect gate="D$1" pin="A" pad="C"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C8678" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="SS34" constant="no"/>
+                  <attribute name="LCSC_PART" value="C8678"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="SS34"/>
                 </technology>
               </technologies>
             </device>
@@ -417,16 +417,16 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C64898" package="DIODE_SOD-123">
+            <device name="-SOD-123-C64898" package="DIODE_SOD-123">
               <connects>
                 <connect gate="D$1" pin="C" pad="P$1"/>
                 <connect gate="D$1" pin="A" pad="P$2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C64898" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="SM4007PL" constant="no"/>
+                  <attribute name="LCSC_PART" value="C64898"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="SM4007PL"/>
                 </technology>
               </technologies>
             </device>
@@ -437,36 +437,36 @@
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C81598" package="DIODE_SOD-123">
+            <device name="-SOD-123-C81598" package="DIODE_SOD-123">
               <connects>
                 <connect gate="D$1" pin="C" pad="P$1"/>
                 <connect gate="D$1" pin="A" pad="P$2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C81598" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1N4148W" constant="no"/>
+                  <attribute name="LCSC_PART" value="C81598"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1N4148W"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="US1MG_CN" prefix="D">
+        <deviceset name="US1MG" prefix="D">
           <gates>
             <gate name="D$1" x="0" y="0" symbol="DIODE"/>
           </gates>
           <devices>
-            <device name="C412437" package="DIODE_SMA">
+            <device name="-SMA-C412437" package="DIODE_SMA">
               <connects>
                 <connect gate="D$1" pin="C" pad="A"/>
                 <connect gate="D$1" pin="A" pad="C"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C412437" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="US1MG" constant="no"/>
+                  <attribute name="LCSC_PART" value="C412437"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="US1MG"/>
                 </technology>
               </technologies>
             </device>

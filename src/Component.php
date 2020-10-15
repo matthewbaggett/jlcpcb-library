@@ -81,6 +81,13 @@ class Component
         return $this->translations[$input];
     }
 
+    public function pickDeviceSetName(): string
+    {
+        $parts = trim($this->getManufacturerPart());
+        $parts = explode(" ",  $parts);
+        return strtoupper($parts[0]);
+    }
+
     public function pickDeviceName(): ?string
     {
         // Get the ManufacturerPart
@@ -170,11 +177,8 @@ class Component
 
     private ?string $_foundPackage = null;
 
-    public function pickPackage(): string
+    public function pickPackageSize(): string
     {
-        if($this->_foundPackage){
-            return $this->_foundPackage;
-        }
         $potentialPackages = explode(",", $this->getPackage());
 
         foreach($potentialPackages as &$potentialPackage){
@@ -187,11 +191,19 @@ class Component
                 }
             }
         }
+        return $potentialPackages[0];
+    }
+
+    public function pickPackage(): string
+    {
+        if($this->_foundPackage){
+            return $this->_foundPackage;
+        }
 
         $this->_foundPackage = strtoupper(sprintf(
             "%s_%s",
             $this->pickSymbol(),
-            $potentialPackages[0]
+            $this->pickPackageSize(),
         ));
 
         // Bodge:

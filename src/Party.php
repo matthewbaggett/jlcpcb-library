@@ -82,9 +82,8 @@ class Party{
         $device = $libraryFile->createElement('device');
 
         $name = $component->getLcscPartNumber();
-        $name = substr($name, 0,24);
 
-        $device->setAttribute('name', $name);
+        $device->setAttribute('name', substr(sprintf("-%s-%s", $component->pickPackageSize(), $name), 0,24));
         $device->setAttribute('package', $component->pickPackage());
         $device->appendChild($this->generateDeviceConnects($libraryFile, $component));
         $technologies = $libraryFile->createElement('technologies');
@@ -95,21 +94,18 @@ class Party{
         $partNumber = $libraryFile->createElement('attribute');
         $partNumber->setAttribute("name", "LCSC_PART");
         $partNumber->setAttribute("value", $component->getLcscPartNumber());
-        $partNumber->setAttribute("constant", "no");
         $technology->appendChild($partNumber);
 
         // Label it basic or not
         $isBasic = $libraryFile->createElement('attribute');
         $isBasic->setAttribute("name", "JLCPCB_IS_BASIC");
         $isBasic->setAttribute("value", $component->isExpanded() ? "no" : "yes");
-        $isBasic->setAttribute("constant", "no");
         $technology->appendChild($isBasic);
 
         // Label its value
         $value = $libraryFile->createElement('attribute');
         $value->setAttribute("name", "VALUE");
         $value->setAttribute("value", $component->pickValue());
-        $value->setAttribute("constant", "no");
         $technology->appendChild($value);
 
         // Glue the XML together.
@@ -203,11 +199,10 @@ class Party{
             $referencedSymbols[] = $component->pickGateSymbol();
 
             $hasBespokePart = $component->hasBespokePart($xpath);
-
-            $existingDeviceSet = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]");
+            $existingDeviceSet = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceSetName()}\"]");
             if($existingDeviceSet->count() > 0) {
                 //$deviceSet = $existingDeviceSet->item(0);
-                $devices = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceName()}\"]/devices");
+                $devices = $xpath->query("//devicesets/deviceset[@name=\"{$component->pickDeviceSetName()}\"]/devices");
                 $devices->item(0)->appendChild($this->generateDeviceDevice($libraryFile, $component));
             }else{
                 $deviceSet = $libraryFile->createElement('deviceset');
@@ -216,7 +211,7 @@ class Party{
                 $devices = $libraryFile->createElement('devices');
                 $deviceSet->appendChild($devices);
                 $devices->appendChild($this->generateDeviceDevice($libraryFile, $component));
-                $deviceSet->setAttribute('name', $component->pickDeviceName());
+                $deviceSet->setAttribute('name', $component->pickDeviceSetName());
                 $deviceSet->setAttribute('prefix', $component->pickPrefix());
                 unset($deviceSet);
             }
@@ -316,7 +311,7 @@ class Party{
         //$this->downloadSheet();
 
         $this->readSheet();
-        //$this->readSheet( self::CACHE_PATH . "cropped.xlsx");
+        //$this->readSheet( self::CACHE_PATH . "jlcpcb_trimmed.xlsx");
 
         $this->debug(sprintf(
             "Found %d components in latest version of %s\n",

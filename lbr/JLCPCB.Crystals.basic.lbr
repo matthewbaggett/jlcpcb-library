@@ -216,41 +216,34 @@
         </symbol>
       </symbols>
       <devicesets>
-        <deviceset name="YSX530GA_8MHZ__20PF_10PPM" prefix="Y">
+        <deviceset name="YSX530GA" prefix="Y">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
           </gates>
           <devices>
-            <device name="C115962" package="CRYSTAL_SMD-5032_2P">
+            <device name="-SMD-5032_2P-C115962" package="CRYSTAL_SMD-5032_2P">
               <connects>
                 <connect gate="C$1" pin="2" pad="P$1"/>
                 <connect gate="C$1" pin="1" pad="P$2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C115962" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="YSX530GA" constant="no"/>
+                  <attribute name="LCSC_PART" value="C115962"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="YSX530GA"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="YSX530GA_110592MHZ_20PF_10PPM_4085" prefix="Y">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CRYSTAL"/>
-          </gates>
-          <devices>
-            <device name="C112574" package="CRYSTAL_SMD-5032_2P">
+            <device name="-SMD-5032_2P-C112574" package="CRYSTAL_SMD-5032_2P">
               <connects>
                 <connect gate="C$1" pin="2" pad="P$1"/>
                 <connect gate="C$1" pin="1" pad="P$2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C112574" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="YSX530GA" constant="no"/>
+                  <attribute name="LCSC_PART" value="C112574"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="YSX530GA"/>
                 </technology>
               </technologies>
             </device>

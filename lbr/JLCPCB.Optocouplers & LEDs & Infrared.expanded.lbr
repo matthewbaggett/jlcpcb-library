@@ -269,2036 +269,2085 @@
         </symbol>
       </symbols>
       <devicesets>
-        <deviceset name="LED_CN_CN" prefix="D">
+        <deviceset name="LED_灯_黄" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C2287" package="LED_0603">
+            <device name="-LED_0603-C2287" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C2287" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄" constant="no"/>
+                  <attribute name="LCSC_PART" value="C2287"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C2289" package="LED_0603">
+            <device name="-LED_1206-C2298" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C2289" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿" constant="no"/>
+                  <attribute name="LCSC_PART" value="C2298"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C2298" package="LED_1206">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_蓝_IV=40-50_λD=465-470" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0603-C2288" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C2298" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄" constant="no"/>
+                  <attribute name="LCSC_PART" value="C2288"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=40-50_λd=465-470"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C10781" package="LED_1206">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_黄绿" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0603-C2289" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C10781" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_紫" constant="no"/>
+                  <attribute name="LCSC_PART" value="C2289"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C14641" package="LED_1206">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_黄绿_IV=35-42_λD=571-573" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0805-C2292" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C14641" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿" constant="no"/>
+                  <attribute name="LCSC_PART" value="C2292"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=35-42_λd=571-573"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C15595" package="LED_1206">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_紫" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_1206-C10781" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C15595" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿色" constant="no"/>
+                  <attribute name="LCSC_PART" value="C10781"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_紫"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C28105" package="LED_0805">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_翠绿_IV=28-280_λD=520-535" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0603-C12065" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C28105" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿色" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12065"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=28-280_λd=520-535"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C49018" package="LED_1206">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_翠绿_IV=509-620_λD=515-525" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0603-C12624" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C49018" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_高亮红" constant="no"/>
+                  <attribute name="LCSC_PART" value="C12624"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=509-620_λd=515-525"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C55951" package="LED_0805">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_翠绿" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_1206-C14641" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C55951" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝高亮" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14641"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C72034" package="LED_0805">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_黄绿色" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_1206-C15595" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72034" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝高亮" constant="no"/>
+                  <attribute name="LCSC_PART" value="C15595"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿色"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C85324" package="LED_0603">
+            <device name="-LED_0805-C28105" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C85324" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_粉红" constant="no"/>
+                  <attribute name="LCSC_PART" value="C28105"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿色"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV4050_D465470" prefix="D">
+        <deviceset name="LED_灯_高亮红" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C2288" package="LED_0603">
+            <device name="-LED_1206-C49018" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C2288" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=40-50_λd=465-470" constant="no"/>
+                  <attribute name="LCSC_PART" value="C49018"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_高亮红"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV3542_D571573" prefix="D">
+        <deviceset name="LED_灯_蓝高亮" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C2292" package="LED_0805">
+            <device name="-LED_0805-C55951" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C2292" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=35-42_λd=571-573" constant="no"/>
+                  <attribute name="LCSC_PART" value="C55951"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝高亮"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="LED_CN_CN_IV28280_D520535" prefix="D">
-          <gates>
-            <gate name="O$1" x="0" y="0" symbol="LED"/>
-          </gates>
-          <devices>
-            <device name="C12065" package="LED_0603">
+            <device name="-LED_0805-C72034" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C12065" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=28-280_λd=520-535" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72034"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝高亮"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV509620_D515525" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=180-450_λD=515-530" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C12624" package="LED_0603">
+            <device name="-LED_0805-C63855" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C12624" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=509-620_λd=515-525" constant="no"/>
+                  <attribute name="LCSC_PART" value="C63855"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=180-450_λd=515-530"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV180450_D515530" prefix="D">
+        <deviceset name="LED_灯_白_IV=300-350" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C63855" package="LED_0805">
+            <device name="-LED_1206-C71796" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C63855" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=180-450_λd=515-530" constant="no"/>
+                  <attribute name="LCSC_PART" value="C71796"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=300-350"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV300350" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=14.5-28.5_λD=465-470" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C71796" package="LED_1206">
+            <device name="-LED_0805-C72035" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C71796" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=300-350" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72035"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=14.5-28.5_λd=465-470"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="LED_CN_CN_IV145285_D465470" prefix="D">
-          <gates>
-            <gate name="O$1" x="0" y="0" symbol="LED"/>
-          </gates>
-          <devices>
-            <device name="C72035" package="LED_0805">
+            <device name="-LED_0603-C264464" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72035" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=14.5-28.5_λd=465-470" constant="no"/>
+                  <attribute name="LCSC_PART" value="C264464"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=14.5-28.5_λd=465-470"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C264464" package="LED_0603">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_黄_IV=64_λD=589" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0805-C72036" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C264464" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=14.5-28.5_λd=465-470" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72036"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄_Iv=64_λd=589"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV64_D589" prefix="D">
+        <deviceset name="LED_灯_红_IV=61_λD=624" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72036" package="LED_0805">
+            <device name="-LED_0805-C72037" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72036" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄_Iv=64_λd=589" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72037"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=61_λd=624"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV61_D624" prefix="D">
+        <deviceset name="LED_灯_红_IV=54_λD=624" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72037" package="LED_0805">
+            <device name="-LED_0603-C72039" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72037" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=61_λd=624" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72039"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=624"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="LED_CN_CN_IV54_D624" prefix="D">
-          <gates>
-            <gate name="O$1" x="0" y="0" symbol="LED"/>
-          </gates>
-          <devices>
-            <device name="C72039" package="LED_0603">
+            <device name="-LED_1206-C88326" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72039" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=624" constant="no"/>
+                  <attribute name="LCSC_PART" value="C88326"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=624"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C88326" package="LED_1206">
+          </devices>
+        </deviceset>
+        <deviceset name="LED_灯_黄绿_IV=16_λD=573" prefix="D">
+          <gates>
+            <gate name="O$1" x="0" y="0" symbol="LED"/>
+          </gates>
+          <devices>
+            <device name="-LED_0603-C72040" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C88326" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=624" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72040"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=16_λd=573"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV16_D573" prefix="D">
+        <deviceset name="LED_灯_绿_IV=28.5-72_λD=569.5-577.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72040" package="LED_0603">
+            <device name="-LED_0603-C72042" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72040" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=16_λd=573" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72042"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_绿_Iv=28.5-72_λd=569.5-577.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV28572_D56955775" prefix="D">
+        <deviceset name="LED_灯_红_IV=11.5-28.5_λD=617.5-633.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72042" package="LED_0603">
+            <device name="-LED_0603-C72044" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72042" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_绿_Iv=28.5-72_λd=569.5-577.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72044"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=11.5-28.5_λd=617.5-633.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV115285_D61756335" prefix="D">
+        <deviceset name="LED_灯_红_IV=39_λD=624" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72044" package="LED_0603">
+            <device name="-LED_0603-C72045" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72044" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=11.5-28.5_λd=617.5-633.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72045"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=39_λd=624"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV39_D624" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=70" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72045" package="LED_0603">
+            <device name="-LED_1206-C72691" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72045" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=39_λd=624" constant="no"/>
+                  <attribute name="LCSC_PART" value="C72691"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=70"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=112-285_λD=520-535" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C72691" package="LED_1206">
+            <device name="-LED_0805-C73546" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C72691" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=70" constant="no"/>
+                  <attribute name="LCSC_PART" value="C73546"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=112-285_λd=520-535"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV112285_D520535" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=23_λD=573" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C73546" package="LED_0805">
+            <device name="-LED_0805-C73548" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C73546" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=112-285_λd=520-535" constant="no"/>
+                  <attribute name="LCSC_PART" value="C73548"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=23_λd=573"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV23_D573" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=21_λD=573" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C73548" package="LED_0805">
+            <device name="-LED_1206-C73550" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C73548" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=23_λd=573" constant="no"/>
+                  <attribute name="LCSC_PART" value="C73550"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=21_λd=573"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV21_D573" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=18-45_λD=570-574.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C73550" package="LED_1206">
+            <device name="-LED_0805-C74344" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C73550" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=21_λd=573" constant="no"/>
+                  <attribute name="LCSC_PART" value="C74344"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=18-45_λd=570-574.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV1845_D5705745" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=17_λD=573" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C74344" package="LED_0805">
+            <device name="-LED_0805-C74346" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C74344" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=18-45_λd=570-574.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C74346"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=17_λd=573"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV17_D573" prefix="D">
+        <deviceset name="LED_灯_白_IV=90-180" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C74346" package="LED_0805">
+            <device name="-LED_0603-C83955" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C74346" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=17_λd=573" constant="no"/>
+                  <attribute name="LCSC_PART" value="C83955"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=90-180"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV90180" prefix="D">
+        <deviceset name="LED_灯_白_IV=57-140" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C83955" package="LED_0603">
+            <device name="-LED_0805-C83960" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C83955" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=90-180" constant="no"/>
+                  <attribute name="LCSC_PART" value="C83960"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=57-140"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV57140" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=20-55_λD=565-578" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C83960" package="LED_0805">
+            <device name="-LED_0805-C84257" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C83960" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=57-140" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84257"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=20-55_λd=565-578"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV2055_D565578" prefix="D">
+        <deviceset name="LED_灯_白_IV=200-330" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84257" package="LED_0805">
+            <device name="-LED_0805-C84258" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84257" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=20-55_λd=565-578" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84258"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=200-330"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV200330" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=20-55_λD=468-478" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84258" package="LED_0805">
+            <device name="-LED_0805-C84259" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84258" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=200-330" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84259"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=20-55_λd=468-478"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV2055_D468478" prefix="D">
+        <deviceset name="LED_灯_绿_IV=180-400_λD=525-537.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84259" package="LED_0805">
+            <device name="-LED_0805-C84260" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84259" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=20-55_λd=468-478" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84260"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_绿_Iv=180-400_λd=525-537.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV180400_D5255375" prefix="D">
+        <deviceset name="LED_灯_黄_IV=85-180_λD=585-596" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84260" package="LED_0805">
+            <device name="-LED_0805-C84261" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84260" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_绿_Iv=180-400_λd=525-537.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84261"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄_Iv=85-180_λd=585-596"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV85180_D585596" prefix="D">
+        <deviceset name="LED_灯_橙_IV=36-100_λD=589-610" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84261" package="LED_0805">
+            <device name="-LED_0805-C84262" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84261" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄_Iv=85-180_λd=585-596" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84262"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_橙_Iv=36-100_λd=589-610"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV36100_D589610" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=5-13_λD=565-578" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84262" package="LED_0805">
+            <device name="-LED_0603-C84264" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84262" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_橙_Iv=36-100_λd=589-610" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84264"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=5-13_λd=565-578"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV513_D565578" prefix="D">
+        <deviceset name="LED_灯_白_IV=200-300" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84264" package="LED_0603">
+            <device name="-LED_0603-C84265" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84264" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=5-13_λd=565-578" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84265"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=200-300"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV200300" prefix="D">
+        <deviceset name="LED_灯_绿_IV=330-900_λD=515-530" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84265" package="LED_0603">
+            <device name="-LED_0603-C84267" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84265" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=200-300" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84267"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_绿_Iv=330-900_λd=515-530"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV330900_D515530" prefix="D">
+        <deviceset name="LED_灯_黄_IV=80-220_λD=586-595" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84267" package="LED_0603">
+            <device name="-LED_0603-C84268" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84267" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_绿_Iv=330-900_λd=515-530" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84268"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄_Iv=80-220_λd=586-595"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV80220_D586595" prefix="D">
+        <deviceset name="LED_灯_橙_IV=80-220_λD=600-610" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84268" package="LED_0603">
+            <device name="-LED_0603-C84269" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84268" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄_Iv=80-220_λd=586-595" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84269"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_橙_Iv=80-220_λd=600-610"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV80220_D600610" prefix="D">
+        <deviceset name="LED_灯_红_IV=67-195_λD=615-630" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84269" package="LED_0603">
+            <device name="-LED_1206-C84270" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84269" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_橙_Iv=80-220_λd=600-610" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84270"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=67-195_λd=615-630"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV67195_D615630" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=20-45_λD=565-575" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84270" package="LED_1206">
+            <device name="-LED_1206-C84273" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84270" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=67-195_λd=615-630" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84273"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=20-45_λd=565-575"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV2045_D565575" prefix="D">
+        <deviceset name="LED_灯_橙_IV=3.15_λD=605" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84273" package="LED_1206">
+            <device name="-LED_0603-C84984" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84273" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=20-45_λd=565-575" constant="no"/>
+                  <attribute name="LCSC_PART" value="C84984"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_橙_Iv=3.15_λd=605"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV315_D605" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=440-700" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C84984" package="LED_0603">
+            <device name="-LED_0603-C85323" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C84984" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_橙_Iv=3.15_λd=605" constant="no"/>
+                  <attribute name="LCSC_PART" value="C85323"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=440-700"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV440700" prefix="D">
+        <deviceset name="LED_灯_粉红" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C85323" package="LED_0603">
+            <device name="-LED_0603-C85324" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C85323" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=440-700" constant="no"/>
+                  <attribute name="LCSC_PART" value="C85324"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_粉红"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV72180_D61756335" prefix="D">
+        <deviceset name="LED_灯_红_IV=72-180_λD=617.5-633.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C86865" package="LED_0805">
+            <device name="-LED_0805-C86865" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C86865" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=72-180_λd=617.5-633.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C86865"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=72-180_λd=617.5-633.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV4580_D565578" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=45-80_λD=565-578" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C89809" package="LED_0603">
+            <device name="-LED_0603-C89809" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C89809" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=45-80_λd=565-578" constant="no"/>
+                  <attribute name="LCSC_PART" value="C89809"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=45-80_λd=565-578"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV3065_D466478" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=30-65_λD=466-478" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C89814" package="LED_0603">
+            <device name="-LED_0603-C89814" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C89814" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=30-65_λd=466-478" constant="no"/>
+                  <attribute name="LCSC_PART" value="C89814"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=30-65_λd=466-478"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV150_D520535" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=150_λD=520-535" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C205443" package="LED_0603">
+            <device name="-LED_0603-C205443" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C205443" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=150_λd=520-535" constant="no"/>
+                  <attribute name="LCSC_PART" value="C205443"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=150_λd=520-535"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV220410_D525532" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=220-410_λD=525-532" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C118334" package="LED_0603">
+            <device name="-LED_0603-C118334" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C118334" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=220-410_λd=525-532" constant="no"/>
+                  <attribute name="LCSC_PART" value="C118334"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=220-410_λd=525-532"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV250600_D520530" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=250-600_λD=520-530" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C192316" package="LED_0603">
+            <device name="-LED_0603-C192316" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C192316" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=250-600_λd=520-530" constant="no"/>
+                  <attribute name="LCSC_PART" value="C192316"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=250-600_λd=520-530"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C192678" package="LED_1206">
+            <device name="-LED_1206-C192678" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C192678" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=250-600_λd=520-530" constant="no"/>
+                  <attribute name="LCSC_PART" value="C192678"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=250-600_λd=520-530"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV123_D455475" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=12.3_λD=455-475" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C193191" package="LED_0603">
+            <device name="-LED_0603-C193191" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C193191" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=12.3_λd=455-475" constant="no"/>
+                  <attribute name="LCSC_PART" value="C193191"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=12.3_λd=455-475"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV6088_D465474" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=60-88_λD=465-474" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C118339" package="LED_0603">
+            <device name="-LED_0603-C118339" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C118339" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=60-88_λd=465-474" constant="no"/>
+                  <attribute name="LCSC_PART" value="C118339"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=60-88_λd=465-474"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV330750" prefix="D">
+        <deviceset name="LED_灯_白_IV=330-750" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C110099" package="LED_0805">
+            <device name="-LED_0805-C110099" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C110099" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=330-750" constant="no"/>
+                  <attribute name="LCSC_PART" value="C110099"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=330-750"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV6_D569" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=6_λD=569" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C125093" package="LED_0603">
+            <device name="-LED_0603-C125093" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C125093" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=6_λd=569" constant="no"/>
+                  <attribute name="LCSC_PART" value="C125093"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=6_λd=569"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70_D631" prefix="D">
+        <deviceset name="LED_灯_红_IV=70_λD=631" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C401120" package="LED_0603">
+            <device name="-LED_0603-C401120" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C401120" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=70_λd=631" constant="no"/>
+                  <attribute name="LCSC_PART" value="C401120"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=70_λd=631"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV56_D624" prefix="D">
+        <deviceset name="LED_灯_红_IV=56_λD=624" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C142275" package="LED_0603">
+            <device name="-LED_0603-C142275" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C142275" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=56_λd=624" constant="no"/>
+                  <attribute name="LCSC_PART" value="C142275"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=56_λd=624"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV250330_D526531" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=250-330_λD=526-531" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C107402" package="LED_0805">
+            <device name="-LED_0805-C107402" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C107402" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=250-330_λd=526-531" constant="no"/>
+                  <attribute name="LCSC_PART" value="C107402"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=250-330_λd=526-531"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV140285_D61756335" prefix="D">
+        <deviceset name="LED_灯_红_IV=140-285_λD=617.5-633.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C264317" package="LED_1206">
+            <device name="-LED_1206-C264317" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C264317" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=140-285_λd=617.5-633.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C264317"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=140-285_λd=617.5-633.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV90225_D46454765" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=90-225_λD=464.5-476.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C264323" package="LED_1206">
+            <device name="-LED_1206-C264323" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C264323" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=90-225_λd=464.5-476.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C264323"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=90-225_λd=464.5-476.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV38_D624" prefix="D">
+        <deviceset name="LED_灯_红_IV=38_λD=624" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C131244" package="LED_0805">
+            <device name="-LED_0805-C131244" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C131244" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=38_λd=624" constant="no"/>
+                  <attribute name="LCSC_PART" value="C131244"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=38_λd=624"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV228450" prefix="D">
+        <deviceset name="LED_灯_白_IV=228-450" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C389521" package="LED_0603">
+            <device name="-LED_0603-C389521" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C389521" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=228-450" constant="no"/>
+                  <attribute name="LCSC_PART" value="C389521"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=228-450"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C397049" package="LED_0603">
+            <device name="-LED_0603-C397049" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C397049" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=228-450" constant="no"/>
+                  <attribute name="LCSC_PART" value="C397049"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=228-450"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV16" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=16" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C122984" package="LED_0603">
+            <device name="-LED_0603-C122984" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C122984" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=16" constant="no"/>
+                  <attribute name="LCSC_PART" value="C122984"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=16"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CNOR_IVO25R90" prefix="D">
+        <deviceset name="LED_灯_橙红OR_IV=O25R90" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C205445" package="LED_0603">
+            <device name="-LED_0603-C205445" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C205445" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_橙红OR_Iv=O25R90" constant="no"/>
+                  <attribute name="LCSC_PART" value="C205445"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_橙红OR_Iv=O25R90"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70150_D616626" prefix="D">
+        <deviceset name="LED_灯_红_IV=70-150_λD=616-626" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C375451" package="LED_0805">
+            <device name="-LED_0805-C375451" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C375451" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=70-150_λd=616-626" constant="no"/>
+                  <attribute name="LCSC_PART" value="C375451"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=70-150_λd=616-626"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70150_D587595" prefix="D">
+        <deviceset name="LED_灯_黄_IV=70-150_λD=587-595" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C375452" package="LED_0805">
+            <device name="-LED_0805-C375452" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C375452" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄_Iv=70-150_λd=587-595" constant="no"/>
+                  <attribute name="LCSC_PART" value="C375452"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄_Iv=70-150_λd=587-595"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70150_D600610" prefix="D">
+        <deviceset name="LED_灯_橙_IV=70-150_λD=600-610" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C375450" package="LED_0603">
+            <device name="-LED_0603-C375450" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C375450" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_橙_Iv=70-150_λd=600-610" constant="no"/>
+                  <attribute name="LCSC_PART" value="C375450"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_橙_Iv=70-150_λd=600-610"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV330750_D515530" prefix="D">
+        <deviceset name="LED_灯_绿_IV=330-750_λD=515-530" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C99881" package="LED_1206">
+            <device name="-LED_1206-C99881" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C99881" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_绿_Iv=330-750_λd=515-530" constant="no"/>
+                  <attribute name="LCSC_PART" value="C99881"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_绿_Iv=330-750_λd=515-530"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV120_D620630" prefix="D">
+        <deviceset name="LED_灯_红_IV=120_λD=620-630" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C268276" package="LED_1206">
+            <device name="-LED_1206-C268276" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C268276" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=120_λd=620-630" constant="no"/>
+                  <attribute name="LCSC_PART" value="C268276"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=120_λd=620-630"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV72140_D61756335" prefix="D">
+        <deviceset name="LED_灯_红_IV=72-140_λD=617.5-633.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C389526" package="LED_1206">
+            <device name="-LED_1206-C389526" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C389526" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=72-140_λd=617.5-633.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C389526"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=72-140_λd=617.5-633.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70150_D460472" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=70-150_λD=460-472" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C375460" package="LED_1206">
+            <device name="-LED_1206-C375460" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C375460" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=70-150_λd=460-472" constant="no"/>
+                  <attribute name="LCSC_PART" value="C375460"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=70-150_λd=460-472"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV18180_D631" prefix="D">
+        <deviceset name="LED_灯_红_IV=18-180_λD=631" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C125099" package="LED_0603">
+            <device name="-LED_0603-C125099" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C125099" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=18-180_λd=631" constant="no"/>
+                  <attribute name="LCSC_PART" value="C125099"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=18-180_λd=631"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV1400" prefix="D">
+        <deviceset name="LED_灯_白_IV=1400" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C219231" package="LED_0805">
+            <device name="-LED_0805-C219231" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C219231" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=1400" constant="no"/>
+                  <attribute name="LCSC_PART" value="C219231"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=1400"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV3690_D62556375" prefix="D">
+        <deviceset name="LED_灯_红_IV=36-90_λD=625.5-637.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C40378" package="LED_0603">
+            <device name="-LED_0603-C40378" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C40378" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=36-90_λd=625.5-637.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C40378"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=36-90_λd=625.5-637.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV28557_D5705745" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=28.5-57_λD=570-574.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C181862" package="LED_0603">
+            <device name="-LED_0603-C181862" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C181862" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=28.5-57_λd=570-574.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C181862"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=28.5-57_λd=570-574.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV71450_D525" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=71-450_λD=525" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C161618" package="LED_0603">
+            <device name="-LED_0603-C161618" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C161618" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=71-450_λd=525" constant="no"/>
+                  <attribute name="LCSC_PART" value="C161618"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=71-450_λd=525"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV57112_D62156335" prefix="D">
+        <deviceset name="LED_灯_红_IV=57-112_λD=621.5-633.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C181863" package="LED_0603">
+            <device name="-LED_0603-C181863" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C181863" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=57-112_λd=621.5-633.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C181863"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=57-112_λd=621.5-633.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV112225_D460475" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=112-225_λD=460-475" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C389525" package="LED_0805">
+            <device name="-LED_0805-C389525" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C389525" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=112-225_λd=460-475" constant="no"/>
+                  <attribute name="LCSC_PART" value="C389525"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=112-225_λd=460-475"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV65150_D615630" prefix="D">
+        <deviceset name="LED_灯_红_IV=65-150_λD=615-630" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C90692" package="LED_0603">
+            <device name="-LED_0603-C90692" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C90692" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=65-150_λd=615-630" constant="no"/>
+                  <attribute name="LCSC_PART" value="C90692"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=65-150_λd=615-630"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV70150_D465" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=70-150_λD=465" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C375453" package="LED_0805">
+            <device name="-LED_0805-C375453" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C375453" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=70-150_λd=465" constant="no"/>
+                  <attribute name="LCSC_PART" value="C375453"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=70-150_λd=465"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV150_D615630" prefix="D">
+        <deviceset name="LED_灯_红_IV=150_λD=615-630" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C258852" package="LED_0603">
+            <device name="-LED_0603-C258852" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C258852" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=150_λd=615-630" constant="no"/>
+                  <attribute name="LCSC_PART" value="C258852"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=150_λd=615-630"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV180300_D460475" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=180-300_λD=460-475" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C158101" package="LED_0603">
+            <device name="-LED_0603-C158101" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C158101" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=180-300_λd=460-475" constant="no"/>
+                  <attribute name="LCSC_PART" value="C158101"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=180-300_λd=460-475"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV450900" prefix="D">
+        <deviceset name="LED_灯_白_IV=450-900" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C401114" package="LED_1206">
+            <device name="-LED_1206-C401114" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C401114" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_白_Iv=450-900" constant="no"/>
+                  <attribute name="LCSC_PART" value="C401114"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_白_Iv=450-900"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1721R6CAQ2R2B3T" prefix="D">
+        <deviceset name="17-21/R6C-AQ2R2B/3T" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C113551" package="LED_0805">
+            <device name="-0805-C113551" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C113551" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="17-21/R6C-AQ2R2B/3T" constant="no"/>
+                  <attribute name="LCSC_PART" value="C113551"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="17-21/R6C-AQ2R2B/3T"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV45180_D61756335" prefix="D">
+        <deviceset name="LED_灯_红_IV=45-180_λD=617.5-633.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C389523" package="LED_0805">
+            <device name="-LED_0805-C389523" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C389523" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=45-180_λd=617.5-633.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C389523"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=45-180_λd=617.5-633.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV31_D573" prefix="D">
+        <deviceset name="LED_灯_黄绿_IV=31_λD=573" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C142303" package="LED_0805">
+            <device name="-LED_0805-C142303" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C142303" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=31_λd=573" constant="no"/>
+                  <attribute name="LCSC_PART" value="C142303"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿_Iv=31_λd=573"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV400800_D515527" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=400-800_λD=515-527" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C375461" package="LED_1206">
+            <device name="-LED_1206-C375461" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C375461" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=400-800_λd=515-527" constant="no"/>
+                  <attribute name="LCSC_PART" value="C375461"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=400-800_λd=515-527"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV4501120_D515535" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=450-1120_λD=515-535" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C397048" package="LED_1206">
+            <device name="-LED_1206-C397048" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C397048" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=450-1120_λd=515-535" constant="no"/>
+                  <attribute name="LCSC_PART" value="C397048"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=450-1120_λd=515-535"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV1871_D56755765" prefix="D">
+        <deviceset name="LED_灯_绿_IV=18-71_λD=567.5-576.5" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C125094" package="LED_0603">
+            <device name="-LED_0603-C125094" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C125094" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_绿_Iv=18-71_λd=567.5-576.5" constant="no"/>
+                  <attribute name="LCSC_PART" value="C125094"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_绿_Iv=18-71_λd=567.5-576.5"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV3_D625" prefix="D">
+        <deviceset name="LED_灯_红_IV=3_λD=625" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C264415" package="LED_0805">
+            <device name="-LED_0805-C264415" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C264415" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=3_λd=625" constant="no"/>
+                  <attribute name="LCSC_PART" value="C264415"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=3_λd=625"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV54_D624638" prefix="D">
+        <deviceset name="LED_灯_红_IV=54_λD=624-638" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C125086" package="LED_1206">
+            <device name="-LED_1206-C125086" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C125086" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=624-638" constant="no"/>
+                  <attribute name="LCSC_PART" value="C125086"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=624-638"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV54_D631" prefix="D">
+        <deviceset name="LED_灯_红_IV=54_λD=631" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C125107" package="LED_1206">
+            <device name="-LED_1206-C125107" package="LED_1206">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C125107" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=631" constant="no"/>
+                  <attribute name="LCSC_PART" value="C125107"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=631"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C94868" package="LED_0805">
+            <device name="-LED_0805-C94868" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C94868" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=631" constant="no"/>
+                  <attribute name="LCSC_PART" value="C94868"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红_Iv=54_λd=631"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV25_D569575" prefix="D">
+        <deviceset name="LED_灯_翠绿_IV=25_λD=569-575" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C308768" package="LED_0603">
+            <device name="-LED_0603-C308768" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C308768" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=25_λd=569-575" constant="no"/>
+                  <attribute name="LCSC_PART" value="C308768"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_翠绿_Iv=25_λd=569-575"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV100_D587593" prefix="D">
+        <deviceset name="LED_灯_黄_IV=100_λD=587-593" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C253534" package="LED_0603">
+            <device name="-LED_0603-C253534" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C253534" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄_Iv=100_λd=587-593" constant="no"/>
+                  <attribute name="LCSC_PART" value="C253534"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄_Iv=100_λd=587-593"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CNRB_IVR160B160" prefix="D">
+        <deviceset name="LED_灯_红蓝RB_IV=R160B160" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C440514" package="LED_0603">
+            <device name="-LED_0603-C440514" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C440514" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_红蓝RB_Iv=R160B160" constant="no"/>
+                  <attribute name="LCSC_PART" value="C440514"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_红蓝RB_Iv=R160B160"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV7101420" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=710-1420" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C389522" package="LED_0603">
+            <device name="-LED_0603-C389522" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C389522" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=710-1420" constant="no"/>
+                  <attribute name="LCSC_PART" value="C389522"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=710-1420"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="0805_CN" prefix="D">
+        <deviceset name="0805" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C205444" package="LED_0805">
+            <device name="-0805-C205444" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C205444" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="0805" constant="no"/>
+                  <attribute name="LCSC_PART" value="C205444"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="0805"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CNYG_IV4518" prefix="D">
+        <deviceset name="LED_灯_黄绿YG_IV=4.5-18" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C473820" package="LED_0603">
+            <device name="-LED_0603-C473820" package="LED_0603">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C473820" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_黄绿YG_Iv=4.5-18" constant="no"/>
+                  <attribute name="LCSC_PART" value="C473820"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_黄绿YG_Iv=4.5-18"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="LED_CN_CN_IV25_D465470" prefix="D">
+        <deviceset name="LED_灯_蓝_IV=25_λD=465-470" prefix="D">
           <gates>
             <gate name="O$1" x="0" y="0" symbol="LED"/>
           </gates>
           <devices>
-            <device name="C189307" package="LED_0805">
+            <device name="-LED_0805-C189307" package="LED_0805">
               <connects>
                 <connect gate="O$1" pin="C" pad="C"/>
                 <connect gate="O$1" pin="A" pad="A"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C189307" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="no" constant="no"/>
-                  <attribute name="VALUE" value="LED_灯_蓝_Iv=25_λd=465-470" constant="no"/>
+                  <attribute name="LCSC_PART" value="C189307"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="no"/>
+                  <attribute name="VALUE" value="LED_灯_蓝_Iv=25_λd=465-470"/>
                 </technology>
               </technologies>
             </device>

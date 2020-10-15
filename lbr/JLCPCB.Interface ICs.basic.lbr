@@ -241,7 +241,7 @@
             <gate name="I$1" x="0" y="0" symbol="IC_CH340G"/>
           </gates>
           <devices>
-            <device name="C14267" package="IC_SOIC-16">
+            <device name="-SOIC-16-C14267" package="IC_SOIC-16">
               <connects>
                 <connect gate="I$1" pin="GND" pad="2"/>
                 <connect gate="I$1" pin="TX" pad="13"/>
@@ -262,9 +262,9 @@
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C14267" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="CH340G" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14267"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="CH340G"/>
                 </technology>
               </technologies>
             </device>

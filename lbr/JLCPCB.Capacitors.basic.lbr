@@ -273,2545 +273,2377 @@
         </symbol>
       </symbols>
       <devicesets>
-        <deviceset name="1PF_010_025PF_50V_C0G" prefix="C">
+        <deviceset name="1PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C14971" package="CAPACITOR_0805">
+            <device name="-0805-C14971" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C14971" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14971"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C23969" package="CAPACITOR_0603">
+            <device name="-0603-C23969" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C23969" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C23969"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="10NF_103_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1710" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1710" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C57112" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C57112" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C15195" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C15195" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1846" package="CAPACITOR_1206">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1846" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22NF_223_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1729" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1729" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C21122" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C21122" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1532" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1532" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="33NF_333_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1739" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1739" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="33nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C21117" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C21117" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="33nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="330NF_334_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1740" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1740" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="330nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="470PF_471_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1743" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1743" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1620" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1620" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1537" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1537" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1868" package="CAPACITOR_1206">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1868" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47NF_472_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1744" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1744" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C53987" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C53987" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1538" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1538" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47UF_475_10%_25V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1779" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1779" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7uF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="10PF_100_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1785" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1785" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1634" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1634" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C32949" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C32949" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="100PF_101_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1790" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1790" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C14858" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C14858" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1546" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1546" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="15PF_150_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1794" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1794" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="15pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1644" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1644" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="15pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1548" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1548" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="15pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="18PF_180_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1797" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1797" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="18pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1647" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1647" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="18pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1549" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1549" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="18pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="20PF_200_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1798" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1798" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="20pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1648" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1648" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="20pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1554" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1554" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="20pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22PF_220_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1804" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1804" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1653" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1653" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1555" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1555" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="30PF_300_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1809" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1809" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="30pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C22397" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C22397" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="30pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1570" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1570" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="30pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="33PF_330_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1814" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1814" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="33pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1663" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1663" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="33pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1562" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1562" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="33pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="220NF_224_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C5378" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C5378" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1857" package="CAPACITOR_1206">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1857" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="27PF_270_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C8031" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C8031" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="27pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1656" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1656" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="27pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1557" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1557" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="27pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="470NF_474_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C13967" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C13967" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1871" package="CAPACITOR_1206">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1871" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47PF_470_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C14857" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C14857" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="47pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1671" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1671" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="47pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1567" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1567" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="47pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="10UF_106_10%_25V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C15850" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C15850" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10uF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22NF_222_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C28260" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C28260" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1UF_105_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C28323" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C28323" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1uF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1848" package="CAPACITOR_1206">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1848" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1uF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22UF_226_20%_25V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C45783" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C45783" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22uF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22UF_225_20%_50V_Y5V" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C49217" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C49217" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2uF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="100NF104_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C49678" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C49678" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47NF_473_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C53134" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C53134" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="47nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1622" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1622" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="47nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="220PF_221_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C53172" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C53172" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1603" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1603" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1530" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1530" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1854" package="CAPACITOR_1206">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1854" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="33NF_332_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C53175" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C53175" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="3.3nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1613" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1613" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="3.3nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C26404" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C26404" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="3.3nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="2PF_2R0_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1800" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1800" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1558" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1558" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="6PF_6R0_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C67560" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C67560" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C37474" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C37474" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C30274" package="CAPACITOR_0402">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C30274" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-          </devices>
-        </deviceset>
-        <deviceset name="12PF_120_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1792" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1792" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="12pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C38523" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C38523" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="12pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1547" package="CAPACITOR_0402">
+            <device name="-0402-C1550" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1547" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="12pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1550"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="56PF_560_5%_50V_C0G" prefix="C">
+        <deviceset name="10NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1828" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1828" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="56pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C39148" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C39148" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="56pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1572" package="CAPACITOR_0402">
+            <device name="-0805-C1710" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1572" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="56pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1710"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="68PF_680_5%_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1834" package="CAPACITOR_0805">
+            <device name="-0603-C57112" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1834" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="68pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C57112"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C28262" package="CAPACITOR_0603">
+            <device name="-0402-C15195" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C28262" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="68pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C15195"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C14441" package="CAPACITOR_0402">
+            <device name="-1206-C1846" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C14441" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="68pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1846"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="150PF_151_10%_50V_X7R" prefix="C">
+        <deviceset name="22NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1716" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1716" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="150pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1594" package="CAPACITOR_0603">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1594" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="150pF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1527" package="CAPACITOR_0402">
+            <device name="-0805-C1729" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1527" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="150pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1729"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="200PF_201_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1724" package="CAPACITOR_0805">
+            <device name="-0603-C21122" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1724" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="200pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21122"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1600" package="CAPACITOR_0603">
+            <device name="-0402-C1532" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1600" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="200pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1532"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="330PF_331_10%_50V_X7R" prefix="C">
+        <deviceset name="33NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C51207" package="CAPACITOR_0805">
+            <device name="-0805-C1739" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C51207" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="330pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1739"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="33nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="680PF_681_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C53150" package="CAPACITOR_0805">
+            <device name="-0603-C21117" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C53150" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="680pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21117"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="33nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1630" package="CAPACITOR_0603">
+            <device name="-0402-C1585" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1630" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="680pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1585"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="33nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="15NF_152_10%_50V_X7R" prefix="C">
+        <deviceset name="330NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1717" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1717" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1.5nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1595" package="CAPACITOR_0603">
+            <device name="-0805-C1740" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1595" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1.5nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1740"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="330nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C23967" package="CAPACITOR_0402">
+            <device name="-0603-C1615" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C23967" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1.5nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1615"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="330nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="68NF_682_10%_50V_X7R" prefix="C">
+        <deviceset name="470PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1755" package="CAPACITOR_0805">
-              <connects>
-                <connect gate="C$1" pin="1" pad="1"/>
-                <connect gate="C$1" pin="2" pad="2"/>
-              </connects>
-              <technologies>
-                <technology name="">
-                  <attribute name="LCSC_PART" value="C1755" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6.8nF" constant="no"/>
-                </technology>
-              </technologies>
-            </device>
-            <device name="C1631" package="CAPACITOR_0603">
+            <device name="-0805-C1743" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1631" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6.8nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1743"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1542" package="CAPACITOR_0402">
+            <device name="-0603-C1620" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1542" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6.8nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1620"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="68NF_683_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1756" package="CAPACITOR_0805">
+            <device name="-0402-C1537" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1756" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="68nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1537"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C31658" package="CAPACITOR_0603">
+            <device name="-1206-C1868" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C31658" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="68nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1868"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1NF_102_10%_50V_X7R" prefix="C">
+        <deviceset name="4.7NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C46653" package="CAPACITOR_0805">
+            <device name="-0805-C1744" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C46653" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1744"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1588" package="CAPACITOR_0603">
+            <device name="-0603-C53987" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1588" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C53987"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7nF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1523" package="CAPACITOR_0402">
+            <device name="-0402-C1538" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1523" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1538"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="12NF_122_10%_50V_X7R" prefix="C">
+        <deviceset name="4.7UF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C30615" package="CAPACITOR_0603">
+            <device name="-0805-C1779" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C30615" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1.2nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1779"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="12NF_123_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1593" package="CAPACITOR_0603">
+            <device name="-0603-C19666" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1593" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="12nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C19666"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="15NF_153_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1596" package="CAPACITOR_0603">
+            <device name="-0402-C23733" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1596" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="15nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C23733"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="27NF_272_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1609" package="CAPACITOR_0603">
+            <device name="-1206-C29823" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1609" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.7nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C29823"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7uF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="27NF_273_20%_50V_Y5V" prefix="C">
+        <deviceset name="10PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1700" package="CAPACITOR_0603">
+            <device name="-0805-C1785" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1700" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="27nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1785"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="82NF_822_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C27920" package="CAPACITOR_0603">
+            <device name="-0603-C1634" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C27920" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="8.2nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1634"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="82PF_8R2_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1685" package="CAPACITOR_0603">
+            <device name="-0402-C32949" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1685" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="8.2pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C32949"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="82PF_820_5%_50V_C0G" prefix="C">
+        <deviceset name="100PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1683" package="CAPACITOR_0603">
+            <device name="-0805-C1790" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1683" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="82pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1790"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22NF_222_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1604" package="CAPACITOR_0603">
+            <device name="-0603-C14858" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1604" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14858"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1531" package="CAPACITOR_0402">
+            <device name="-0402-C1546" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1531" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1546"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="470NF_474_10%_25V_X7R" prefix="C">
+        <deviceset name="15PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1623" package="CAPACITOR_0603">
+            <device name="-0805-C1794" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1623" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1794"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="15pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="15PF_1R5_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1639" package="CAPACITOR_0603">
+            <device name="-0603-C1644" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1639" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1.5pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1644"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="15pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1552" package="CAPACITOR_0402">
+            <device name="-0402-C1548" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1552" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1.5pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1548"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="15pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="330PF_331_5%_50V_C0G" prefix="C">
+        <deviceset name="18PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1664" package="CAPACITOR_0603">
+            <device name="-0805-C1797" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1664" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="330pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1797"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="18pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C13533" package="CAPACITOR_0402">
+            <device name="-0603-C1647" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C13533" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="330pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1647"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="18pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47PF_4R7_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1669" package="CAPACITOR_0603">
+            <device name="-0402-C1549" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1669" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1549"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="18pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1569" package="CAPACITOR_0402">
+          </devices>
+        </deviceset>
+        <deviceset name="20PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1798" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1569" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1798"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="20pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="68PF_6R8_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1679" package="CAPACITOR_0603">
+            <device name="-0603-C1648" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1679" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6.8pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1648"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="20pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1576" package="CAPACITOR_0402">
+            <device name="-0402-C1554" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1576" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="6.8pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1554"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="20pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="100NF_104_10%_50V_X7R" prefix="C">
+        <deviceset name="22PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C14663" package="CAPACITOR_0603">
+            <device name="-0805-C1804" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C14663" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1804"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C24497" package="CAPACITOR_1206">
+            <device name="-0603-C1653" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C24497" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1653"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1UF_105_10%_50V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C15849" package="CAPACITOR_0603">
+            <device name="-0402-C1555" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C15849" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1555"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="27PF_2R7_025PF_50V_C0G" prefix="C">
+        <deviceset name="30PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C16149" package="CAPACITOR_0603">
+            <device name="-0805-C1809" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C16149" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.7pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1809"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="30pF"/>
                 </technology>
               </technologies>
             </device>
-            <device name="C1561" package="CAPACITOR_0402">
+            <device name="-0603-C22397" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1561" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.7pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C22397"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="30pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47UF_475_10%_16V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C19666" package="CAPACITOR_0603">
+            <device name="-0402-C1570" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C19666" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1570"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="30pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="10UF_106_10%_10V_X5R" prefix="C">
+        <deviceset name="33PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C19702" package="CAPACITOR_0603">
+            <device name="-0805-C1814" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C19702" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1814"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="33pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="220NF_224_10%_25V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C21120" package="CAPACITOR_0603">
+            <device name="-0603-C1663" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C21120" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1663"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="33pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="2PF_020_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C21895" package="CAPACITOR_0603">
+            <device name="-0402-C1562" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C21895" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1562"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="33pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="22UF_225_10%_16V_X5R" prefix="C">
+        <deviceset name="220NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C23630" package="CAPACITOR_0603">
+            <device name="-0805-C5378" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C23630" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C5378"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="3PF_3R0_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C46219" package="CAPACITOR_0603">
+            <device name="-0603-C21120" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C46219" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="3pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C21120"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22UF_226_20%_63V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C59461" package="CAPACITOR_0603">
+            <device name="-0402-C16772" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C59461" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="22uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C16772"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="330NF_334_10%_25V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1615" package="CAPACITOR_0603">
+            <device name="-1206-C1857" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1615" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="330nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1857"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="1UF_105_10%_25V_X5R" prefix="C">
+        <deviceset name="27PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C52923" package="CAPACITOR_0402">
+            <device name="-0805-C8031" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C52923" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C8031"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="27pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="10UF_106_20%_63V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C15525" package="CAPACITOR_0402">
+            <device name="-0603-C1656" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C15525" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1656"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="27pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="33PF_3R3_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1565" package="CAPACITOR_0402">
+            <device name="-0402-C1557" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1565" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="3.3pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1557"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="27pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="33NF_333_20%_50V_Y5V" prefix="C">
+        <deviceset name="470NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C1585" package="CAPACITOR_0402">
+            <device name="-0805-C13967" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1585" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="33nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C13967"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="100NF_104_10%_16V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1525" package="CAPACITOR_0402">
+            <device name="-0603-C1623" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1525" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1623"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22PF_2R2_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1559" package="CAPACITOR_0402">
+            <device name="-0402-C47339" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1559" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C47339"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470nF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="220NF_224_10%_16V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C16772" package="CAPACITOR_0402">
+            <device name="-1206-C1871" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C16772" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="220nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1871"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="470nF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="47UF_475_20%_10V_X5R" prefix="C">
+        <deviceset name="47PF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C23733" package="CAPACITOR_0402">
+            <device name="-0805-C14857" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C23733" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C14857"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="47pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1PF_1R0_025PF_50V_C0G" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C1550" package="CAPACITOR_0402">
+            <device name="-0603-C1671" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C1550" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1pF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1671"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="47pF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="470NF_474_10%_10V_X5R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C47339" package="CAPACITOR_0402">
+            <device name="-0402-C1567" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C47339" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="470nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C1567"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="47pF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="10UF_106_10%_50V_X5R" prefix="C">
+        <deviceset name="10UF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C13585" package="CAPACITOR_1206">
+            <device name="-0805-C15850" package="CAPACITOR_0805">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C13585" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C15850"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="47UF_475_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C29823" package="CAPACITOR_1206">
+            <device name="-0603-C19702" package="CAPACITOR_0603">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C29823" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="4.7uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C19702"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="1NF_102_10%_500V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C35216" package="CAPACITOR_1206">
+            <device name="-0402-C15525" package="CAPACITOR_0402">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C35216" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="1nF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C15525"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="22UF_225_10%_50V_X7R" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C50254" package="CAPACITOR_1206">
+            <device name="-1206-C13585" package="CAPACITOR_1206">
               <connects>
                 <connect gate="C$1" pin="1" pad="1"/>
                 <connect gate="C$1" pin="2" pad="2"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C50254" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="2.2uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C13585"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10uF"/>
                 </technology>
               </technologies>
             </device>
-          </devices>
-        </deviceset>
-        <deviceset name="10UF_106_10%_16V" prefix="C">
-          <gates>
-            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
-          </gates>
-          <devices>
-            <device name="C7171" package="CAPACITOR_CASE-A_3216">
+            <device name="-CASE-A_3216-C7171" package="CAPACITOR_CASE-A_3216">
               <connects>
                 <connect gate="C$1" pin="1" pad="+"/>
                 <connect gate="C$1" pin="2" pad="-"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C7171" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="10uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C7171"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="10uF"/>
                 </technology>
               </technologies>
             </device>
           </devices>
         </deviceset>
-        <deviceset name="100UF_107_10%_63V" prefix="C">
+        <deviceset name="2.2NF" prefix="C">
           <gates>
             <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
           </gates>
           <devices>
-            <device name="C16133" package="CAPACITOR_CASE-B_3528">
+            <device name="-0805-C28260" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C28260"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1604" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1604"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1531" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1531"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1UF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C28323" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C28323"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1uF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C15849" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C15849"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1uF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C52923" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C52923"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1uF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-1206-C1848" package="CAPACITOR_1206">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1848"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1uF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="22UF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C45783" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C45783"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22uF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C59461" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C59461"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="22uF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.2UF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C49217" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C49217"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2uF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C23630" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C23630"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2uF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-1206-C50254" package="CAPACITOR_1206">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C50254"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2uF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="100NF(104)" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C49678" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C49678"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="47NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C53134" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C53134"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="47nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1622" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1622"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="47nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="220PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C53172" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C53172"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1603" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1603"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1530" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1530"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-1206-C1854" package="CAPACITOR_1206">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1854"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="220pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3.3NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C53175" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C53175"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="3.3nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1613" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1613"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="3.3nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C26404" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C26404"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="3.3nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1800" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1800"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C21895" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C21895"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1558" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1558"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="6PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C67560" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C67560"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C37474" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C37474"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C30274" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C30274"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="12PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1792" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1792"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="12pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C38523" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C38523"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="12pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1547" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1547"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="12pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="56PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1828" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1828"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="56pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C39148" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C39148"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="56pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1572" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1572"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="56pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="68PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1834" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1834"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="68pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C28262" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C28262"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="68pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C14441" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C14441"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="68pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="150PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1716" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1716"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="150pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1594" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1594"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="150pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1527" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1527"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="150pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="200PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1724" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1724"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="200pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1600" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1600"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="200pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="330PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C51207" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C51207"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="330pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1664" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1664"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="330pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C13533" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C13533"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="330pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="680PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C53150" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C53150"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="680pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1630" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1630"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="680pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.5NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1717" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1717"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1.5nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1595" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1595"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1.5nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C23967" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C23967"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1.5nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="6.8NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1755" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1755"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6.8nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1631" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1631"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6.8nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1542" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1542"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6.8nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="68NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C1756" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1756"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="68nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C31658" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C31658"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="68nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0805-C46653" package="CAPACITOR_0805">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C46653"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0603-C1588" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1588"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1523" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1523"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-1206-C35216" package="CAPACITOR_1206">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C35216"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.2NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C30615" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C30615"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1.2nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="12NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1593" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1593"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="12nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="15NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1596" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1596"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="15nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.7NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1609" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1609"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.7nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="27NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1700" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1700"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="27nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8.2NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C27920" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C27920"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="8.2nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="8.2PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1685" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1685"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="8.2pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="82PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1683" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1683"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="82pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="1.5PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1639" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1639"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1.5pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1552" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1552"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="1.5pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="4.7PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1669" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1669"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1569" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1569"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="4.7pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="6.8PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C1679" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1679"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6.8pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1576" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1576"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="6.8pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="100NF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C14663" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C14663"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1525" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1525"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100nF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-1206-C24497" package="CAPACITOR_1206">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C24497"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100nF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.7PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C16149" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C16149"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.7pF"/>
+                </technology>
+              </technologies>
+            </device>
+            <device name="-0402-C1561" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1561"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.7pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0603-C46219" package="CAPACITOR_0603">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C46219"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="3pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="3.3PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0402-C1565" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1565"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="3.3pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="2.2PF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-0402-C1559" package="CAPACITOR_0402">
+              <connects>
+                <connect gate="C$1" pin="1" pad="1"/>
+                <connect gate="C$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="LCSC_PART" value="C1559"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="2.2pF"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+        <deviceset name="100UF" prefix="C">
+          <gates>
+            <gate name="C$1" x="0" y="0" symbol="CAPACITOR"/>
+          </gates>
+          <devices>
+            <device name="-CASE-B_3528-C16133" package="CAPACITOR_CASE-B_3528">
               <connects>
                 <connect gate="C$1" pin="1" pad="+"/>
                 <connect gate="C$1" pin="2" pad="-"/>
               </connects>
               <technologies>
                 <technology name="">
-                  <attribute name="LCSC_PART" value="C16133" constant="no"/>
-                  <attribute name="JLCPCB_IS_BASIC" value="yes" constant="no"/>
-                  <attribute name="VALUE" value="100uF" constant="no"/>
+                  <attribute name="LCSC_PART" value="C16133"/>
+                  <attribute name="JLCPCB_IS_BASIC" value="yes"/>
+                  <attribute name="VALUE" value="100uF"/>
                 </technology>
               </technologies>
             </device>
